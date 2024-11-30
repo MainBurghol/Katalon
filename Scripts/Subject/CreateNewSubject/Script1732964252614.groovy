@@ -50,6 +50,8 @@ WebUI.click(findTestObject('ContentLibraries/ContentLibraryCreation/ChangeTheLan
 
 WebUI.click(findTestObject('ContentLibraries/ContentLibraryCreation/ChangeLangaugeToArabicContent'))
 
+WebUI.delay(3)
+
 WebUI.sendKeys(findTestObject('ContentLibraries/ContentLibraryCreation/ArabicTitle'), 'فحص الاوتوميشن')
 
 WebUI.click(findTestObject('ContentLibraries/ContentLibraryCreation/CreateButton'))
@@ -73,3 +75,4 @@ WebUI.click(findTestObject('Subject/CreateSubject'))
 WebUI.delay(5)
 
 WebUI.closeBrowser()
+
