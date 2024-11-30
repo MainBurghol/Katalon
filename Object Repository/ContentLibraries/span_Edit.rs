@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Edit</name>
+   <tag></tag>
+   <elementGuidId>2378f70b-eb94-4761-a719-7fd86254edf1</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//*/text()[normalize-space(.)='Edit']/parent::*</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>7366e8e5-99e2-4583-af61-393dd25fa41e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>font-semibold text-sm text-custom-600 dark:text-custom-400 group-hover/link:underline group-focus-visible/link:underline</value>
+      <webElementGuid>259e91be-33da-4147-a4cc-3a52aaab52fc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+            Edit
+        </value>
+      <webElementGuid>097edb4a-8da1-4365-9dab-d7711a08dda8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[@class=&quot;fi min-h-screen&quot;]/body[@class=&quot;fi-body fi-panel-app min-h-screen bg-gray-50 font-normal text-gray-950 antialiased dark:bg-gray-950 dark:text-white&quot;]/div[@class=&quot;fi-layout flex min-h-screen w-full flex-row-reverse overflow-x-clip&quot;]/div[@class=&quot;fi-main-ctn w-screen flex-1 flex-col opacity-0&quot;]/main[@class=&quot;fi-main mx-auto h-full w-full px-4 md:px-6 lg:px-8 max-w-7xl&quot;]/div[@class=&quot;fi-page fi-resource-list-records-page fi-resource-libraries-content-libraries&quot;]/section[@class=&quot;flex flex-col gap-y-8 py-8&quot;]/div[1]/div[@class=&quot;grid flex-1 auto-cols-fr gap-y-8&quot;]/div[@class=&quot;flex flex-col gap-y-6&quot;]/div[@class=&quot;fi-ta&quot;]/div[@class=&quot;fi-ta-ctn divide-y divide-gray-200 overflow-hidden rounded-xl bg-white shadow-sm ring-1 ring-gray-950/5 dark:divide-white/10 dark:bg-gray-900 dark:ring-white/10&quot;]/div[@class=&quot;fi-ta-content relative divide-y divide-gray-200 overflow-x-auto dark:divide-white/10 dark:border-t-white/10&quot;]/table[@class=&quot;fi-ta-table w-full table-auto divide-y divide-gray-200 text-start dark:divide-white/5&quot;]/tbody[@class=&quot;divide-y divide-gray-200 whitespace-nowrap dark:divide-white/5&quot;]/tr[@class=&quot;fi-ta-row [@media(hover:hover)]:transition [@media(hover:hover)]:duration-75 hover:bg-gray-50 dark:hover:bg-white/5&quot;]/td[@class=&quot;fi-ta-cell p-0 first-of-type:ps-1 last-of-type:pe-1 sm:first-of-type:ps-3 sm:last-of-type:pe-3 fi-ta-actions-cell&quot;]/div[@class=&quot;whitespace-nowrap px-3 py-4&quot;]/div[@class=&quot;fi-ta-actions flex shrink-0 items-center gap-3 justify-end&quot;]/a[@class=&quot;fi-link group/link relative inline-flex items-center justify-center outline-none fi-size-sm fi-link-size-sm gap-1 fi-color-custom fi-color-primary fi-ac-action fi-ac-link-action&quot;]/span[@class=&quot;font-semibold text-sm text-custom-600 dark:text-custom-400 group-hover/link:underline group-focus-visible/link:underline&quot;]</value>
+      <webElementGuid>41ea10ad-8318-4fee-9c46-ca661d97baff</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='محتوى قواعد اللغة العربية'])[1]/following::span[2]</value>
+      <webElementGuid>44fe4633-a37a-40e0-9072-f2894d8a7952</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Actions'])[1]/following::span[3]</value>
+      <webElementGuid>c20b5d97-d796-4e28-b7d6-272001325788</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Delete'])[1]/preceding::span[1]</value>
+      <webElementGuid>9bb36db1-d9e8-4e20-bbdf-4f3bb4fa383f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='content library farah'])[1]/preceding::span[2]</value>
+      <webElementGuid>8c3bed31-dd9f-4427-946b-86891f076e59</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Edit']/parent::*</value>
+      <webElementGuid>15155b74-b8a3-431d-847d-d8f6f5ffe3eb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//td[4]/div/div/a/span</value>
+      <webElementGuid>346459a3-eccf-4af4-8ff9-6ce23d12b799</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = '&#xd;
+            Edit&#xd;
+        ' or . = '&#xd;
+            Edit&#xd;
+        ')]</value>
+      <webElementGuid>b7c0c238-5311-4407-a9cb-a0ec3ecb277f</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

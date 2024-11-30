@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>InvalidLoginWrongEmailOnly</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>569cbca1-0c5c-4002-b0e7-552e464d88b6</testCaseGuid>
+</TestCaseEntity>

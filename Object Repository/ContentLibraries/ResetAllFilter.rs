@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>ResetAllFilter</name>
+   <tag></tag>
+   <elementGuidId>92924d2a-5366-41b7-b9ea-73678ca9af29</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Filters'])[1]/following::span[1]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>5fe896d8-f38b-4f11-aa22-1b0356cb4232</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>font-semibold text-sm text-custom-600 dark:text-custom-400 group-hover/link:underline group-focus-visible/link:underline</value>
+      <webElementGuid>90b7926d-b220-4050-8e1b-874707caffc3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+            Reset
+        </value>
+      <webElementGuid>297f07bf-fc7c-4904-97bb-2a00dbf4cc6f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[@class=&quot;fi min-h-screen&quot;]/body[@class=&quot;fi-body fi-panel-app min-h-screen bg-gray-50 font-normal text-gray-950 antialiased dark:bg-gray-950 dark:text-white&quot;]/div[@class=&quot;fi-layout flex min-h-screen w-full flex-row-reverse overflow-x-clip&quot;]/div[@class=&quot;fi-main-ctn w-screen flex-1 flex-col opacity-0&quot;]/main[@class=&quot;fi-main mx-auto h-full w-full px-4 md:px-6 lg:px-8 max-w-7xl&quot;]/div[@class=&quot;fi-page fi-resource-list-records-page fi-resource-libraries-content-libraries&quot;]/section[@class=&quot;flex flex-col gap-y-8 py-8&quot;]/div[1]/div[@class=&quot;grid flex-1 auto-cols-fr gap-y-8&quot;]/div[@class=&quot;flex flex-col gap-y-6&quot;]/div[@class=&quot;fi-ta&quot;]/div[@class=&quot;fi-ta-ctn divide-y divide-gray-200 overflow-hidden rounded-xl bg-white shadow-sm ring-1 ring-gray-950/5 dark:divide-white/10 dark:bg-gray-900 dark:ring-white/10&quot;]/div[@class=&quot;fi-ta-header-ctn divide-y divide-gray-200 dark:divide-white/10&quot;]/div[@class=&quot;fi-ta-header-toolbar flex items-center justify-between gap-x-4 px-4 py-3 sm:px-6&quot;]/div[@class=&quot;ms-auto flex items-center gap-x-4&quot;]/div[@class=&quot;fi-dropdown fi-ta-filters-dropdown&quot;]/div[@class=&quot;fi-dropdown-panel absolute z-10 w-screen divide-y divide-gray-100 rounded-lg bg-white shadow-lg ring-1 ring-gray-950/5 transition dark:divide-white/5 dark:bg-gray-900 dark:ring-white/10 !max-w-xs&quot;]/div[@class=&quot;fi-ta-filters grid gap-y-4 p-6&quot;]/div[@class=&quot;flex items-center justify-between&quot;]/div[1]/button[@class=&quot;fi-link group/link relative inline-flex items-center justify-center outline-none fi-size-md fi-link-size-md gap-1.5 fi-color-custom fi-color-danger&quot;]/span[@class=&quot;font-semibold text-sm text-custom-600 dark:text-custom-400 group-hover/link:underline group-focus-visible/link:underline&quot;]</value>
+      <webElementGuid>6a3899f2-2f6c-43f3-925d-0bf45ca6fa3e</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Filters'])[1]/following::span[1]</value>
+      <webElementGuid>571e3af0-5443-4d02-b680-82dc199117aa</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Filter'])[1]/following::span[4]</value>
+      <webElementGuid>de560653-d9b8-4d25-861a-5db856258a26</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Code'])[1]/preceding::span[1]</value>
+      <webElementGuid>16b0fca9-3c87-40e7-9e83-3e3e0be8043c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='status'])[1]/preceding::span[2]</value>
+      <webElementGuid>06e61eb2-cd92-44db-803f-4e1c177078e8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Reset']/parent::*</value>
+      <webElementGuid>1cb213a2-f0f3-4796-a84d-1b03d9da8943</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div/div/button/span</value>
+      <webElementGuid>b6923d4d-2ddf-4f95-9ba6-723942b4f7f2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = '
+            Reset
+        ' or . = '
+            Reset
+        ')]</value>
+      <webElementGuid>87c6294d-9782-42fe-af0b-a5636a4edccd</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

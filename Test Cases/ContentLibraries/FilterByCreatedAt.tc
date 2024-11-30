@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>FilterByCreatedAt</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>4a2c1751-8e48-4c10-8a05-5679b18f9ab1</testCaseGuid>
+</TestCaseEntity>

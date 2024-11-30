@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>FirstElementCode</name>
+   <tag></tag>
+   <elementGuidId>22db803a-f808-49d5-bfd2-307cef606550</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Main محتوى مادة العلوم'])[1]/following::span[1]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>4a4e40ad-d359-4aa3-8fb2-0affffe5c9b3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>fi-ta-text-item-label text-sm leading-6 text-gray-950 dark:text-white  </value>
+      <webElementGuid>8fb776eb-7352-4627-b918-923e37ec210a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+                                    81
+                                </value>
+      <webElementGuid>2b761b04-2ec4-4c5b-bf12-e46423b74c2c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[@class=&quot;fi min-h-screen&quot;]/body[@class=&quot;fi-body fi-panel-app min-h-screen bg-gray-50 font-normal text-gray-950 antialiased dark:bg-gray-950 dark:text-white&quot;]/div[@class=&quot;fi-layout flex min-h-screen w-full flex-row-reverse overflow-x-clip&quot;]/div[@class=&quot;fi-main-ctn w-screen flex-1 flex-col opacity-0&quot;]/main[@class=&quot;fi-main mx-auto h-full w-full px-4 md:px-6 lg:px-8 max-w-7xl&quot;]/div[@class=&quot;fi-page fi-resource-list-records-page fi-resource-libraries-content-libraries&quot;]/section[@class=&quot;flex flex-col gap-y-8 py-8&quot;]/div[1]/div[@class=&quot;grid flex-1 auto-cols-fr gap-y-8&quot;]/div[@class=&quot;flex flex-col gap-y-6&quot;]/div[@class=&quot;fi-ta&quot;]/div[@class=&quot;fi-ta-ctn divide-y divide-gray-200 overflow-hidden rounded-xl bg-white shadow-sm ring-1 ring-gray-950/5 dark:divide-white/10 dark:bg-gray-900 dark:ring-white/10&quot;]/div[@class=&quot;fi-ta-content relative divide-y divide-gray-200 overflow-x-auto dark:divide-white/10 dark:border-t-white/10&quot;]/table[@class=&quot;fi-ta-table w-full table-auto divide-y divide-gray-200 text-start dark:divide-white/5&quot;]/tbody[@class=&quot;divide-y divide-gray-200 whitespace-nowrap dark:divide-white/5&quot;]/tr[@class=&quot;fi-ta-row [@media(hover:hover)]:transition [@media(hover:hover)]:duration-75 hover:bg-gray-50 dark:hover:bg-white/5&quot;]/td[@class=&quot;fi-ta-cell p-0 first-of-type:ps-1 last-of-type:pe-1 sm:first-of-type:ps-3 sm:last-of-type:pe-3 fi-table-cell-code&quot;]/div[@class=&quot;fi-ta-col-wrp&quot;]/a[@class=&quot;flex w-full disabled:pointer-events-none justify-start text-start&quot;]/div[@class=&quot;fi-ta-text grid w-full gap-y-1 px-3 py-4&quot;]/div[@class=&quot;flex&quot;]/div[@class=&quot;flex max-w-max&quot;]/div[@class=&quot;fi-ta-text-item inline-flex items-center gap-1.5&quot;]/span[@class=&quot;fi-ta-text-item-label text-sm leading-6 text-gray-950 dark:text-white&quot;]</value>
+      <webElementGuid>acd4ab1c-daeb-4674-b56b-29e9655b4b60</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Main محتوى مادة العلوم'])[1]/following::span[1]</value>
+      <webElementGuid>79918b16-b5f8-43a6-8844-396175ba555b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Actions'])[1]/following::span[2]</value>
+      <webElementGuid>5f379e1a-96c8-458b-b2d0-4dc59c5d5671</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Edit'])[1]/preceding::span[1]</value>
+      <webElementGuid>1807a9ce-892c-4f81-9a23-641b183bac32</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Delete'])[1]/preceding::span[2]</value>
+      <webElementGuid>7cff4752-1034-49f4-9a97-40bfe9b1393d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='81']/parent::*</value>
+      <webElementGuid>52ed432c-47f1-4d81-9fd1-fd0c8d44bcba</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//td[2]/div/a/div/div/div/div/span</value>
+      <webElementGuid>0bc7efac-efd9-4b17-952b-5b1d4f0eb5ab</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = '
+                                    81
+                                ' or . = '
+                                    81
+                                ')]</value>
+      <webElementGuid>63ad6a68-b2ab-40ea-b1d3-e525bb530f45</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

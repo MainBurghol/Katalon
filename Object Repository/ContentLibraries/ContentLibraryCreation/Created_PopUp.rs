@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Created_PopUp</name>
+   <tag></tag>
+   <elementGuidId>08fefbe2-d1b5-48e5-a37e-01ba367359a3</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Recording Teachers'])[3]/following::h3[1]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>h3</value>
+      <webElementGuid>1fbb2479-d58c-4673-a3eb-d940385b317c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>fi-no-notification-title text-sm font-medium text-gray-950 dark:text-white</value>
+      <webElementGuid>2996bf34-c444-424d-9cc6-8831ecfe1fd5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+    Created
+</value>
+      <webElementGuid>df866adc-3c10-4c92-8c29-f1844495b8d7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[@class=&quot;fi min-h-screen&quot;]/body[@class=&quot;fi-body fi-panel-app min-h-screen bg-gray-50 font-normal text-gray-950 antialiased dark:bg-gray-950 dark:text-white&quot;]/div[2]/div[@class=&quot;fi-no pointer-events-none fixed inset-4 z-50 mx-auto flex gap-3 items-end flex-col-reverse justify-end&quot;]/div[@class=&quot;pointer-events-auto invisible fi-no-notification w-full overflow-hidden transition duration-300 max-w-sm rounded-xl bg-white shadow-lg ring-1 dark:bg-gray-900 ring-gray-950/5 dark:ring-white/10 fi-color-gray fi-status-success&quot;]/div[@class=&quot;flex w-full gap-3 p-4&quot;]/div[@class=&quot;mt-0.5 grid flex-1&quot;]/h3[@class=&quot;fi-no-notification-title text-sm font-medium text-gray-950 dark:text-white&quot;]</value>
+      <webElementGuid>c63b4ab5-c366-48cf-8406-540600cbc20f</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Recording Teachers'])[3]/following::h3[1]</value>
+      <webElementGuid>1228b6ad-19da-4336-a1f4-cc4288fef14f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Recording Teachers'])[2]/following::h3[1]</value>
+      <webElementGuid>9f0f4135-2975-4e75-bf22-3cc0f14f009b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Created']/parent::*</value>
+      <webElementGuid>9b59152f-8226-48ab-88aa-dd3c0c43ad31</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div/div/div/h3</value>
+      <webElementGuid>bdc87520-b106-4895-81b8-d7e47db13c51</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//h3[(text() = '&#xd;
+Created&#xd;
+' or . = '&#xd;
+Created&#xd;
+')]</value>
+      <webElementGuid>a77ceabc-49b1-4220-a7e0-c1ea4f240dc2</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

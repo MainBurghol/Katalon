@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>SerachWithExistingData</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>e7685a0c-c5e3-49f6-9af3-95394ea0060a</testCaseGuid>
+</TestCaseEntity>
