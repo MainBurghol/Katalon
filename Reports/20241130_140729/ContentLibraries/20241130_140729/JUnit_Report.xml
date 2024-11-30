@@ -1,0 +1,1457 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="ContentLibraries" time="393.82" tests="14" failures="1" errors="0">
+   <testsuite name="ContentLibraries" tests="14" failures="1" errors="0" time="393.82" skipped="0" timestamp="30-11-2024T14:07:45" hostname="CYBORG - 192.168.100.225" id="Test Suites/ContentLibraries">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\CYBORG\\Katalon Studio\\Ula_TestCases\\Reports\\20241130_140729\\ContentLibraries\\20241130_140729"/>
+         <property name="logFiles" value="C:\\Users\\CYBORG\\Katalon Studio\\Ula_TestCases\\Reports\\20241130_140729\\ContentLibraries\\20241130_140729\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="CYBORG - 192.168.100.225"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.7.2.223"/>
+         <property name="browser" value="Chrome 131.0.0.0"/>
+         <property name="hostAddress" value="192.168.100.225"/>
+         <property name="sessionId" value="e86ffc65dcea08bdc11fe521e6978050"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/ContentLibraries/CheckThatAllFieldsAreAppear" time="25.458" classname="Test Cases/ContentLibraries/CheckThatAllFieldsAreAppear" status="PASSED">
+         <system-out><![CDATA[30-11-2024T14:07:45 - [TEST_CASE][PASSED] - Test Cases/ContentLibraries/CheckThatAllFieldsAreAppear: Test Cases/ContentLibraries/CheckThatAllFieldsAreAppear
+
+30-11-2024T14:07:46 - [TEST_STEP][PASSED] - openBrowser("https://preprod-ula-content-library.joacademy.tech/login"): Browser is opened with url: 'https://preprod-ula-content-library.joacademy.tech/login'
+
+30-11-2024T14:07:46 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+30-11-2024T14:07:46 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+30-11-2024T14:07:58 - [MESSAGE][PASSED] - Browser is opened with url: 'https://preprod-ula-content-library.joacademy.tech/login'
+
+30-11-2024T14:07:58 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+30-11-2024T14:07:58 - [MESSAGE][PASSED] - Current window maximized
+
+30-11-2024T14:07:58 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Login/Email"), "main.burghol@joacademy.com"): Keys 'main.burghol@joacademy.com' sent to object: 'Object Repository/Login/Email'
+
+30-11-2024T14:07:59 - [MESSAGE][PASSED] - Keys 'main.burghol@joacademy.com' sent to object: 'Object Repository/Login/Email'
+
+30-11-2024T14:07:59 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Login/Password"), "main1234"): Keys 'main1234' sent to object: 'Object Repository/Login/Password'
+
+30-11-2024T14:07:59 - [MESSAGE][PASSED] - Keys 'main1234' sent to object: 'Object Repository/Login/Password'
+
+30-11-2024T14:07:59 - [TEST_STEP][PASSED] - click(findTestObject("Login/button_Sign in")): Object: 'Object Repository/Login/button_Sign in' is clicked on
+
+30-11-2024T14:08:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/button_Sign in' is clicked on
+
+30-11-2024T14:08:00 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+30-11-2024T14:08:05 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+30-11-2024T14:08:05 - [TEST_STEP][PASSED] - click(findTestObject("ContentLibraries/Content Libraries")): Object: 'Object Repository/ContentLibraries/Content Libraries' is clicked on
+
+30-11-2024T14:08:09 - [MESSAGE][PASSED] - Object: 'Object Repository/ContentLibraries/Content Libraries' is clicked on
+
+30-11-2024T14:08:09 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("ContentLibraries/ChangeLanugage")): Object 'Object Repository/ContentLibraries/ChangeLanugage' is clickable
+
+30-11-2024T14:08:09 - [MESSAGE][PASSED] - Object 'Object Repository/ContentLibraries/ChangeLanugage' is clickable
+
+30-11-2024T14:08:09 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("ContentLibraries/button_Filter")): Object 'Object Repository/ContentLibraries/button_Filter' is clickable
+
+30-11-2024T14:08:09 - [MESSAGE][PASSED] - Object 'Object Repository/ContentLibraries/button_Filter' is clickable
+
+30-11-2024T14:08:09 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("ContentLibraries/button_Delete")): Object 'Object Repository/ContentLibraries/button_Delete' is clickable
+
+30-11-2024T14:08:10 - [MESSAGE][PASSED] - Object 'Object Repository/ContentLibraries/button_Delete' is clickable
+
+30-11-2024T14:08:10 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("ContentLibraries/span_Edit")): Object 'Object Repository/ContentLibraries/span_Edit' is clickable
+
+30-11-2024T14:08:10 - [MESSAGE][PASSED] - Object 'Object Repository/ContentLibraries/span_Edit' is clickable
+
+30-11-2024T14:08:10 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("ContentLibraries/SearchBar")): Object 'Object Repository/ContentLibraries/SearchBar' is clickable
+
+30-11-2024T14:08:10 - [MESSAGE][PASSED] - Object 'Object Repository/ContentLibraries/SearchBar' is clickable
+
+30-11-2024T14:08:10 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("ContentLibraries/New content library")): Object 'Object Repository/ContentLibraries/New content library' is clickable
+
+30-11-2024T14:08:10 - [MESSAGE][PASSED] - Object 'Object Repository/ContentLibraries/New content library' is clickable
+
+30-11-2024T14:08:10 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+30-11-2024T14:08:11 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ContentLibraries/CreateContentLibaray" time="25.931" classname="Test Cases/ContentLibraries/CreateContentLibaray" status="PASSED">
+         <system-out><![CDATA[30-11-2024T14:08:11 - [TEST_CASE][PASSED] - Test Cases/ContentLibraries/CreateContentLibaray: Test Cases/ContentLibraries/CreateContentLibaray
+
+30-11-2024T14:08:11 - [TEST_STEP][PASSED] - min = 1000: null
+
+30-11-2024T14:08:11 - [TEST_STEP][PASSED] - max = 9999: null
+
+30-11-2024T14:08:11 - [TEST_STEP][PASSED] - randomNumber = Random().nextInt(max - min + 1) + min: null
+
+30-11-2024T14:08:11 - [TEST_STEP][PASSED] - openBrowser("https://preprod-ula-content-library.joacademy.tech/login"): Browser is opened with url: 'https://preprod-ula-content-library.joacademy.tech/login'
+
+30-11-2024T14:08:11 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+30-11-2024T14:08:11 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+30-11-2024T14:08:15 - [MESSAGE][PASSED] - Browser is opened with url: 'https://preprod-ula-content-library.joacademy.tech/login'
+
+30-11-2024T14:08:15 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+30-11-2024T14:08:15 - [MESSAGE][PASSED] - Current window maximized
+
+30-11-2024T14:08:15 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Login/Email"), "main.burghol@joacademy.com"): Keys 'main.burghol@joacademy.com' sent to object: 'Object Repository/Login/Email'
+
+30-11-2024T14:08:16 - [MESSAGE][PASSED] - Keys 'main.burghol@joacademy.com' sent to object: 'Object Repository/Login/Email'
+
+30-11-2024T14:08:16 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Login/Password"), "main1234"): Keys 'main1234' sent to object: 'Object Repository/Login/Password'
+
+30-11-2024T14:08:16 - [MESSAGE][PASSED] - Keys 'main1234' sent to object: 'Object Repository/Login/Password'
+
+30-11-2024T14:08:16 - [TEST_STEP][PASSED] - click(findTestObject("Login/button_Sign in")): Object: 'Object Repository/Login/button_Sign in' is clicked on
+
+30-11-2024T14:08:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/button_Sign in' is clicked on
+
+30-11-2024T14:08:16 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+30-11-2024T14:08:21 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+30-11-2024T14:08:21 - [TEST_STEP][PASSED] - click(findTestObject("ContentLibraries/Content Libraries")): Object: 'Object Repository/ContentLibraries/Content Libraries' is clicked on
+
+30-11-2024T14:08:23 - [MESSAGE][PASSED] - Object: 'Object Repository/ContentLibraries/Content Libraries' is clicked on
+
+30-11-2024T14:08:23 - [TEST_STEP][PASSED] - click(findTestObject("ContentLibraries/New content library")): Object: 'Object Repository/ContentLibraries/New content library' is clicked on
+
+30-11-2024T14:08:25 - [MESSAGE][PASSED] - Object: 'Object Repository/ContentLibraries/New content library' is clicked on
+
+30-11-2024T14:08:25 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+30-11-2024T14:08:28 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+30-11-2024T14:08:28 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ContentLibraries/ContentLibraryCreation/EnglishTitle"), "AutomationTest"): Keys 'AutomationTest' sent to object: 'Object Repository/ContentLibraries/ContentLibraryCreation/EnglishTitle'
+
+30-11-2024T14:08:28 - [MESSAGE][PASSED] - Keys 'AutomationTest' sent to object: 'Object Repository/ContentLibraries/ContentLibraryCreation/EnglishTitle'
+
+30-11-2024T14:08:28 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ContentLibraries/ContentLibraryCreation/code"), randomNumber.toString()): Keys '9097' sent to object: 'Object Repository/ContentLibraries/ContentLibraryCreation/code'
+
+30-11-2024T14:08:28 - [MESSAGE][PASSED] - Keys '9097' sent to object: 'Object Repository/ContentLibraries/ContentLibraryCreation/code'
+
+30-11-2024T14:08:28 - [TEST_STEP][PASSED] - click(findTestObject("ContentLibraries/ContentLibraryCreation/ChangeTheLanguageInsideCreateContent")): Object: 'Object Repository/ContentLibraries/ContentLibraryCreation/ChangeTheLanguageInsideCreateContent' is clicked on
+
+30-11-2024T14:08:29 - [MESSAGE][PASSED] - Object: 'Object Repository/ContentLibraries/ContentLibraryCreation/ChangeTheLanguageInsideCreateContent' is clicked on
+
+30-11-2024T14:08:29 - [TEST_STEP][PASSED] - click(findTestObject("ContentLibraries/ContentLibraryCreation/ChangeLangaugeToArabicContent")): Object: 'Object Repository/ContentLibraries/ContentLibraryCreation/ChangeLangaugeToArabicContent' is clicked on
+
+30-11-2024T14:08:29 - [MESSAGE][PASSED] - Object: 'Object Repository/ContentLibraries/ContentLibraryCreation/ChangeLangaugeToArabicContent' is clicked on
+
+30-11-2024T14:08:29 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ContentLibraries/ContentLibraryCreation/ArabicTitle"), "فحص الاوتوميشن"): Keys 'فحص الاوتوميشن' sent to object: 'Object Repository/ContentLibraries/ContentLibraryCreation/ArabicTitle'
+
+30-11-2024T14:08:30 - [MESSAGE][PASSED] - Keys 'فحص الاوتوميشن' sent to object: 'Object Repository/ContentLibraries/ContentLibraryCreation/ArabicTitle'
+
+30-11-2024T14:08:30 - [TEST_STEP][PASSED] - click(findTestObject("ContentLibraries/ContentLibraryCreation/CreateButton")): Object: 'Object Repository/ContentLibraries/ContentLibraryCreation/CreateButton' is clicked on
+
+30-11-2024T14:08:31 - [MESSAGE][PASSED] - Object: 'Object Repository/ContentLibraries/ContentLibraryCreation/CreateButton' is clicked on
+
+30-11-2024T14:08:31 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("ContentLibraries/ContentLibraryCreation/Created_PopUp")): Object 'Object Repository/ContentLibraries/ContentLibraryCreation/Created_PopUp' is visible
+
+30-11-2024T14:08:33 - [MESSAGE][PASSED] - Object 'Object Repository/ContentLibraries/ContentLibraryCreation/Created_PopUp' is visible
+
+30-11-2024T14:08:33 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+30-11-2024T14:08:36 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+30-11-2024T14:08:36 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+30-11-2024T14:08:37 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ContentLibraries/CreateWithDuplicateCode" time="26.899" classname="Test Cases/ContentLibraries/CreateWithDuplicateCode" status="PASSED">
+         <system-out><![CDATA[30-11-2024T14:08:37 - [TEST_CASE][PASSED] - Test Cases/ContentLibraries/CreateWithDuplicateCode: Test Cases/ContentLibraries/CreateWithDuplicateCode
+
+30-11-2024T14:08:37 - [TEST_STEP][PASSED] - openBrowser("https://preprod-ula-content-library.joacademy.tech/login"): Browser is opened with url: 'https://preprod-ula-content-library.joacademy.tech/login'
+
+30-11-2024T14:08:37 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+30-11-2024T14:08:37 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+30-11-2024T14:08:40 - [MESSAGE][PASSED] - Browser is opened with url: 'https://preprod-ula-content-library.joacademy.tech/login'
+
+30-11-2024T14:08:40 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+30-11-2024T14:08:40 - [MESSAGE][PASSED] - Current window maximized
+
+30-11-2024T14:08:40 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Login/Email"), "main.burghol@joacademy.com"): Keys 'main.burghol@joacademy.com' sent to object: 'Object Repository/Login/Email'
+
+30-11-2024T14:08:41 - [MESSAGE][PASSED] - Keys 'main.burghol@joacademy.com' sent to object: 'Object Repository/Login/Email'
+
+30-11-2024T14:08:41 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Login/Password"), "main1234"): Keys 'main1234' sent to object: 'Object Repository/Login/Password'
+
+30-11-2024T14:08:41 - [MESSAGE][PASSED] - Keys 'main1234' sent to object: 'Object Repository/Login/Password'
+
+30-11-2024T14:08:41 - [TEST_STEP][PASSED] - click(findTestObject("Login/button_Sign in")): Object: 'Object Repository/Login/button_Sign in' is clicked on
+
+30-11-2024T14:08:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/button_Sign in' is clicked on
+
+30-11-2024T14:08:42 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+30-11-2024T14:08:47 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+30-11-2024T14:08:47 - [TEST_STEP][PASSED] - click(findTestObject("ContentLibraries/Content Libraries")): Object: 'Object Repository/ContentLibraries/Content Libraries' is clicked on
+
+30-11-2024T14:08:48 - [MESSAGE][PASSED] - Object: 'Object Repository/ContentLibraries/Content Libraries' is clicked on
+
+30-11-2024T14:08:48 - [TEST_STEP][PASSED] - MyCode = getText(findTestObject("ContentLibraries/FirstElementCode")): Text of object 'Object Repository/ContentLibraries/FirstElementCode' is: '81'
+
+30-11-2024T14:08:49 - [MESSAGE][PASSED] - Text of object 'Object Repository/ContentLibraries/FirstElementCode' is: '81'
+
+30-11-2024T14:08:49 - [TEST_STEP][PASSED] - click(findTestObject("ContentLibraries/New content library")): Object: 'Object Repository/ContentLibraries/New content library' is clicked on
+
+30-11-2024T14:08:50 - [MESSAGE][PASSED] - Object: 'Object Repository/ContentLibraries/New content library' is clicked on
+
+30-11-2024T14:08:50 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+30-11-2024T14:08:53 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+30-11-2024T14:08:53 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ContentLibraries/ContentLibraryCreation/EnglishTitle"), "AutomationTest"): Keys 'AutomationTest' sent to object: 'Object Repository/ContentLibraries/ContentLibraryCreation/EnglishTitle'
+
+30-11-2024T14:08:54 - [MESSAGE][PASSED] - Keys 'AutomationTest' sent to object: 'Object Repository/ContentLibraries/ContentLibraryCreation/EnglishTitle'
+
+30-11-2024T14:08:54 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ContentLibraries/ContentLibraryCreation/code"), MyCode): Keys '81' sent to object: 'Object Repository/ContentLibraries/ContentLibraryCreation/code'
+
+30-11-2024T14:08:54 - [MESSAGE][PASSED] - Keys '81' sent to object: 'Object Repository/ContentLibraries/ContentLibraryCreation/code'
+
+30-11-2024T14:08:54 - [TEST_STEP][PASSED] - click(findTestObject("ContentLibraries/ContentLibraryCreation/ChangeTheLanguageInsideCreateContent")): Object: 'Object Repository/ContentLibraries/ContentLibraryCreation/ChangeTheLanguageInsideCreateContent' is clicked on
+
+30-11-2024T14:08:54 - [MESSAGE][PASSED] - Object: 'Object Repository/ContentLibraries/ContentLibraryCreation/ChangeTheLanguageInsideCreateContent' is clicked on
+
+30-11-2024T14:08:54 - [TEST_STEP][PASSED] - click(findTestObject("ContentLibraries/ContentLibraryCreation/ChangeLangaugeToArabicContent")): Object: 'Object Repository/ContentLibraries/ContentLibraryCreation/ChangeLangaugeToArabicContent' is clicked on
+
+30-11-2024T14:08:54 - [MESSAGE][PASSED] - Object: 'Object Repository/ContentLibraries/ContentLibraryCreation/ChangeLangaugeToArabicContent' is clicked on
+
+30-11-2024T14:08:54 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+30-11-2024T14:08:59 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+30-11-2024T14:08:59 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ContentLibraries/ContentLibraryCreation/ArabicTitle"), "فحص الاوتوميشن"): Keys 'فحص الاوتوميشن' sent to object: 'Object Repository/ContentLibraries/ContentLibraryCreation/ArabicTitle'
+
+30-11-2024T14:09:00 - [MESSAGE][PASSED] - Keys 'فحص الاوتوميشن' sent to object: 'Object Repository/ContentLibraries/ContentLibraryCreation/ArabicTitle'
+
+30-11-2024T14:09:00 - [TEST_STEP][PASSED] - click(findTestObject("ContentLibraries/ContentLibraryCreation/CreateButton")): Object: 'Object Repository/ContentLibraries/ContentLibraryCreation/CreateButton' is clicked on
+
+30-11-2024T14:09:00 - [MESSAGE][PASSED] - Object: 'Object Repository/ContentLibraries/ContentLibraryCreation/CreateButton' is clicked on
+
+30-11-2024T14:09:00 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+30-11-2024T14:09:03 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+30-11-2024T14:09:03 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("ContentLibraries/ContentLibraryCreation/CodeDuplication"), "The code has already been taken."): Actual text and expected text of test object 'Object Repository/ContentLibraries/ContentLibraryCreation/CodeDuplication' are matched.
+
+30-11-2024T14:09:03 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/ContentLibraries/ContentLibraryCreation/CodeDuplication' are matched.
+
+30-11-2024T14:09:03 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+30-11-2024T14:09:04 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ContentLibraries/AddNewCloumnToTheTable" time="29.829" classname="Test Cases/ContentLibraries/AddNewCloumnToTheTable" status="PASSED">
+         <system-out><![CDATA[30-11-2024T14:09:04 - [TEST_CASE][PASSED] - Test Cases/ContentLibraries/AddNewCloumnToTheTable: Test Cases/ContentLibraries/AddNewCloumnToTheTable
+
+30-11-2024T14:09:04 - [TEST_STEP][PASSED] - openBrowser("https://preprod-ula-content-library.joacademy.tech/login"): Browser is opened with url: 'https://preprod-ula-content-library.joacademy.tech/login'
+
+30-11-2024T14:09:04 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+30-11-2024T14:09:04 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+30-11-2024T14:09:07 - [MESSAGE][PASSED] - Browser is opened with url: 'https://preprod-ula-content-library.joacademy.tech/login'
+
+30-11-2024T14:09:07 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+30-11-2024T14:09:07 - [MESSAGE][PASSED] - Current window maximized
+
+30-11-2024T14:09:07 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Login/Email"), "main.burghol@joacademy.com"): Keys 'main.burghol@joacademy.com' sent to object: 'Object Repository/Login/Email'
+
+30-11-2024T14:09:08 - [MESSAGE][PASSED] - Keys 'main.burghol@joacademy.com' sent to object: 'Object Repository/Login/Email'
+
+30-11-2024T14:09:08 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Login/Password"), "main1234"): Keys 'main1234' sent to object: 'Object Repository/Login/Password'
+
+30-11-2024T14:09:08 - [MESSAGE][PASSED] - Keys 'main1234' sent to object: 'Object Repository/Login/Password'
+
+30-11-2024T14:09:08 - [TEST_STEP][PASSED] - click(findTestObject("Login/button_Sign in")): Object: 'Object Repository/Login/button_Sign in' is clicked on
+
+30-11-2024T14:09:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/button_Sign in' is clicked on
+
+30-11-2024T14:09:08 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+30-11-2024T14:09:13 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+30-11-2024T14:09:13 - [TEST_STEP][PASSED] - click(findTestObject("ContentLibraries/Content Libraries")): Object: 'Object Repository/ContentLibraries/Content Libraries' is clicked on
+
+30-11-2024T14:09:16 - [MESSAGE][PASSED] - Object: 'Object Repository/ContentLibraries/Content Libraries' is clicked on
+
+30-11-2024T14:09:16 - [TEST_STEP][PASSED] - click(findTestObject("ContentLibraries/AddToggleColumn")): Object: 'Object Repository/ContentLibraries/AddToggleColumn' is clicked on
+
+30-11-2024T14:09:16 - [MESSAGE][PASSED] - Object: 'Object Repository/ContentLibraries/AddToggleColumn' is clicked on
+
+30-11-2024T14:09:16 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+30-11-2024T14:09:21 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+30-11-2024T14:09:21 - [TEST_STEP][PASSED] - click(findTestObject("ContentLibraries/created_at_Column")): Object: 'Object Repository/ContentLibraries/created_at_Column' is clicked on
+
+30-11-2024T14:09:21 - [MESSAGE][PASSED] - Object: 'Object Repository/ContentLibraries/created_at_Column' is clicked on
+
+30-11-2024T14:09:21 - [TEST_STEP][PASSED] - click(findTestObject("ContentLibraries/updated_at_Column")): Object: 'Object Repository/ContentLibraries/updated_at_Column' is clicked on
+
+30-11-2024T14:09:23 - [MESSAGE][PASSED] - Object: 'Object Repository/ContentLibraries/updated_at_Column' is clicked on
+
+30-11-2024T14:09:23 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+30-11-2024T14:09:33 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+30-11-2024T14:09:33 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("ContentLibraries/Created at Inside Table")): Object 'Object Repository/ContentLibraries/Created at Inside Table' is visible
+
+30-11-2024T14:09:33 - [MESSAGE][PASSED] - Object 'Object Repository/ContentLibraries/Created at Inside Table' is visible
+
+30-11-2024T14:09:33 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("ContentLibraries/Updated at Inside Table")): Object 'Object Repository/ContentLibraries/Updated at Inside Table' is visible
+
+30-11-2024T14:09:33 - [MESSAGE][PASSED] - Object 'Object Repository/ContentLibraries/Updated at Inside Table' is visible
+
+30-11-2024T14:09:33 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+30-11-2024T14:09:33 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ContentLibraries/FilterByCode" time="26.752" classname="Test Cases/ContentLibraries/FilterByCode" status="PASSED">
+         <system-out><![CDATA[30-11-2024T14:09:33 - [TEST_CASE][PASSED] - Test Cases/ContentLibraries/FilterByCode: Test Cases/ContentLibraries/FilterByCode
+
+30-11-2024T14:09:34 - [TEST_STEP][PASSED] - openBrowser("https://preprod-ula-content-library.joacademy.tech/login"): Browser is opened with url: 'https://preprod-ula-content-library.joacademy.tech/login'
+
+30-11-2024T14:09:34 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+30-11-2024T14:09:34 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+30-11-2024T14:09:38 - [MESSAGE][PASSED] - Browser is opened with url: 'https://preprod-ula-content-library.joacademy.tech/login'
+
+30-11-2024T14:09:38 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+30-11-2024T14:09:38 - [MESSAGE][PASSED] - Current window maximized
+
+30-11-2024T14:09:38 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Login/Email"), "main.burghol@joacademy.com"): Keys 'main.burghol@joacademy.com' sent to object: 'Object Repository/Login/Email'
+
+30-11-2024T14:09:38 - [MESSAGE][PASSED] - Keys 'main.burghol@joacademy.com' sent to object: 'Object Repository/Login/Email'
+
+30-11-2024T14:09:38 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Login/Password"), "main1234"): Keys 'main1234' sent to object: 'Object Repository/Login/Password'
+
+30-11-2024T14:09:38 - [MESSAGE][PASSED] - Keys 'main1234' sent to object: 'Object Repository/Login/Password'
+
+30-11-2024T14:09:38 - [TEST_STEP][PASSED] - click(findTestObject("Login/button_Sign in")): Object: 'Object Repository/Login/button_Sign in' is clicked on
+
+30-11-2024T14:09:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/button_Sign in' is clicked on
+
+30-11-2024T14:09:39 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+30-11-2024T14:09:44 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+30-11-2024T14:09:44 - [TEST_STEP][PASSED] - click(findTestObject("ContentLibraries/Content Libraries")): Object: 'Object Repository/ContentLibraries/Content Libraries' is clicked on
+
+30-11-2024T14:09:45 - [MESSAGE][PASSED] - Object: 'Object Repository/ContentLibraries/Content Libraries' is clicked on
+
+30-11-2024T14:09:45 - [TEST_STEP][PASSED] - MyCode = getText(findTestObject("ContentLibraries/FirstElementCode")): Text of object 'Object Repository/ContentLibraries/FirstElementCode' is: '81'
+
+30-11-2024T14:09:46 - [MESSAGE][PASSED] - Text of object 'Object Repository/ContentLibraries/FirstElementCode' is: '81'
+
+30-11-2024T14:09:46 - [TEST_STEP][PASSED] - click(findTestObject("ContentLibraries/New content library")): Object: 'Object Repository/ContentLibraries/New content library' is clicked on
+
+30-11-2024T14:09:47 - [MESSAGE][PASSED] - Object: 'Object Repository/ContentLibraries/New content library' is clicked on
+
+30-11-2024T14:09:47 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+30-11-2024T14:09:50 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+30-11-2024T14:09:50 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ContentLibraries/ContentLibraryCreation/EnglishTitle"), "AutomationTest"): Keys 'AutomationTest' sent to object: 'Object Repository/ContentLibraries/ContentLibraryCreation/EnglishTitle'
+
+30-11-2024T14:09:50 - [MESSAGE][PASSED] - Keys 'AutomationTest' sent to object: 'Object Repository/ContentLibraries/ContentLibraryCreation/EnglishTitle'
+
+30-11-2024T14:09:50 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ContentLibraries/ContentLibraryCreation/code"), MyCode): Keys '81' sent to object: 'Object Repository/ContentLibraries/ContentLibraryCreation/code'
+
+30-11-2024T14:09:50 - [MESSAGE][PASSED] - Keys '81' sent to object: 'Object Repository/ContentLibraries/ContentLibraryCreation/code'
+
+30-11-2024T14:09:50 - [TEST_STEP][PASSED] - click(findTestObject("ContentLibraries/ContentLibraryCreation/ChangeTheLanguageInsideCreateContent")): Object: 'Object Repository/ContentLibraries/ContentLibraryCreation/ChangeTheLanguageInsideCreateContent' is clicked on
+
+30-11-2024T14:09:51 - [MESSAGE][PASSED] - Object: 'Object Repository/ContentLibraries/ContentLibraryCreation/ChangeTheLanguageInsideCreateContent' is clicked on
+
+30-11-2024T14:09:51 - [TEST_STEP][PASSED] - click(findTestObject("ContentLibraries/ContentLibraryCreation/ChangeLangaugeToArabicContent")): Object: 'Object Repository/ContentLibraries/ContentLibraryCreation/ChangeLangaugeToArabicContent' is clicked on
+
+30-11-2024T14:09:51 - [MESSAGE][PASSED] - Object: 'Object Repository/ContentLibraries/ContentLibraryCreation/ChangeLangaugeToArabicContent' is clicked on
+
+30-11-2024T14:09:51 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+30-11-2024T14:09:56 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+30-11-2024T14:09:56 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ContentLibraries/ContentLibraryCreation/ArabicTitle"), "فحص الاوتوميشن"): Keys 'فحص الاوتوميشن' sent to object: 'Object Repository/ContentLibraries/ContentLibraryCreation/ArabicTitle'
+
+30-11-2024T14:09:56 - [MESSAGE][PASSED] - Keys 'فحص الاوتوميشن' sent to object: 'Object Repository/ContentLibraries/ContentLibraryCreation/ArabicTitle'
+
+30-11-2024T14:09:56 - [TEST_STEP][PASSED] - click(findTestObject("ContentLibraries/ContentLibraryCreation/CreateButton")): Object: 'Object Repository/ContentLibraries/ContentLibraryCreation/CreateButton' is clicked on
+
+30-11-2024T14:09:57 - [MESSAGE][PASSED] - Object: 'Object Repository/ContentLibraries/ContentLibraryCreation/CreateButton' is clicked on
+
+30-11-2024T14:09:57 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+30-11-2024T14:10:00 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+30-11-2024T14:10:00 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("ContentLibraries/ContentLibraryCreation/CodeDuplication"), "The code has already been taken."): Actual text and expected text of test object 'Object Repository/ContentLibraries/ContentLibraryCreation/CodeDuplication' are matched.
+
+30-11-2024T14:10:00 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/ContentLibraries/ContentLibraryCreation/CodeDuplication' are matched.
+
+30-11-2024T14:10:00 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+30-11-2024T14:10:00 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ContentLibraries/FilterByCreatedAt" time="23.44" classname="Test Cases/ContentLibraries/FilterByCreatedAt" status="PASSED">
+         <system-out><![CDATA[30-11-2024T14:10:00 - [TEST_CASE][PASSED] - Test Cases/ContentLibraries/FilterByCreatedAt: Test Cases/ContentLibraries/FilterByCreatedAt
+
+30-11-2024T14:10:00 - [TEST_STEP][PASSED] - openBrowser("https://preprod-ula-content-library.joacademy.tech/login"): Browser is opened with url: 'https://preprod-ula-content-library.joacademy.tech/login'
+
+30-11-2024T14:10:00 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+30-11-2024T14:10:00 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+30-11-2024T14:10:04 - [MESSAGE][PASSED] - Browser is opened with url: 'https://preprod-ula-content-library.joacademy.tech/login'
+
+30-11-2024T14:10:04 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+30-11-2024T14:10:04 - [MESSAGE][PASSED] - Current window maximized
+
+30-11-2024T14:10:04 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Login/Email"), "main.burghol@joacademy.com"): Keys 'main.burghol@joacademy.com' sent to object: 'Object Repository/Login/Email'
+
+30-11-2024T14:10:05 - [MESSAGE][PASSED] - Keys 'main.burghol@joacademy.com' sent to object: 'Object Repository/Login/Email'
+
+30-11-2024T14:10:05 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Login/Password"), "main1234"): Keys 'main1234' sent to object: 'Object Repository/Login/Password'
+
+30-11-2024T14:10:05 - [MESSAGE][PASSED] - Keys 'main1234' sent to object: 'Object Repository/Login/Password'
+
+30-11-2024T14:10:05 - [TEST_STEP][PASSED] - click(findTestObject("Login/button_Sign in")): Object: 'Object Repository/Login/button_Sign in' is clicked on
+
+30-11-2024T14:10:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/button_Sign in' is clicked on
+
+30-11-2024T14:10:05 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+30-11-2024T14:10:10 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+30-11-2024T14:10:10 - [TEST_STEP][PASSED] - click(findTestObject("ContentLibraries/Content Libraries")): Object: 'Object Repository/ContentLibraries/Content Libraries' is clicked on
+
+30-11-2024T14:10:12 - [MESSAGE][PASSED] - Object: 'Object Repository/ContentLibraries/Content Libraries' is clicked on
+
+30-11-2024T14:10:12 - [TEST_STEP][PASSED] - click(findTestObject("ContentLibraries/button_Filter")): Object: 'Object Repository/ContentLibraries/button_Filter' is clicked on
+
+30-11-2024T14:10:13 - [MESSAGE][PASSED] - Object: 'Object Repository/ContentLibraries/button_Filter' is clicked on
+
+30-11-2024T14:10:13 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ContentLibraries/createdFrom"), "07/01/2024"): Keys '07/01/2024' sent to object: 'Object Repository/ContentLibraries/createdFrom'
+
+30-11-2024T14:10:13 - [MESSAGE][PASSED] - Keys '07/01/2024' sent to object: 'Object Repository/ContentLibraries/createdFrom'
+
+30-11-2024T14:10:13 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+30-11-2024T14:10:18 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+30-11-2024T14:10:18 - [TEST_STEP][PASSED] - click(findTestObject("ContentLibraries/SearchBar")): Object: 'Object Repository/ContentLibraries/SearchBar' is clicked on
+
+30-11-2024T14:10:18 - [MESSAGE][PASSED] - Object: 'Object Repository/ContentLibraries/SearchBar' is clicked on
+
+30-11-2024T14:10:18 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+30-11-2024T14:10:23 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+30-11-2024T14:10:23 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+30-11-2024T14:10:24 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ContentLibraries/FilterByStatus" time="21.006" classname="Test Cases/ContentLibraries/FilterByStatus" status="PASSED">
+         <system-out><![CDATA[30-11-2024T14:10:24 - [TEST_CASE][PASSED] - Test Cases/ContentLibraries/FilterByStatus: Test Cases/ContentLibraries/FilterByStatus
+
+30-11-2024T14:10:24 - [TEST_STEP][PASSED] - openBrowser("https://preprod-ula-content-library.joacademy.tech/login"): Browser is opened with url: 'https://preprod-ula-content-library.joacademy.tech/login'
+
+30-11-2024T14:10:24 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+30-11-2024T14:10:24 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+30-11-2024T14:10:28 - [MESSAGE][PASSED] - Browser is opened with url: 'https://preprod-ula-content-library.joacademy.tech/login'
+
+30-11-2024T14:10:28 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+30-11-2024T14:10:28 - [MESSAGE][PASSED] - Current window maximized
+
+30-11-2024T14:10:28 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Login/Email"), "main.burghol@joacademy.com"): Keys 'main.burghol@joacademy.com' sent to object: 'Object Repository/Login/Email'
+
+30-11-2024T14:10:29 - [MESSAGE][PASSED] - Keys 'main.burghol@joacademy.com' sent to object: 'Object Repository/Login/Email'
+
+30-11-2024T14:10:29 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Login/Password"), "main1234"): Keys 'main1234' sent to object: 'Object Repository/Login/Password'
+
+30-11-2024T14:10:29 - [MESSAGE][PASSED] - Keys 'main1234' sent to object: 'Object Repository/Login/Password'
+
+30-11-2024T14:10:29 - [TEST_STEP][PASSED] - click(findTestObject("Login/button_Sign in")): Object: 'Object Repository/Login/button_Sign in' is clicked on
+
+30-11-2024T14:10:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/button_Sign in' is clicked on
+
+30-11-2024T14:10:29 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+30-11-2024T14:10:34 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+30-11-2024T14:10:34 - [TEST_STEP][PASSED] - click(findTestObject("ContentLibraries/Content Libraries")): Object: 'Object Repository/ContentLibraries/Content Libraries' is clicked on
+
+30-11-2024T14:10:37 - [MESSAGE][PASSED] - Object: 'Object Repository/ContentLibraries/Content Libraries' is clicked on
+
+30-11-2024T14:10:37 - [TEST_STEP][PASSED] - click(findTestObject("ContentLibraries/button_Filter")): Object: 'Object Repository/ContentLibraries/button_Filter' is clicked on
+
+30-11-2024T14:10:37 - [MESSAGE][PASSED] - Object: 'Object Repository/ContentLibraries/button_Filter' is clicked on
+
+30-11-2024T14:10:37 - [TEST_STEP][PASSED] - click(findTestObject("ContentLibraries/FilterByStatus")): Object: 'Object Repository/ContentLibraries/FilterByStatus' is clicked on
+
+30-11-2024T14:10:37 - [MESSAGE][PASSED] - Object: 'Object Repository/ContentLibraries/FilterByStatus' is clicked on
+
+30-11-2024T14:10:37 - [TEST_STEP][PASSED] - click(findTestObject("ContentLibraries/Select_Active")): Object: 'Object Repository/ContentLibraries/Select_Active' is clicked on
+
+30-11-2024T14:10:38 - [MESSAGE][PASSED] - Object: 'Object Repository/ContentLibraries/Select_Active' is clicked on
+
+30-11-2024T14:10:38 - [TEST_STEP][PASSED] - click(findTestObject("ContentLibraries/SearchBar")): Object: 'Object Repository/ContentLibraries/SearchBar' is clicked on
+
+30-11-2024T14:10:39 - [MESSAGE][PASSED] - Object: 'Object Repository/ContentLibraries/SearchBar' is clicked on
+
+30-11-2024T14:10:39 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+30-11-2024T14:10:44 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+30-11-2024T14:10:44 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("ContentLibraries/NumberOfFilters"), "1"): Actual text and expected text of test object 'Object Repository/ContentLibraries/NumberOfFilters' are matched.
+
+30-11-2024T14:10:44 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/ContentLibraries/NumberOfFilters' are matched.
+
+30-11-2024T14:10:44 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+30-11-2024T14:10:45 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ContentLibraries/FilterByStatus_InActive" time="20.988" classname="Test Cases/ContentLibraries/FilterByStatus_InActive" status="PASSED">
+         <system-out><![CDATA[30-11-2024T14:10:45 - [TEST_CASE][PASSED] - Test Cases/ContentLibraries/FilterByStatus_InActive: Test Cases/ContentLibraries/FilterByStatus_InActive
+
+30-11-2024T14:10:45 - [TEST_STEP][PASSED] - openBrowser("https://preprod-ula-content-library.joacademy.tech/login"): Browser is opened with url: 'https://preprod-ula-content-library.joacademy.tech/login'
+
+30-11-2024T14:10:45 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+30-11-2024T14:10:45 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+30-11-2024T14:10:49 - [MESSAGE][PASSED] - Browser is opened with url: 'https://preprod-ula-content-library.joacademy.tech/login'
+
+30-11-2024T14:10:49 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+30-11-2024T14:10:49 - [MESSAGE][PASSED] - Current window maximized
+
+30-11-2024T14:10:49 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Login/Email"), "main.burghol@joacademy.com"): Keys 'main.burghol@joacademy.com' sent to object: 'Object Repository/Login/Email'
+
+30-11-2024T14:10:49 - [MESSAGE][PASSED] - Keys 'main.burghol@joacademy.com' sent to object: 'Object Repository/Login/Email'
+
+30-11-2024T14:10:49 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Login/Password"), "main1234"): Keys 'main1234' sent to object: 'Object Repository/Login/Password'
+
+30-11-2024T14:10:50 - [MESSAGE][PASSED] - Keys 'main1234' sent to object: 'Object Repository/Login/Password'
+
+30-11-2024T14:10:50 - [TEST_STEP][PASSED] - click(findTestObject("Login/button_Sign in")): Object: 'Object Repository/Login/button_Sign in' is clicked on
+
+30-11-2024T14:10:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/button_Sign in' is clicked on
+
+30-11-2024T14:10:50 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+30-11-2024T14:10:55 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+30-11-2024T14:10:55 - [TEST_STEP][PASSED] - click(findTestObject("ContentLibraries/Content Libraries")): Object: 'Object Repository/ContentLibraries/Content Libraries' is clicked on
+
+30-11-2024T14:10:57 - [MESSAGE][PASSED] - Object: 'Object Repository/ContentLibraries/Content Libraries' is clicked on
+
+30-11-2024T14:10:57 - [TEST_STEP][PASSED] - click(findTestObject("ContentLibraries/button_Filter")): Object: 'Object Repository/ContentLibraries/button_Filter' is clicked on
+
+30-11-2024T14:10:57 - [MESSAGE][PASSED] - Object: 'Object Repository/ContentLibraries/button_Filter' is clicked on
+
+30-11-2024T14:10:57 - [TEST_STEP][PASSED] - click(findTestObject("ContentLibraries/FilterByStatus")): Object: 'Object Repository/ContentLibraries/FilterByStatus' is clicked on
+
+30-11-2024T14:10:58 - [MESSAGE][PASSED] - Object: 'Object Repository/ContentLibraries/FilterByStatus' is clicked on
+
+30-11-2024T14:10:58 - [TEST_STEP][PASSED] - click(findTestObject("ContentLibraries/Select_InActive")): Object: 'Object Repository/ContentLibraries/Select_InActive' is clicked on
+
+30-11-2024T14:10:58 - [MESSAGE][PASSED] - Object: 'Object Repository/ContentLibraries/Select_InActive' is clicked on
+
+30-11-2024T14:10:58 - [TEST_STEP][PASSED] - click(findTestObject("ContentLibraries/SearchBar")): Object: 'Object Repository/ContentLibraries/SearchBar' is clicked on
+
+30-11-2024T14:11:00 - [MESSAGE][PASSED] - Object: 'Object Repository/ContentLibraries/SearchBar' is clicked on
+
+30-11-2024T14:11:00 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+30-11-2024T14:11:05 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+30-11-2024T14:11:05 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("ContentLibraries/NumberOfFilters"), "1"): Actual text and expected text of test object 'Object Repository/ContentLibraries/NumberOfFilters' are matched.
+
+30-11-2024T14:11:05 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/ContentLibraries/NumberOfFilters' are matched.
+
+30-11-2024T14:11:05 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("ContentLibraries/CheckTheInActiveLiberary")): Object 'Object Repository/ContentLibraries/CheckTheInActiveLiberary' is visible
+
+30-11-2024T14:11:05 - [MESSAGE][PASSED] - Object 'Object Repository/ContentLibraries/CheckTheInActiveLiberary' is visible
+
+30-11-2024T14:11:05 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+30-11-2024T14:11:06 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ContentLibraries/FilterByUpdateFrom" time="48.764" classname="Test Cases/ContentLibraries/FilterByUpdateFrom" status="FAILED">
+         <failure type="FAILED" message="Test Cases/ContentLibraries/FilterByUpdateFrom FAILED.&#xa;Reason:&#xa;com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/ContentLibraries/SearchBar'&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)&#xa;	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)&#xa;	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:659)&#xa;	at FilterByUpdateFrom.run(FilterByUpdateFrom:38)&#xa;	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xa;	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)&#xa;	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)&#xa;	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)&#xa;	at TempTestSuite1732964849521.run(TempTestSuite1732964849521.groovy:35)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;Caused by: org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;input class=&quot;fi-input block w-full border-none py-1.5 text-base text-gray-950 transition duration-75 placeholder:text-gray-400 focus:ring-0 disabled:text-gray-500 disabled:[-webkit-text-fill-color:theme(colors.gray.500)] disabled:placeholder:[-webkit-text-fill-color:theme(colors.gray.400)] dark:text-white dark:placeholder:text-gray-500 dark:disabled:text-gray-400 dark:disabled:[-webkit-text-fill-color:theme(colors.gray.400)] dark:disabled:placeholder:[-webkit-text-fill-color:theme(colors.gray.500)] sm:text-sm sm:leading-6 bg-white/0 ps-0 pe-3&quot; autocomplete=&quot;off&quot; placeholder=&quot;Search&quot; type=&quot;search&quot; wire:key=&quot;37gA4CNCAaiZKIyUY0ZB.table.tableSearch.field.input&quot; wire:model.live.debounce.500ms=&quot;tableSearch&quot; x-bind:id=&quot;$id('input')&quot; x-on:keyup=&quot;if ($event.key === 'Enter') { $wire.$refresh() }&quot; id=&quot;input-1&quot;> is not clickable at point (1299, 18). Other element would receive the click: &lt;nav class=&quot;flex h-16 items-center gap-x-4 bg-white px-4 shadow-sm ring-1 ring-gray-950/5 dark:bg-gray-900 dark:ring-white/10 md:px-6 lg:px-8&quot;>...&lt;/nav>&#xa;  (Session info: chrome=131.0.6778.86)&#xa;Build info: version: '3.141.59', revision: 'unknown', time: 'unknown'&#xa;System info: host: 'CYBORG', ip: '192.168.100.225', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'&#xa;Driver info: com.kms.katalon.selenium.driver.CChromeDriver&#xa;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.86, chrome: {chromedriverVersion: 131.0.6778.85 (3d81e41b6f3a..., userDataDir: C:\Users\CYBORG\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53085}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#xa;Session ID: b983e30eefbdd4c0ab72ae859877319c&#xa;	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)&#xa;	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)&#xa;	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)&#xa;	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)&#xa;	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)&#xa;	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)&#xa;	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)&#xa;	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)&#xa;	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)&#xa;	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)&#xa;	at jdk.internal.reflect.GeneratedMethodAccessor11.invoke(Unknown Source)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)&#xa;	at jdk.proxy2/jdk.proxy2.$Proxy21.click(Unknown Source)&#xa;	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)&#xa;	at org.openqa.selenium.WebElement$click.call(Unknown Source)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)&#xa;	at jdk.internal.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)&#xa;	... 20 more&#xa;"/>
+         <system-out><![CDATA[30-11-2024T14:11:06 - [TEST_CASE][FAILED] - Test Cases/ContentLibraries/FilterByUpdateFrom: Test Cases/ContentLibraries/FilterByUpdateFrom FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/ContentLibraries/SearchBar'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:659)
+	at FilterByUpdateFrom.run(FilterByUpdateFrom:38)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1732964849521.run(TempTestSuite1732964849521.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <input class="fi-input block w-full border-none py-1.5 text-base text-gray-950 transition duration-75 placeholder:text-gray-400 focus:ring-0 disabled:text-gray-500 disabled:[-webkit-text-fill-color:theme(colors.gray.500)] disabled:placeholder:[-webkit-text-fill-color:theme(colors.gray.400)] dark:text-white dark:placeholder:text-gray-500 dark:disabled:text-gray-400 dark:disabled:[-webkit-text-fill-color:theme(colors.gray.400)] dark:disabled:placeholder:[-webkit-text-fill-color:theme(colors.gray.500)] sm:text-sm sm:leading-6 bg-white/0 ps-0 pe-3" autocomplete="off" placeholder="Search" type="search" wire:key="37gA4CNCAaiZKIyUY0ZB.table.tableSearch.field.input" wire:model.live.debounce.500ms="tableSearch" x-bind:id="$id('input')" x-on:keyup="if ($event.key === 'Enter') { $wire.$refresh() }" id="input-1"> is not clickable at point (1299, 18). Other element would receive the click: <nav class="flex h-16 items-center gap-x-4 bg-white px-4 shadow-sm ring-1 ring-gray-950/5 dark:bg-gray-900 dark:ring-white/10 md:px-6 lg:px-8">...</nav>
+  (Session info: chrome=131.0.6778.86)
+Build info: version: '3.141.59', revision: 'unknown', time: 'unknown'
+System info: host: 'CYBORG', ip: '192.168.100.225', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.86, chrome: {chromedriverVersion: 131.0.6778.85 (3d81e41b6f3a..., userDataDir: C:\Users\CYBORG\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53085}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b983e30eefbdd4c0ab72ae859877319c
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at jdk.internal.reflect.GeneratedMethodAccessor11.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at jdk.proxy2/jdk.proxy2.$Proxy21.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at jdk.internal.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	... 20 more
+
+
+30-11-2024T14:11:06 - [TEST_STEP][PASSED] - openBrowser("https://preprod-ula-content-library.joacademy.tech/login"): Browser is opened with url: 'https://preprod-ula-content-library.joacademy.tech/login'
+
+30-11-2024T14:11:06 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+30-11-2024T14:11:06 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+30-11-2024T14:11:10 - [MESSAGE][PASSED] - Browser is opened with url: 'https://preprod-ula-content-library.joacademy.tech/login'
+
+30-11-2024T14:11:10 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+30-11-2024T14:11:10 - [MESSAGE][PASSED] - Current window maximized
+
+30-11-2024T14:11:10 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Login/Email"), "main.burghol@joacademy.com"): Keys 'main.burghol@joacademy.com' sent to object: 'Object Repository/Login/Email'
+
+30-11-2024T14:11:11 - [MESSAGE][PASSED] - Keys 'main.burghol@joacademy.com' sent to object: 'Object Repository/Login/Email'
+
+30-11-2024T14:11:11 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Login/Password"), "main1234"): Keys 'main1234' sent to object: 'Object Repository/Login/Password'
+
+30-11-2024T14:11:11 - [MESSAGE][PASSED] - Keys 'main1234' sent to object: 'Object Repository/Login/Password'
+
+30-11-2024T14:11:11 - [TEST_STEP][PASSED] - click(findTestObject("Login/button_Sign in")): Object: 'Object Repository/Login/button_Sign in' is clicked on
+
+30-11-2024T14:11:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/button_Sign in' is clicked on
+
+30-11-2024T14:11:11 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+30-11-2024T14:11:16 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+30-11-2024T14:11:16 - [TEST_STEP][PASSED] - click(findTestObject("ContentLibraries/Content Libraries")): Object: 'Object Repository/ContentLibraries/Content Libraries' is clicked on
+
+30-11-2024T14:11:21 - [MESSAGE][PASSED] - Object: 'Object Repository/ContentLibraries/Content Libraries' is clicked on
+
+30-11-2024T14:11:21 - [TEST_STEP][PASSED] - click(findTestObject("ContentLibraries/button_Filter")): Object: 'Object Repository/ContentLibraries/button_Filter' is clicked on
+
+30-11-2024T14:11:22 - [MESSAGE][PASSED] - Object: 'Object Repository/ContentLibraries/button_Filter' is clicked on
+
+30-11-2024T14:11:22 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ContentLibraries/updatedFrom"), "07/01/2024"): Keys '07/01/2024' sent to object: 'Object Repository/ContentLibraries/updatedFrom'
+
+30-11-2024T14:11:22 - [MESSAGE][PASSED] - Keys '07/01/2024' sent to object: 'Object Repository/ContentLibraries/updatedFrom'
+
+30-11-2024T14:11:22 - [TEST_STEP][FAILED] - click(findTestObject("ContentLibraries/SearchBar")): Unable to click on object 'Object Repository/ContentLibraries/SearchBar' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/ContentLibraries/SearchBar'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:659)
+	at FilterByUpdateFrom.run(FilterByUpdateFrom:38)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1732964849521.run(TempTestSuite1732964849521.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <input class="fi-input block w-full border-none py-1.5 text-base text-gray-950 transition duration-75 placeholder:text-gray-400 focus:ring-0 disabled:text-gray-500 disabled:[-webkit-text-fill-color:theme(colors.gray.500)] disabled:placeholder:[-webkit-text-fill-color:theme(colors.gray.400)] dark:text-white dark:placeholder:text-gray-500 dark:disabled:text-gray-400 dark:disabled:[-webkit-text-fill-color:theme(colors.gray.400)] dark:disabled:placeholder:[-webkit-text-fill-color:theme(colors.gray.500)] sm:text-sm sm:leading-6 bg-white/0 ps-0 pe-3" autocomplete="off" placeholder="Search" type="search" wire:key="37gA4CNCAaiZKIyUY0ZB.table.tableSearch.field.input" wire:model.live.debounce.500ms="tableSearch" x-bind:id="$id('input')" x-on:keyup="if ($event.key === 'Enter') { $wire.$refresh() }" id="input-1"> is not clickable at point (1299, 18). Other element would receive the click: <nav class="flex h-16 items-center gap-x-4 bg-white px-4 shadow-sm ring-1 ring-gray-950/5 dark:bg-gray-900 dark:ring-white/10 md:px-6 lg:px-8">...</nav>
+  (Session info: chrome=131.0.6778.86)
+Build info: version: '3.141.59', revision: 'unknown', time: 'unknown'
+System info: host: 'CYBORG', ip: '192.168.100.225', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.86, chrome: {chromedriverVersion: 131.0.6778.85 (3d81e41b6f3a..., userDataDir: C:\Users\CYBORG\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53085}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b983e30eefbdd4c0ab72ae859877319c
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at jdk.internal.reflect.GeneratedMethodAccessor11.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at jdk.proxy2/jdk.proxy2.$Proxy21.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at jdk.internal.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:659)
+	at Script1732964252330.run(Script1732964252330.groovy:38)
+	... 15 more
+)
+
+30-11-2024T14:11:54 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/ContentLibraries/SearchBar' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/ContentLibraries/SearchBar'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:659)
+	at FilterByUpdateFrom.run(FilterByUpdateFrom:38)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1732964849521.run(TempTestSuite1732964849521.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <input class="fi-input block w-full border-none py-1.5 text-base text-gray-950 transition duration-75 placeholder:text-gray-400 focus:ring-0 disabled:text-gray-500 disabled:[-webkit-text-fill-color:theme(colors.gray.500)] disabled:placeholder:[-webkit-text-fill-color:theme(colors.gray.400)] dark:text-white dark:placeholder:text-gray-500 dark:disabled:text-gray-400 dark:disabled:[-webkit-text-fill-color:theme(colors.gray.400)] dark:disabled:placeholder:[-webkit-text-fill-color:theme(colors.gray.500)] sm:text-sm sm:leading-6 bg-white/0 ps-0 pe-3" autocomplete="off" placeholder="Search" type="search" wire:key="37gA4CNCAaiZKIyUY0ZB.table.tableSearch.field.input" wire:model.live.debounce.500ms="tableSearch" x-bind:id="$id('input')" x-on:keyup="if ($event.key === 'Enter') { $wire.$refresh() }" id="input-1"> is not clickable at point (1299, 18). Other element would receive the click: <nav class="flex h-16 items-center gap-x-4 bg-white px-4 shadow-sm ring-1 ring-gray-950/5 dark:bg-gray-900 dark:ring-white/10 md:px-6 lg:px-8">...</nav>
+  (Session info: chrome=131.0.6778.86)
+Build info: version: '3.141.59', revision: 'unknown', time: 'unknown'
+System info: host: 'CYBORG', ip: '192.168.100.225', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.86, chrome: {chromedriverVersion: 131.0.6778.85 (3d81e41b6f3a..., userDataDir: C:\Users\CYBORG\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53085}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b983e30eefbdd4c0ab72ae859877319c
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at jdk.internal.reflect.GeneratedMethodAccessor11.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at jdk.proxy2/jdk.proxy2.$Proxy21.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at jdk.internal.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:659)
+	at Script1732964252330.run(Script1732964252330.groovy:38)
+	... 15 more
+)]]></system-out>
+         <system-err><![CDATA[30-11-2024T14:11:06 - [TEST_CASE][FAILED] - Test Cases/ContentLibraries/FilterByUpdateFrom: Test Cases/ContentLibraries/FilterByUpdateFrom FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/ContentLibraries/SearchBar'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:659)
+	at FilterByUpdateFrom.run(FilterByUpdateFrom:38)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1732964849521.run(TempTestSuite1732964849521.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <input class="fi-input block w-full border-none py-1.5 text-base text-gray-950 transition duration-75 placeholder:text-gray-400 focus:ring-0 disabled:text-gray-500 disabled:[-webkit-text-fill-color:theme(colors.gray.500)] disabled:placeholder:[-webkit-text-fill-color:theme(colors.gray.400)] dark:text-white dark:placeholder:text-gray-500 dark:disabled:text-gray-400 dark:disabled:[-webkit-text-fill-color:theme(colors.gray.400)] dark:disabled:placeholder:[-webkit-text-fill-color:theme(colors.gray.500)] sm:text-sm sm:leading-6 bg-white/0 ps-0 pe-3" autocomplete="off" placeholder="Search" type="search" wire:key="37gA4CNCAaiZKIyUY0ZB.table.tableSearch.field.input" wire:model.live.debounce.500ms="tableSearch" x-bind:id="$id('input')" x-on:keyup="if ($event.key === 'Enter') { $wire.$refresh() }" id="input-1"> is not clickable at point (1299, 18). Other element would receive the click: <nav class="flex h-16 items-center gap-x-4 bg-white px-4 shadow-sm ring-1 ring-gray-950/5 dark:bg-gray-900 dark:ring-white/10 md:px-6 lg:px-8">...</nav>
+  (Session info: chrome=131.0.6778.86)
+Build info: version: '3.141.59', revision: 'unknown', time: 'unknown'
+System info: host: 'CYBORG', ip: '192.168.100.225', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.86, chrome: {chromedriverVersion: 131.0.6778.85 (3d81e41b6f3a..., userDataDir: C:\Users\CYBORG\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53085}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b983e30eefbdd4c0ab72ae859877319c
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at jdk.internal.reflect.GeneratedMethodAccessor11.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at jdk.proxy2/jdk.proxy2.$Proxy21.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at jdk.internal.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	... 20 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ContentLibraries/SerachWithExistingData" time="17.955" classname="Test Cases/ContentLibraries/SerachWithExistingData" status="PASSED">
+         <system-out><![CDATA[30-11-2024T14:11:54 - [TEST_CASE][PASSED] - Test Cases/ContentLibraries/SerachWithExistingData: Test Cases/ContentLibraries/SerachWithExistingData
+
+30-11-2024T14:11:54 - [TEST_STEP][PASSED] - openBrowser("https://preprod-ula-content-library.joacademy.tech/login"): Browser is opened with url: 'https://preprod-ula-content-library.joacademy.tech/login'
+
+30-11-2024T14:11:54 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+30-11-2024T14:11:55 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+30-11-2024T14:11:55 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+30-11-2024T14:11:58 - [MESSAGE][PASSED] - Browser is opened with url: 'https://preprod-ula-content-library.joacademy.tech/login'
+
+30-11-2024T14:11:58 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+30-11-2024T14:11:58 - [MESSAGE][PASSED] - Current window maximized
+
+30-11-2024T14:11:58 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Login/Email"), "main.burghol@joacademy.com"): Keys 'main.burghol@joacademy.com' sent to object: 'Object Repository/Login/Email'
+
+30-11-2024T14:11:58 - [MESSAGE][PASSED] - Keys 'main.burghol@joacademy.com' sent to object: 'Object Repository/Login/Email'
+
+30-11-2024T14:11:58 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Login/Password"), "main1234"): Keys 'main1234' sent to object: 'Object Repository/Login/Password'
+
+30-11-2024T14:11:59 - [MESSAGE][PASSED] - Keys 'main1234' sent to object: 'Object Repository/Login/Password'
+
+30-11-2024T14:11:59 - [TEST_STEP][PASSED] - click(findTestObject("Login/button_Sign in")): Object: 'Object Repository/Login/button_Sign in' is clicked on
+
+30-11-2024T14:11:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/button_Sign in' is clicked on
+
+30-11-2024T14:11:59 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+30-11-2024T14:12:04 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+30-11-2024T14:12:04 - [TEST_STEP][PASSED] - click(findTestObject("ContentLibraries/Content Libraries")): Object: 'Object Repository/ContentLibraries/Content Libraries' is clicked on
+
+30-11-2024T14:12:06 - [MESSAGE][PASSED] - Object: 'Object Repository/ContentLibraries/Content Libraries' is clicked on
+
+30-11-2024T14:12:06 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ContentLibraries/SearchBar"), "first grade mai'n"): Keys 'first grade mai'n' sent to object: 'Object Repository/ContentLibraries/SearchBar'
+
+30-11-2024T14:12:07 - [MESSAGE][PASSED] - Keys 'first grade mai'n' sent to object: 'Object Repository/ContentLibraries/SearchBar'
+
+30-11-2024T14:12:07 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+30-11-2024T14:12:12 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+30-11-2024T14:12:12 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("ContentLibraries/NumberOfFilters"), "0"): Actual text and expected text of test object 'Object Repository/ContentLibraries/NumberOfFilters' are matched.
+
+30-11-2024T14:12:12 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/ContentLibraries/NumberOfFilters' are matched.
+
+30-11-2024T14:12:12 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+30-11-2024T14:12:12 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ContentLibraries/NoContentAppearTestCaseBySearch" time="17.541" classname="Test Cases/ContentLibraries/NoContentAppearTestCaseBySearch" status="PASSED">
+         <system-out><![CDATA[30-11-2024T14:12:12 - [TEST_CASE][PASSED] - Test Cases/ContentLibraries/NoContentAppearTestCaseBySearch: Test Cases/ContentLibraries/NoContentAppearTestCaseBySearch
+
+30-11-2024T14:12:12 - [TEST_STEP][PASSED] - openBrowser("https://preprod-ula-content-library.joacademy.tech/login"): Browser is opened with url: 'https://preprod-ula-content-library.joacademy.tech/login'
+
+30-11-2024T14:12:12 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+30-11-2024T14:12:12 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+30-11-2024T14:12:16 - [MESSAGE][PASSED] - Browser is opened with url: 'https://preprod-ula-content-library.joacademy.tech/login'
+
+30-11-2024T14:12:16 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+30-11-2024T14:12:16 - [MESSAGE][PASSED] - Current window maximized
+
+30-11-2024T14:12:16 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Login/Email"), "main.burghol@joacademy.com"): Keys 'main.burghol@joacademy.com' sent to object: 'Object Repository/Login/Email'
+
+30-11-2024T14:12:16 - [MESSAGE][PASSED] - Keys 'main.burghol@joacademy.com' sent to object: 'Object Repository/Login/Email'
+
+30-11-2024T14:12:16 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Login/Password"), "main1234"): Keys 'main1234' sent to object: 'Object Repository/Login/Password'
+
+30-11-2024T14:12:17 - [MESSAGE][PASSED] - Keys 'main1234' sent to object: 'Object Repository/Login/Password'
+
+30-11-2024T14:12:17 - [TEST_STEP][PASSED] - click(findTestObject("Login/button_Sign in")): Object: 'Object Repository/Login/button_Sign in' is clicked on
+
+30-11-2024T14:12:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/button_Sign in' is clicked on
+
+30-11-2024T14:12:17 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+30-11-2024T14:12:22 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+30-11-2024T14:12:22 - [TEST_STEP][PASSED] - click(findTestObject("ContentLibraries/Content Libraries")): Object: 'Object Repository/ContentLibraries/Content Libraries' is clicked on
+
+30-11-2024T14:12:24 - [MESSAGE][PASSED] - Object: 'Object Repository/ContentLibraries/Content Libraries' is clicked on
+
+30-11-2024T14:12:24 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ContentLibraries/SearchBar"), "FFF"): Keys 'FFF' sent to object: 'Object Repository/ContentLibraries/SearchBar'
+
+30-11-2024T14:12:24 - [MESSAGE][PASSED] - Keys 'FFF' sent to object: 'Object Repository/ContentLibraries/SearchBar'
+
+30-11-2024T14:12:24 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+30-11-2024T14:12:29 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+30-11-2024T14:12:29 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("ContentLibraries/No Content libraries"), "No Content libraries"): Actual text and expected text of test object 'Object Repository/ContentLibraries/No Content libraries' are matched.
+
+30-11-2024T14:12:30 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/ContentLibraries/No Content libraries' are matched.
+
+30-11-2024T14:12:30 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+30-11-2024T14:12:30 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ContentLibraries/SwitchBetweenLanguage" time="18.598" classname="Test Cases/ContentLibraries/SwitchBetweenLanguage" status="PASSED">
+         <system-out><![CDATA[30-11-2024T14:12:30 - [TEST_CASE][PASSED] - Test Cases/ContentLibraries/SwitchBetweenLanguage: Test Cases/ContentLibraries/SwitchBetweenLanguage
+
+30-11-2024T14:12:30 - [TEST_STEP][PASSED] - openBrowser("https://preprod-ula-content-library.joacademy.tech/login"): Browser is opened with url: 'https://preprod-ula-content-library.joacademy.tech/login'
+
+30-11-2024T14:12:30 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+30-11-2024T14:12:30 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+30-11-2024T14:12:33 - [MESSAGE][PASSED] - Browser is opened with url: 'https://preprod-ula-content-library.joacademy.tech/login'
+
+30-11-2024T14:12:33 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+30-11-2024T14:12:33 - [MESSAGE][PASSED] - Current window maximized
+
+30-11-2024T14:12:33 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Login/Email"), "main.burghol@joacademy.com"): Keys 'main.burghol@joacademy.com' sent to object: 'Object Repository/Login/Email'
+
+30-11-2024T14:12:34 - [MESSAGE][PASSED] - Keys 'main.burghol@joacademy.com' sent to object: 'Object Repository/Login/Email'
+
+30-11-2024T14:12:34 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Login/Password"), "main1234"): Keys 'main1234' sent to object: 'Object Repository/Login/Password'
+
+30-11-2024T14:12:34 - [MESSAGE][PASSED] - Keys 'main1234' sent to object: 'Object Repository/Login/Password'
+
+30-11-2024T14:12:34 - [TEST_STEP][PASSED] - click(findTestObject("Login/button_Sign in")): Object: 'Object Repository/Login/button_Sign in' is clicked on
+
+30-11-2024T14:12:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/button_Sign in' is clicked on
+
+30-11-2024T14:12:34 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+30-11-2024T14:12:39 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+30-11-2024T14:12:39 - [TEST_STEP][PASSED] - click(findTestObject("ContentLibraries/Content Libraries")): Object: 'Object Repository/ContentLibraries/Content Libraries' is clicked on
+
+30-11-2024T14:12:42 - [MESSAGE][PASSED] - Object: 'Object Repository/ContentLibraries/Content Libraries' is clicked on
+
+30-11-2024T14:12:42 - [TEST_STEP][PASSED] - click(findTestObject("ContentLibraries/ChangeLanugage")): Object: 'Object Repository/ContentLibraries/ChangeLanugage' is clicked on
+
+30-11-2024T14:12:42 - [MESSAGE][PASSED] - Object: 'Object Repository/ContentLibraries/ChangeLanugage' is clicked on
+
+30-11-2024T14:12:42 - [TEST_STEP][PASSED] - click(findTestObject("ContentLibraries/ChangeToArabic")): Object: 'Object Repository/ContentLibraries/ChangeToArabic' is clicked on
+
+30-11-2024T14:12:43 - [MESSAGE][PASSED] - Object: 'Object Repository/ContentLibraries/ChangeToArabic' is clicked on
+
+30-11-2024T14:12:43 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+30-11-2024T14:12:46 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+30-11-2024T14:12:46 - [TEST_STEP][PASSED] - click(findTestObject("ContentLibraries/ChangeLanugage")): Object: 'Object Repository/ContentLibraries/ChangeLanugage' is clicked on
+
+30-11-2024T14:12:46 - [MESSAGE][PASSED] - Object: 'Object Repository/ContentLibraries/ChangeLanugage' is clicked on
+
+30-11-2024T14:12:46 - [TEST_STEP][PASSED] - click(findTestObject("ContentLibraries/ChangeToEnglish")): Object: 'Object Repository/ContentLibraries/ChangeToEnglish' is clicked on
+
+30-11-2024T14:12:46 - [MESSAGE][PASSED] - Object: 'Object Repository/ContentLibraries/ChangeToEnglish' is clicked on
+
+30-11-2024T14:12:46 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+30-11-2024T14:12:48 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+30-11-2024T14:12:48 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+30-11-2024T14:12:49 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Subject/CreateNewSubject" time="37.739" classname="Test Cases/Subject/CreateNewSubject" status="PASSED">
+         <system-out><![CDATA[30-11-2024T14:12:49 - [TEST_CASE][PASSED] - Test Cases/Subject/CreateNewSubject: Test Cases/Subject/CreateNewSubject
+
+30-11-2024T14:12:49 - [TEST_STEP][PASSED] - min = 1000: null
+
+30-11-2024T14:12:49 - [TEST_STEP][PASSED] - max = 9999: null
+
+30-11-2024T14:12:49 - [TEST_STEP][PASSED] - randomNumber = Random().nextInt(max - min + 1) + min: null
+
+30-11-2024T14:12:49 - [TEST_STEP][PASSED] - openBrowser("https://preprod-ula-content-library.joacademy.tech/login"): Browser is opened with url: 'https://preprod-ula-content-library.joacademy.tech/login'
+
+30-11-2024T14:12:49 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+30-11-2024T14:12:49 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+30-11-2024T14:12:53 - [MESSAGE][PASSED] - Browser is opened with url: 'https://preprod-ula-content-library.joacademy.tech/login'
+
+30-11-2024T14:12:53 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+30-11-2024T14:12:53 - [MESSAGE][PASSED] - Current window maximized
+
+30-11-2024T14:12:53 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Login/Email"), "main.burghol@joacademy.com"): Keys 'main.burghol@joacademy.com' sent to object: 'Object Repository/Login/Email'
+
+30-11-2024T14:12:53 - [MESSAGE][PASSED] - Keys 'main.burghol@joacademy.com' sent to object: 'Object Repository/Login/Email'
+
+30-11-2024T14:12:53 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Login/Password"), "main1234"): Keys 'main1234' sent to object: 'Object Repository/Login/Password'
+
+30-11-2024T14:12:53 - [MESSAGE][PASSED] - Keys 'main1234' sent to object: 'Object Repository/Login/Password'
+
+30-11-2024T14:12:53 - [TEST_STEP][PASSED] - click(findTestObject("Login/button_Sign in")): Object: 'Object Repository/Login/button_Sign in' is clicked on
+
+30-11-2024T14:12:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/button_Sign in' is clicked on
+
+30-11-2024T14:12:54 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+30-11-2024T14:12:59 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+30-11-2024T14:12:59 - [TEST_STEP][PASSED] - click(findTestObject("ContentLibraries/Content Libraries")): Object: 'Object Repository/ContentLibraries/Content Libraries' is clicked on
+
+30-11-2024T14:13:04 - [MESSAGE][PASSED] - Object: 'Object Repository/ContentLibraries/Content Libraries' is clicked on
+
+30-11-2024T14:13:04 - [TEST_STEP][PASSED] - click(findTestObject("ContentLibraries/New content library")): Object: 'Object Repository/ContentLibraries/New content library' is clicked on
+
+30-11-2024T14:13:06 - [MESSAGE][PASSED] - Object: 'Object Repository/ContentLibraries/New content library' is clicked on
+
+30-11-2024T14:13:06 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+30-11-2024T14:13:09 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+30-11-2024T14:13:09 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ContentLibraries/ContentLibraryCreation/EnglishTitle"), "AutomationTest"): Keys 'AutomationTest' sent to object: 'Object Repository/ContentLibraries/ContentLibraryCreation/EnglishTitle'
+
+30-11-2024T14:13:09 - [MESSAGE][PASSED] - Keys 'AutomationTest' sent to object: 'Object Repository/ContentLibraries/ContentLibraryCreation/EnglishTitle'
+
+30-11-2024T14:13:09 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ContentLibraries/ContentLibraryCreation/code"), randomNumber.toString()): Keys '6958' sent to object: 'Object Repository/ContentLibraries/ContentLibraryCreation/code'
+
+30-11-2024T14:13:09 - [MESSAGE][PASSED] - Keys '6958' sent to object: 'Object Repository/ContentLibraries/ContentLibraryCreation/code'
+
+30-11-2024T14:13:09 - [TEST_STEP][PASSED] - click(findTestObject("ContentLibraries/ContentLibraryCreation/ChangeTheLanguageInsideCreateContent")): Object: 'Object Repository/ContentLibraries/ContentLibraryCreation/ChangeTheLanguageInsideCreateContent' is clicked on
+
+30-11-2024T14:13:09 - [MESSAGE][PASSED] - Object: 'Object Repository/ContentLibraries/ContentLibraryCreation/ChangeTheLanguageInsideCreateContent' is clicked on
+
+30-11-2024T14:13:09 - [TEST_STEP][PASSED] - click(findTestObject("ContentLibraries/ContentLibraryCreation/ChangeLangaugeToArabicContent")): Object: 'Object Repository/ContentLibraries/ContentLibraryCreation/ChangeLangaugeToArabicContent' is clicked on
+
+30-11-2024T14:13:10 - [MESSAGE][PASSED] - Object: 'Object Repository/ContentLibraries/ContentLibraryCreation/ChangeLangaugeToArabicContent' is clicked on
+
+30-11-2024T14:13:10 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ContentLibraries/ContentLibraryCreation/ArabicTitle"), "فحص الاوتوميشن"): Keys 'فحص الاوتوميشن' sent to object: 'Object Repository/ContentLibraries/ContentLibraryCreation/ArabicTitle'
+
+30-11-2024T14:13:11 - [MESSAGE][PASSED] - Keys 'فحص الاوتوميشن' sent to object: 'Object Repository/ContentLibraries/ContentLibraryCreation/ArabicTitle'
+
+30-11-2024T14:13:11 - [TEST_STEP][PASSED] - click(findTestObject("ContentLibraries/ContentLibraryCreation/CreateButton")): Object: 'Object Repository/ContentLibraries/ContentLibraryCreation/CreateButton' is clicked on
+
+30-11-2024T14:13:11 - [MESSAGE][PASSED] - Object: 'Object Repository/ContentLibraries/ContentLibraryCreation/CreateButton' is clicked on
+
+30-11-2024T14:13:11 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("ContentLibraries/ContentLibraryCreation/Created_PopUp")): Object 'Object Repository/ContentLibraries/ContentLibraryCreation/Created_PopUp' is visible
+
+30-11-2024T14:13:14 - [MESSAGE][PASSED] - Object 'Object Repository/ContentLibraries/ContentLibraryCreation/Created_PopUp' is visible
+
+30-11-2024T14:13:14 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+30-11-2024T14:13:17 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+30-11-2024T14:13:17 - [TEST_STEP][PASSED] - click(findTestObject("Subject/New subject")): Object: 'Object Repository/Subject/New subject' is clicked on
+
+30-11-2024T14:13:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Subject/New subject' is clicked on
+
+30-11-2024T14:13:17 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Subject/SubjectEn"), "Subject1"): Keys 'Subject1' sent to object: 'Object Repository/Subject/SubjectEn'
+
+30-11-2024T14:13:19 - [MESSAGE][PASSED] - Keys 'Subject1' sent to object: 'Object Repository/Subject/SubjectEn'
+
+30-11-2024T14:13:19 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Subject/SubjectAr"), "مادة 1"): Keys 'مادة 1' sent to object: 'Object Repository/Subject/SubjectAr'
+
+30-11-2024T14:13:19 - [MESSAGE][PASSED] - Keys 'مادة 1' sent to object: 'Object Repository/Subject/SubjectAr'
+
+30-11-2024T14:13:19 - [TEST_STEP][PASSED] - click(findTestObject("Subject/Academic Subject")): Object: 'Object Repository/Subject/Academic Subject' is clicked on
+
+30-11-2024T14:13:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Subject/Academic Subject' is clicked on
+
+30-11-2024T14:13:20 - [TEST_STEP][PASSED] - click(findTestObject("Subject/SelectOneOfTheSubjects")): Object: 'Object Repository/Subject/SelectOneOfTheSubjects' is clicked on
+
+30-11-2024T14:13:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Subject/SelectOneOfTheSubjects' is clicked on
+
+30-11-2024T14:13:21 - [TEST_STEP][PASSED] - click(findTestObject("Subject/CreateSubject")): Object: 'Object Repository/Subject/CreateSubject' is clicked on
+
+30-11-2024T14:13:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Subject/CreateSubject' is clicked on
+
+30-11-2024T14:13:21 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+30-11-2024T14:13:26 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+30-11-2024T14:13:26 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+30-11-2024T14:13:26 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Subject/CreateGeneralTopic" time="52.365" classname="Test Cases/Subject/CreateGeneralTopic" status="PASSED">
+         <system-out><![CDATA[30-11-2024T14:13:26 - [TEST_CASE][PASSED] - Test Cases/Subject/CreateGeneralTopic: Test Cases/Subject/CreateGeneralTopic
+
+30-11-2024T14:13:26 - [TEST_STEP][PASSED] - min = 1000: null
+
+30-11-2024T14:13:26 - [TEST_STEP][PASSED] - max = 9999: null
+
+30-11-2024T14:13:26 - [TEST_STEP][PASSED] - randomNumber = Random().nextInt(max - min + 1) + min: null
+
+30-11-2024T14:13:26 - [TEST_STEP][PASSED] - openBrowser("https://preprod-ula-content-library.joacademy.tech/login"): Browser is opened with url: 'https://preprod-ula-content-library.joacademy.tech/login'
+
+30-11-2024T14:13:26 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+30-11-2024T14:13:26 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+30-11-2024T14:13:30 - [MESSAGE][PASSED] - Browser is opened with url: 'https://preprod-ula-content-library.joacademy.tech/login'
+
+30-11-2024T14:13:30 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+30-11-2024T14:13:30 - [MESSAGE][PASSED] - Current window maximized
+
+30-11-2024T14:13:30 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Login/Email"), "main.burghol@joacademy.com"): Keys 'main.burghol@joacademy.com' sent to object: 'Object Repository/Login/Email'
+
+30-11-2024T14:13:30 - [MESSAGE][PASSED] - Keys 'main.burghol@joacademy.com' sent to object: 'Object Repository/Login/Email'
+
+30-11-2024T14:13:30 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Login/Password"), "main1234"): Keys 'main1234' sent to object: 'Object Repository/Login/Password'
+
+30-11-2024T14:13:30 - [MESSAGE][PASSED] - Keys 'main1234' sent to object: 'Object Repository/Login/Password'
+
+30-11-2024T14:13:30 - [TEST_STEP][PASSED] - click(findTestObject("Login/button_Sign in")): Object: 'Object Repository/Login/button_Sign in' is clicked on
+
+30-11-2024T14:13:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/button_Sign in' is clicked on
+
+30-11-2024T14:13:31 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+30-11-2024T14:13:36 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+30-11-2024T14:13:36 - [TEST_STEP][PASSED] - click(findTestObject("ContentLibraries/Content Libraries")): Object: 'Object Repository/ContentLibraries/Content Libraries' is clicked on
+
+30-11-2024T14:13:37 - [MESSAGE][PASSED] - Object: 'Object Repository/ContentLibraries/Content Libraries' is clicked on
+
+30-11-2024T14:13:37 - [TEST_STEP][PASSED] - click(findTestObject("ContentLibraries/New content library")): Object: 'Object Repository/ContentLibraries/New content library' is clicked on
+
+30-11-2024T14:13:39 - [MESSAGE][PASSED] - Object: 'Object Repository/ContentLibraries/New content library' is clicked on
+
+30-11-2024T14:13:39 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+30-11-2024T14:13:42 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+30-11-2024T14:13:42 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ContentLibraries/ContentLibraryCreation/EnglishTitle"), "AutomationTest"): Keys 'AutomationTest' sent to object: 'Object Repository/ContentLibraries/ContentLibraryCreation/EnglishTitle'
+
+30-11-2024T14:13:42 - [MESSAGE][PASSED] - Keys 'AutomationTest' sent to object: 'Object Repository/ContentLibraries/ContentLibraryCreation/EnglishTitle'
+
+30-11-2024T14:13:42 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ContentLibraries/ContentLibraryCreation/code"), randomNumber.toString()): Keys '7708' sent to object: 'Object Repository/ContentLibraries/ContentLibraryCreation/code'
+
+30-11-2024T14:13:42 - [MESSAGE][PASSED] - Keys '7708' sent to object: 'Object Repository/ContentLibraries/ContentLibraryCreation/code'
+
+30-11-2024T14:13:42 - [TEST_STEP][PASSED] - click(findTestObject("ContentLibraries/ContentLibraryCreation/ChangeTheLanguageInsideCreateContent")): Object: 'Object Repository/ContentLibraries/ContentLibraryCreation/ChangeTheLanguageInsideCreateContent' is clicked on
+
+30-11-2024T14:13:43 - [MESSAGE][PASSED] - Object: 'Object Repository/ContentLibraries/ContentLibraryCreation/ChangeTheLanguageInsideCreateContent' is clicked on
+
+30-11-2024T14:13:43 - [TEST_STEP][PASSED] - click(findTestObject("ContentLibraries/ContentLibraryCreation/ChangeLangaugeToArabicContent")): Object: 'Object Repository/ContentLibraries/ContentLibraryCreation/ChangeLangaugeToArabicContent' is clicked on
+
+30-11-2024T14:13:43 - [MESSAGE][PASSED] - Object: 'Object Repository/ContentLibraries/ContentLibraryCreation/ChangeLangaugeToArabicContent' is clicked on
+
+30-11-2024T14:13:43 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ContentLibraries/ContentLibraryCreation/ArabicTitle"), "فحص الاوتوميشن"): Keys 'فحص الاوتوميشن' sent to object: 'Object Repository/ContentLibraries/ContentLibraryCreation/ArabicTitle'
+
+30-11-2024T14:13:44 - [MESSAGE][PASSED] - Keys 'فحص الاوتوميشن' sent to object: 'Object Repository/ContentLibraries/ContentLibraryCreation/ArabicTitle'
+
+30-11-2024T14:13:44 - [TEST_STEP][PASSED] - click(findTestObject("ContentLibraries/ContentLibraryCreation/CreateButton")): Object: 'Object Repository/ContentLibraries/ContentLibraryCreation/CreateButton' is clicked on
+
+30-11-2024T14:13:44 - [MESSAGE][PASSED] - Object: 'Object Repository/ContentLibraries/ContentLibraryCreation/CreateButton' is clicked on
+
+30-11-2024T14:13:44 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("ContentLibraries/ContentLibraryCreation/Created_PopUp")): Object 'Object Repository/ContentLibraries/ContentLibraryCreation/Created_PopUp' is visible
+
+30-11-2024T14:13:46 - [MESSAGE][PASSED] - Object 'Object Repository/ContentLibraries/ContentLibraryCreation/Created_PopUp' is visible
+
+30-11-2024T14:13:46 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+30-11-2024T14:13:49 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+30-11-2024T14:13:49 - [TEST_STEP][PASSED] - click(findTestObject("Subject/New subject")): Object: 'Object Repository/Subject/New subject' is clicked on
+
+30-11-2024T14:13:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Subject/New subject' is clicked on
+
+30-11-2024T14:13:50 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Subject/SubjectEn"), "Subject1"): Keys 'Subject1' sent to object: 'Object Repository/Subject/SubjectEn'
+
+30-11-2024T14:13:51 - [MESSAGE][PASSED] - Keys 'Subject1' sent to object: 'Object Repository/Subject/SubjectEn'
+
+30-11-2024T14:13:51 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Subject/SubjectAr"), "مادة 1"): Keys 'مادة 1' sent to object: 'Object Repository/Subject/SubjectAr'
+
+30-11-2024T14:13:52 - [MESSAGE][PASSED] - Keys 'مادة 1' sent to object: 'Object Repository/Subject/SubjectAr'
+
+30-11-2024T14:13:52 - [TEST_STEP][PASSED] - click(findTestObject("Subject/Academic Subject")): Object: 'Object Repository/Subject/Academic Subject' is clicked on
+
+30-11-2024T14:13:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Subject/Academic Subject' is clicked on
+
+30-11-2024T14:13:52 - [TEST_STEP][PASSED] - click(findTestObject("Subject/SelectOneOfTheSubjects")): Object: 'Object Repository/Subject/SelectOneOfTheSubjects' is clicked on
+
+30-11-2024T14:13:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Subject/SelectOneOfTheSubjects' is clicked on
+
+30-11-2024T14:13:52 - [TEST_STEP][PASSED] - click(findTestObject("Subject/CreateSubject")): Object: 'Object Repository/Subject/CreateSubject' is clicked on
+
+30-11-2024T14:13:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Subject/CreateSubject' is clicked on
+
+30-11-2024T14:13:53 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+30-11-2024T14:13:58 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+30-11-2024T14:13:58 - [TEST_STEP][PASSED] - targetElement = findTestObject("Subject/FirstSubject"): null
+
+30-11-2024T14:13:58 - [TEST_STEP][PASSED] - scrollToElement(targetElement, 5): Scroll to object 'Object Repository/Subject/FirstSubject' successfully
+
+30-11-2024T14:13:58 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Subject/FirstSubject' successfully
+
+30-11-2024T14:13:58 - [TEST_STEP][PASSED] - click(findTestObject("Subject/FirstSubject")): Object: 'Object Repository/Subject/FirstSubject' is clicked on
+
+30-11-2024T14:14:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Subject/FirstSubject' is clicked on
+
+30-11-2024T14:14:00 - [TEST_STEP][PASSED] - click(findTestObject("Subject/New general topic")): Object: 'Object Repository/Subject/New general topic' is clicked on
+
+30-11-2024T14:14:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Subject/New general topic' is clicked on
+
+30-11-2024T14:14:01 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Subject/GeneralTopicName"), "dfsdfsaf"): Keys 'dfsdfsaf' sent to object: 'Object Repository/Subject/GeneralTopicName'
+
+30-11-2024T14:14:02 - [MESSAGE][PASSED] - Keys 'dfsdfsaf' sent to object: 'Object Repository/Subject/GeneralTopicName'
+
+30-11-2024T14:14:02 - [TEST_STEP][PASSED] - click(findTestObject("Subject/CreateGeneralTopic")): Object: 'Object Repository/Subject/CreateGeneralTopic' is clicked on
+
+30-11-2024T14:14:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Subject/CreateGeneralTopic' is clicked on
+
+30-11-2024T14:14:03 - [TEST_STEP][PASSED] - click(findTestObject("Subject/SelectGeneralTopic")): Object: 'Object Repository/Subject/SelectGeneralTopic' is clicked on
+
+30-11-2024T14:14:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Subject/SelectGeneralTopic' is clicked on
+
+30-11-2024T14:14:05 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+30-11-2024T14:14:10 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+30-11-2024T14:14:10 - [TEST_STEP][PASSED] - click(findTestObject("Subject/Add to special topics")): Object: 'Object Repository/Subject/Add to special topics' is clicked on
+
+30-11-2024T14:14:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Subject/Add to special topics' is clicked on
+
+30-11-2024T14:14:11 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Subject/SpecialTopicName"), "gfdgsghh"): Keys 'gfdgsghh' sent to object: 'Object Repository/Subject/SpecialTopicName'
+
+30-11-2024T14:14:13 - [MESSAGE][PASSED] - Keys 'gfdgsghh' sent to object: 'Object Repository/Subject/SpecialTopicName'
+
+30-11-2024T14:14:13 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Subject/Learning Object"), "fadsffa"): Keys 'fadsffa' sent to object: 'Object Repository/Subject/Learning Object'
+
+30-11-2024T14:14:13 - [MESSAGE][PASSED] - Keys 'fadsffa' sent to object: 'Object Repository/Subject/Learning Object'
+
+30-11-2024T14:14:13 - [TEST_STEP][PASSED] - click(findTestObject("Subject/Save changes")): Object: 'Object Repository/Subject/Save changes' is clicked on
+
+30-11-2024T14:14:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Subject/Save changes' is clicked on
+
+30-11-2024T14:14:13 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+30-11-2024T14:14:18 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+30-11-2024T14:14:18 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+30-11-2024T14:14:19 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[30-11-2024T14:07:45 - [TEST_SUITE][FAILED] - ContentLibraries: Test Cases/ContentLibraries/FilterByUpdateFrom FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/ContentLibraries/SearchBar'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:659)
+	at FilterByUpdateFrom.run(FilterByUpdateFrom:38)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1732964849521.run(TempTestSuite1732964849521.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <input class="fi-input block w-full border-none py-1.5 text-base text-gray-950 transition duration-75 placeholder:text-gray-400 focus:ring-0 disabled:text-gray-500 disabled:[-webkit-text-fill-color:theme(colors.gray.500)] disabled:placeholder:[-webkit-text-fill-color:theme(colors.gray.400)] dark:text-white dark:placeholder:text-gray-500 dark:disabled:text-gray-400 dark:disabled:[-webkit-text-fill-color:theme(colors.gray.400)] dark:disabled:placeholder:[-webkit-text-fill-color:theme(colors.gray.500)] sm:text-sm sm:leading-6 bg-white/0 ps-0 pe-3" autocomplete="off" placeholder="Search" type="search" wire:key="37gA4CNCAaiZKIyUY0ZB.table.tableSearch.field.input" wire:model.live.debounce.500ms="tableSearch" x-bind:id="$id('input')" x-on:keyup="if ($event.key === 'Enter') { $wire.$refresh() }" id="input-1"> is not clickable at point (1299, 18). Other element would receive the click: <nav class="flex h-16 items-center gap-x-4 bg-white px-4 shadow-sm ring-1 ring-gray-950/5 dark:bg-gray-900 dark:ring-white/10 md:px-6 lg:px-8">...</nav>
+  (Session info: chrome=131.0.6778.86)
+Build info: version: '3.141.59', revision: 'unknown', time: 'unknown'
+System info: host: 'CYBORG', ip: '192.168.100.225', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.86, chrome: {chromedriverVersion: 131.0.6778.85 (3d81e41b6f3a..., userDataDir: C:\Users\CYBORG\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53085}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b983e30eefbdd4c0ab72ae859877319c
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at jdk.internal.reflect.GeneratedMethodAccessor11.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at jdk.proxy2/jdk.proxy2.$Proxy21.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at jdk.internal.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	... 20 more]]></system-out>
+      <system-err><![CDATA[30-11-2024T14:07:45 - [TEST_SUITE][FAILED] - ContentLibraries: Test Cases/ContentLibraries/FilterByUpdateFrom FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/ContentLibraries/SearchBar'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:659)
+	at FilterByUpdateFrom.run(FilterByUpdateFrom:38)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1732964849521.run(TempTestSuite1732964849521.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <input class="fi-input block w-full border-none py-1.5 text-base text-gray-950 transition duration-75 placeholder:text-gray-400 focus:ring-0 disabled:text-gray-500 disabled:[-webkit-text-fill-color:theme(colors.gray.500)] disabled:placeholder:[-webkit-text-fill-color:theme(colors.gray.400)] dark:text-white dark:placeholder:text-gray-500 dark:disabled:text-gray-400 dark:disabled:[-webkit-text-fill-color:theme(colors.gray.400)] dark:disabled:placeholder:[-webkit-text-fill-color:theme(colors.gray.500)] sm:text-sm sm:leading-6 bg-white/0 ps-0 pe-3" autocomplete="off" placeholder="Search" type="search" wire:key="37gA4CNCAaiZKIyUY0ZB.table.tableSearch.field.input" wire:model.live.debounce.500ms="tableSearch" x-bind:id="$id('input')" x-on:keyup="if ($event.key === 'Enter') { $wire.$refresh() }" id="input-1"> is not clickable at point (1299, 18). Other element would receive the click: <nav class="flex h-16 items-center gap-x-4 bg-white px-4 shadow-sm ring-1 ring-gray-950/5 dark:bg-gray-900 dark:ring-white/10 md:px-6 lg:px-8">...</nav>
+  (Session info: chrome=131.0.6778.86)
+Build info: version: '3.141.59', revision: 'unknown', time: 'unknown'
+System info: host: 'CYBORG', ip: '192.168.100.225', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.86, chrome: {chromedriverVersion: 131.0.6778.85 (3d81e41b6f3a..., userDataDir: C:\Users\CYBORG\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53085}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b983e30eefbdd4c0ab72ae859877319c
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at jdk.internal.reflect.GeneratedMethodAccessor11.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at jdk.proxy2/jdk.proxy2.$Proxy21.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at jdk.internal.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	... 20 more]]></system-err>
+   </testsuite>
+</testsuites>

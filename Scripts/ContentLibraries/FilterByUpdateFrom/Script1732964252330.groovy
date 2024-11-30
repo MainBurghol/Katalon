@@ -31,12 +31,21 @@ WebUI.delay(5)
 
 WebUI.click(findTestObject('ContentLibraries/Content Libraries'))
 
+WebUI.click(findTestObject('ContentLibraries/AddToggleColumn'))
+
+WebUI.delay(5)
+
+WebUI.click(findTestObject('ContentLibraries/created_at_Column'))
+
+WebUI.click(findTestObject('ContentLibraries/updated_at_Column'))
+
+WebUI.delay(10)
+
 WebUI.click(findTestObject('ContentLibraries/button_Filter'))
 
 WebUI.sendKeys(findTestObject('ContentLibraries/updatedFrom'), '07/01/2024')
 
-WebUI.click(findTestObject('ContentLibraries/SearchBar'))
-
 WebUI.delay(5)
 
 WebUI.closeBrowser()
+
