@@ -1,0 +1,1143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="ContentLibraries" time="404.66" tests="14" failures="0" errors="0">
+   <testsuite name="ContentLibraries" tests="14" failures="0" errors="0" time="404.66" skipped="0" timestamp="30-11-2024T14:18:59" hostname="CYBORG - 192.168.100.225" id="Test Suites/ContentLibraries">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\CYBORG\\Katalon Studio\\Ula_TestCases\\Reports\\20241130_141854\\ContentLibraries\\20241130_141854"/>
+         <property name="logFiles" value="C:\\Users\\CYBORG\\Katalon Studio\\Ula_TestCases\\Reports\\20241130_141854\\ContentLibraries\\20241130_141854\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="CYBORG - 192.168.100.225"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.7.2.223"/>
+         <property name="browser" value="Chrome 131.0.0.0"/>
+         <property name="hostAddress" value="192.168.100.225"/>
+         <property name="sessionId" value="dd458eda483b3db0dca4bf292cce0308"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/ContentLibraries/CheckThatAllFieldsAreAppear" time="14.889" classname="Test Cases/ContentLibraries/CheckThatAllFieldsAreAppear" status="PASSED">
+         <system-out><![CDATA[30-11-2024T14:18:59 - [TEST_CASE][PASSED] - Test Cases/ContentLibraries/CheckThatAllFieldsAreAppear: Test Cases/ContentLibraries/CheckThatAllFieldsAreAppear
+
+30-11-2024T14:18:59 - [TEST_STEP][PASSED] - openBrowser("https://preprod-ula-content-library.joacademy.tech/login"): Browser is opened with url: 'https://preprod-ula-content-library.joacademy.tech/login'
+
+30-11-2024T14:18:59 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+30-11-2024T14:19:00 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+30-11-2024T14:19:04 - [MESSAGE][PASSED] - Browser is opened with url: 'https://preprod-ula-content-library.joacademy.tech/login'
+
+30-11-2024T14:19:04 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+30-11-2024T14:19:04 - [MESSAGE][PASSED] - Current window maximized
+
+30-11-2024T14:19:04 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Login/Email"), "main.burghol@joacademy.com"): Keys 'main.burghol@joacademy.com' sent to object: 'Object Repository/Login/Email'
+
+30-11-2024T14:19:04 - [MESSAGE][PASSED] - Keys 'main.burghol@joacademy.com' sent to object: 'Object Repository/Login/Email'
+
+30-11-2024T14:19:04 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Login/Password"), "main1234"): Keys 'main1234' sent to object: 'Object Repository/Login/Password'
+
+30-11-2024T14:19:05 - [MESSAGE][PASSED] - Keys 'main1234' sent to object: 'Object Repository/Login/Password'
+
+30-11-2024T14:19:05 - [TEST_STEP][PASSED] - click(findTestObject("Login/button_Sign in")): Object: 'Object Repository/Login/button_Sign in' is clicked on
+
+30-11-2024T14:19:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/button_Sign in' is clicked on
+
+30-11-2024T14:19:05 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+30-11-2024T14:19:10 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+30-11-2024T14:19:10 - [TEST_STEP][PASSED] - click(findTestObject("ContentLibraries/Content Libraries")): Object: 'Object Repository/ContentLibraries/Content Libraries' is clicked on
+
+30-11-2024T14:19:12 - [MESSAGE][PASSED] - Object: 'Object Repository/ContentLibraries/Content Libraries' is clicked on
+
+30-11-2024T14:19:12 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("ContentLibraries/ChangeLanugage")): Object 'Object Repository/ContentLibraries/ChangeLanugage' is clickable
+
+30-11-2024T14:19:12 - [MESSAGE][PASSED] - Object 'Object Repository/ContentLibraries/ChangeLanugage' is clickable
+
+30-11-2024T14:19:12 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("ContentLibraries/button_Filter")): Object 'Object Repository/ContentLibraries/button_Filter' is clickable
+
+30-11-2024T14:19:13 - [MESSAGE][PASSED] - Object 'Object Repository/ContentLibraries/button_Filter' is clickable
+
+30-11-2024T14:19:13 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("ContentLibraries/button_Delete")): Object 'Object Repository/ContentLibraries/button_Delete' is clickable
+
+30-11-2024T14:19:13 - [MESSAGE][PASSED] - Object 'Object Repository/ContentLibraries/button_Delete' is clickable
+
+30-11-2024T14:19:13 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("ContentLibraries/span_Edit")): Object 'Object Repository/ContentLibraries/span_Edit' is clickable
+
+30-11-2024T14:19:13 - [MESSAGE][PASSED] - Object 'Object Repository/ContentLibraries/span_Edit' is clickable
+
+30-11-2024T14:19:13 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("ContentLibraries/SearchBar")): Object 'Object Repository/ContentLibraries/SearchBar' is clickable
+
+30-11-2024T14:19:13 - [MESSAGE][PASSED] - Object 'Object Repository/ContentLibraries/SearchBar' is clickable
+
+30-11-2024T14:19:13 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("ContentLibraries/New content library")): Object 'Object Repository/ContentLibraries/New content library' is clickable
+
+30-11-2024T14:19:14 - [MESSAGE][PASSED] - Object 'Object Repository/ContentLibraries/New content library' is clickable
+
+30-11-2024T14:19:14 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+30-11-2024T14:19:14 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ContentLibraries/CreateContentLibaray" time="25.539" classname="Test Cases/ContentLibraries/CreateContentLibaray" status="PASSED">
+         <system-out><![CDATA[30-11-2024T14:19:14 - [TEST_CASE][PASSED] - Test Cases/ContentLibraries/CreateContentLibaray: Test Cases/ContentLibraries/CreateContentLibaray
+
+30-11-2024T14:19:14 - [TEST_STEP][PASSED] - min = 1000: null
+
+30-11-2024T14:19:14 - [TEST_STEP][PASSED] - max = 9999: null
+
+30-11-2024T14:19:14 - [TEST_STEP][PASSED] - randomNumber = Random().nextInt(max - min + 1) + min: null
+
+30-11-2024T14:19:14 - [TEST_STEP][PASSED] - openBrowser("https://preprod-ula-content-library.joacademy.tech/login"): Browser is opened with url: 'https://preprod-ula-content-library.joacademy.tech/login'
+
+30-11-2024T14:19:14 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+30-11-2024T14:19:14 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+30-11-2024T14:19:18 - [MESSAGE][PASSED] - Browser is opened with url: 'https://preprod-ula-content-library.joacademy.tech/login'
+
+30-11-2024T14:19:18 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+30-11-2024T14:19:18 - [MESSAGE][PASSED] - Current window maximized
+
+30-11-2024T14:19:18 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Login/Email"), "main.burghol@joacademy.com"): Keys 'main.burghol@joacademy.com' sent to object: 'Object Repository/Login/Email'
+
+30-11-2024T14:19:19 - [MESSAGE][PASSED] - Keys 'main.burghol@joacademy.com' sent to object: 'Object Repository/Login/Email'
+
+30-11-2024T14:19:19 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Login/Password"), "main1234"): Keys 'main1234' sent to object: 'Object Repository/Login/Password'
+
+30-11-2024T14:19:19 - [MESSAGE][PASSED] - Keys 'main1234' sent to object: 'Object Repository/Login/Password'
+
+30-11-2024T14:19:19 - [TEST_STEP][PASSED] - click(findTestObject("Login/button_Sign in")): Object: 'Object Repository/Login/button_Sign in' is clicked on
+
+30-11-2024T14:19:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/button_Sign in' is clicked on
+
+30-11-2024T14:19:19 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+30-11-2024T14:19:24 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+30-11-2024T14:19:24 - [TEST_STEP][PASSED] - click(findTestObject("ContentLibraries/Content Libraries")): Object: 'Object Repository/ContentLibraries/Content Libraries' is clicked on
+
+30-11-2024T14:19:27 - [MESSAGE][PASSED] - Object: 'Object Repository/ContentLibraries/Content Libraries' is clicked on
+
+30-11-2024T14:19:27 - [TEST_STEP][PASSED] - click(findTestObject("ContentLibraries/New content library")): Object: 'Object Repository/ContentLibraries/New content library' is clicked on
+
+30-11-2024T14:19:29 - [MESSAGE][PASSED] - Object: 'Object Repository/ContentLibraries/New content library' is clicked on
+
+30-11-2024T14:19:29 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+30-11-2024T14:19:32 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+30-11-2024T14:19:32 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ContentLibraries/ContentLibraryCreation/EnglishTitle"), "AutomationTest"): Keys 'AutomationTest' sent to object: 'Object Repository/ContentLibraries/ContentLibraryCreation/EnglishTitle'
+
+30-11-2024T14:19:32 - [MESSAGE][PASSED] - Keys 'AutomationTest' sent to object: 'Object Repository/ContentLibraries/ContentLibraryCreation/EnglishTitle'
+
+30-11-2024T14:19:32 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ContentLibraries/ContentLibraryCreation/code"), randomNumber.toString()): Keys '4911' sent to object: 'Object Repository/ContentLibraries/ContentLibraryCreation/code'
+
+30-11-2024T14:19:32 - [MESSAGE][PASSED] - Keys '4911' sent to object: 'Object Repository/ContentLibraries/ContentLibraryCreation/code'
+
+30-11-2024T14:19:32 - [TEST_STEP][PASSED] - click(findTestObject("ContentLibraries/ContentLibraryCreation/ChangeTheLanguageInsideCreateContent")): Object: 'Object Repository/ContentLibraries/ContentLibraryCreation/ChangeTheLanguageInsideCreateContent' is clicked on
+
+30-11-2024T14:19:33 - [MESSAGE][PASSED] - Object: 'Object Repository/ContentLibraries/ContentLibraryCreation/ChangeTheLanguageInsideCreateContent' is clicked on
+
+30-11-2024T14:19:33 - [TEST_STEP][PASSED] - click(findTestObject("ContentLibraries/ContentLibraryCreation/ChangeLangaugeToArabicContent")): Object: 'Object Repository/ContentLibraries/ContentLibraryCreation/ChangeLangaugeToArabicContent' is clicked on
+
+30-11-2024T14:19:33 - [MESSAGE][PASSED] - Object: 'Object Repository/ContentLibraries/ContentLibraryCreation/ChangeLangaugeToArabicContent' is clicked on
+
+30-11-2024T14:19:33 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ContentLibraries/ContentLibraryCreation/ArabicTitle"), "فحص الاوتوميشن"): Keys 'فحص الاوتوميشن' sent to object: 'Object Repository/ContentLibraries/ContentLibraryCreation/ArabicTitle'
+
+30-11-2024T14:19:34 - [MESSAGE][PASSED] - Keys 'فحص الاوتوميشن' sent to object: 'Object Repository/ContentLibraries/ContentLibraryCreation/ArabicTitle'
+
+30-11-2024T14:19:34 - [TEST_STEP][PASSED] - click(findTestObject("ContentLibraries/ContentLibraryCreation/CreateButton")): Object: 'Object Repository/ContentLibraries/ContentLibraryCreation/CreateButton' is clicked on
+
+30-11-2024T14:19:34 - [MESSAGE][PASSED] - Object: 'Object Repository/ContentLibraries/ContentLibraryCreation/CreateButton' is clicked on
+
+30-11-2024T14:19:34 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("ContentLibraries/ContentLibraryCreation/Created_PopUp")): Object 'Object Repository/ContentLibraries/ContentLibraryCreation/Created_PopUp' is visible
+
+30-11-2024T14:19:36 - [MESSAGE][PASSED] - Object 'Object Repository/ContentLibraries/ContentLibraryCreation/Created_PopUp' is visible
+
+30-11-2024T14:19:36 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+30-11-2024T14:19:39 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+30-11-2024T14:19:39 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+30-11-2024T14:19:39 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ContentLibraries/CreateWithDuplicateCode" time="26.954" classname="Test Cases/ContentLibraries/CreateWithDuplicateCode" status="PASSED">
+         <system-out><![CDATA[30-11-2024T14:19:39 - [TEST_CASE][PASSED] - Test Cases/ContentLibraries/CreateWithDuplicateCode: Test Cases/ContentLibraries/CreateWithDuplicateCode
+
+30-11-2024T14:19:39 - [TEST_STEP][PASSED] - openBrowser("https://preprod-ula-content-library.joacademy.tech/login"): Browser is opened with url: 'https://preprod-ula-content-library.joacademy.tech/login'
+
+30-11-2024T14:19:39 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+30-11-2024T14:19:39 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+30-11-2024T14:19:43 - [MESSAGE][PASSED] - Browser is opened with url: 'https://preprod-ula-content-library.joacademy.tech/login'
+
+30-11-2024T14:19:43 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+30-11-2024T14:19:43 - [MESSAGE][PASSED] - Current window maximized
+
+30-11-2024T14:19:43 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Login/Email"), "main.burghol@joacademy.com"): Keys 'main.burghol@joacademy.com' sent to object: 'Object Repository/Login/Email'
+
+30-11-2024T14:19:44 - [MESSAGE][PASSED] - Keys 'main.burghol@joacademy.com' sent to object: 'Object Repository/Login/Email'
+
+30-11-2024T14:19:44 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Login/Password"), "main1234"): Keys 'main1234' sent to object: 'Object Repository/Login/Password'
+
+30-11-2024T14:19:44 - [MESSAGE][PASSED] - Keys 'main1234' sent to object: 'Object Repository/Login/Password'
+
+30-11-2024T14:19:44 - [TEST_STEP][PASSED] - click(findTestObject("Login/button_Sign in")): Object: 'Object Repository/Login/button_Sign in' is clicked on
+
+30-11-2024T14:19:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/button_Sign in' is clicked on
+
+30-11-2024T14:19:44 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+30-11-2024T14:19:49 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+30-11-2024T14:19:49 - [TEST_STEP][PASSED] - click(findTestObject("ContentLibraries/Content Libraries")): Object: 'Object Repository/ContentLibraries/Content Libraries' is clicked on
+
+30-11-2024T14:19:51 - [MESSAGE][PASSED] - Object: 'Object Repository/ContentLibraries/Content Libraries' is clicked on
+
+30-11-2024T14:19:51 - [TEST_STEP][PASSED] - MyCode = getText(findTestObject("ContentLibraries/FirstElementCode")): Text of object 'Object Repository/ContentLibraries/FirstElementCode' is: '81'
+
+30-11-2024T14:19:52 - [MESSAGE][PASSED] - Text of object 'Object Repository/ContentLibraries/FirstElementCode' is: '81'
+
+30-11-2024T14:19:52 - [TEST_STEP][PASSED] - click(findTestObject("ContentLibraries/New content library")): Object: 'Object Repository/ContentLibraries/New content library' is clicked on
+
+30-11-2024T14:19:53 - [MESSAGE][PASSED] - Object: 'Object Repository/ContentLibraries/New content library' is clicked on
+
+30-11-2024T14:19:53 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+30-11-2024T14:19:56 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+30-11-2024T14:19:56 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ContentLibraries/ContentLibraryCreation/EnglishTitle"), "AutomationTest"): Keys 'AutomationTest' sent to object: 'Object Repository/ContentLibraries/ContentLibraryCreation/EnglishTitle'
+
+30-11-2024T14:19:56 - [MESSAGE][PASSED] - Keys 'AutomationTest' sent to object: 'Object Repository/ContentLibraries/ContentLibraryCreation/EnglishTitle'
+
+30-11-2024T14:19:56 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ContentLibraries/ContentLibraryCreation/code"), MyCode): Keys '81' sent to object: 'Object Repository/ContentLibraries/ContentLibraryCreation/code'
+
+30-11-2024T14:19:57 - [MESSAGE][PASSED] - Keys '81' sent to object: 'Object Repository/ContentLibraries/ContentLibraryCreation/code'
+
+30-11-2024T14:19:57 - [TEST_STEP][PASSED] - click(findTestObject("ContentLibraries/ContentLibraryCreation/ChangeTheLanguageInsideCreateContent")): Object: 'Object Repository/ContentLibraries/ContentLibraryCreation/ChangeTheLanguageInsideCreateContent' is clicked on
+
+30-11-2024T14:19:57 - [MESSAGE][PASSED] - Object: 'Object Repository/ContentLibraries/ContentLibraryCreation/ChangeTheLanguageInsideCreateContent' is clicked on
+
+30-11-2024T14:19:57 - [TEST_STEP][PASSED] - click(findTestObject("ContentLibraries/ContentLibraryCreation/ChangeLangaugeToArabicContent")): Object: 'Object Repository/ContentLibraries/ContentLibraryCreation/ChangeLangaugeToArabicContent' is clicked on
+
+30-11-2024T14:19:57 - [MESSAGE][PASSED] - Object: 'Object Repository/ContentLibraries/ContentLibraryCreation/ChangeLangaugeToArabicContent' is clicked on
+
+30-11-2024T14:19:57 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+30-11-2024T14:20:02 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+30-11-2024T14:20:02 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ContentLibraries/ContentLibraryCreation/ArabicTitle"), "فحص الاوتوميشن"): Keys 'فحص الاوتوميشن' sent to object: 'Object Repository/ContentLibraries/ContentLibraryCreation/ArabicTitle'
+
+30-11-2024T14:20:02 - [MESSAGE][PASSED] - Keys 'فحص الاوتوميشن' sent to object: 'Object Repository/ContentLibraries/ContentLibraryCreation/ArabicTitle'
+
+30-11-2024T14:20:02 - [TEST_STEP][PASSED] - click(findTestObject("ContentLibraries/ContentLibraryCreation/CreateButton")): Object: 'Object Repository/ContentLibraries/ContentLibraryCreation/CreateButton' is clicked on
+
+30-11-2024T14:20:03 - [MESSAGE][PASSED] - Object: 'Object Repository/ContentLibraries/ContentLibraryCreation/CreateButton' is clicked on
+
+30-11-2024T14:20:03 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+30-11-2024T14:20:06 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+30-11-2024T14:20:06 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("ContentLibraries/ContentLibraryCreation/CodeDuplication"), "The code has already been taken."): Actual text and expected text of test object 'Object Repository/ContentLibraries/ContentLibraryCreation/CodeDuplication' are matched.
+
+30-11-2024T14:20:06 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/ContentLibraries/ContentLibraryCreation/CodeDuplication' are matched.
+
+30-11-2024T14:20:06 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+30-11-2024T14:20:06 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ContentLibraries/AddNewCloumnToTheTable" time="30.803" classname="Test Cases/ContentLibraries/AddNewCloumnToTheTable" status="PASSED">
+         <system-out><![CDATA[30-11-2024T14:20:06 - [TEST_CASE][PASSED] - Test Cases/ContentLibraries/AddNewCloumnToTheTable: Test Cases/ContentLibraries/AddNewCloumnToTheTable
+
+30-11-2024T14:20:06 - [TEST_STEP][PASSED] - openBrowser("https://preprod-ula-content-library.joacademy.tech/login"): Browser is opened with url: 'https://preprod-ula-content-library.joacademy.tech/login'
+
+30-11-2024T14:20:06 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+30-11-2024T14:20:06 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+30-11-2024T14:20:10 - [MESSAGE][PASSED] - Browser is opened with url: 'https://preprod-ula-content-library.joacademy.tech/login'
+
+30-11-2024T14:20:10 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+30-11-2024T14:20:10 - [MESSAGE][PASSED] - Current window maximized
+
+30-11-2024T14:20:10 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Login/Email"), "main.burghol@joacademy.com"): Keys 'main.burghol@joacademy.com' sent to object: 'Object Repository/Login/Email'
+
+30-11-2024T14:20:11 - [MESSAGE][PASSED] - Keys 'main.burghol@joacademy.com' sent to object: 'Object Repository/Login/Email'
+
+30-11-2024T14:20:11 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Login/Password"), "main1234"): Keys 'main1234' sent to object: 'Object Repository/Login/Password'
+
+30-11-2024T14:20:11 - [MESSAGE][PASSED] - Keys 'main1234' sent to object: 'Object Repository/Login/Password'
+
+30-11-2024T14:20:11 - [TEST_STEP][PASSED] - click(findTestObject("Login/button_Sign in")): Object: 'Object Repository/Login/button_Sign in' is clicked on
+
+30-11-2024T14:20:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/button_Sign in' is clicked on
+
+30-11-2024T14:20:11 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+30-11-2024T14:20:16 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+30-11-2024T14:20:16 - [TEST_STEP][PASSED] - click(findTestObject("ContentLibraries/Content Libraries")): Object: 'Object Repository/ContentLibraries/Content Libraries' is clicked on
+
+30-11-2024T14:20:19 - [MESSAGE][PASSED] - Object: 'Object Repository/ContentLibraries/Content Libraries' is clicked on
+
+30-11-2024T14:20:19 - [TEST_STEP][PASSED] - click(findTestObject("ContentLibraries/AddToggleColumn")): Object: 'Object Repository/ContentLibraries/AddToggleColumn' is clicked on
+
+30-11-2024T14:20:19 - [MESSAGE][PASSED] - Object: 'Object Repository/ContentLibraries/AddToggleColumn' is clicked on
+
+30-11-2024T14:20:19 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+30-11-2024T14:20:24 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+30-11-2024T14:20:24 - [TEST_STEP][PASSED] - click(findTestObject("ContentLibraries/created_at_Column")): Object: 'Object Repository/ContentLibraries/created_at_Column' is clicked on
+
+30-11-2024T14:20:24 - [MESSAGE][PASSED] - Object: 'Object Repository/ContentLibraries/created_at_Column' is clicked on
+
+30-11-2024T14:20:24 - [TEST_STEP][PASSED] - click(findTestObject("ContentLibraries/updated_at_Column")): Object: 'Object Repository/ContentLibraries/updated_at_Column' is clicked on
+
+30-11-2024T14:20:26 - [MESSAGE][PASSED] - Object: 'Object Repository/ContentLibraries/updated_at_Column' is clicked on
+
+30-11-2024T14:20:26 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+30-11-2024T14:20:36 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+30-11-2024T14:20:36 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("ContentLibraries/Created at Inside Table")): Object 'Object Repository/ContentLibraries/Created at Inside Table' is visible
+
+30-11-2024T14:20:37 - [MESSAGE][PASSED] - Object 'Object Repository/ContentLibraries/Created at Inside Table' is visible
+
+30-11-2024T14:20:37 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("ContentLibraries/Updated at Inside Table")): Object 'Object Repository/ContentLibraries/Updated at Inside Table' is visible
+
+30-11-2024T14:20:37 - [MESSAGE][PASSED] - Object 'Object Repository/ContentLibraries/Updated at Inside Table' is visible
+
+30-11-2024T14:20:37 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+30-11-2024T14:20:37 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ContentLibraries/FilterByCode" time="26.101" classname="Test Cases/ContentLibraries/FilterByCode" status="PASSED">
+         <system-out><![CDATA[30-11-2024T14:20:37 - [TEST_CASE][PASSED] - Test Cases/ContentLibraries/FilterByCode: Test Cases/ContentLibraries/FilterByCode
+
+30-11-2024T14:20:37 - [TEST_STEP][PASSED] - openBrowser("https://preprod-ula-content-library.joacademy.tech/login"): Browser is opened with url: 'https://preprod-ula-content-library.joacademy.tech/login'
+
+30-11-2024T14:20:37 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+30-11-2024T14:20:37 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+30-11-2024T14:20:40 - [MESSAGE][PASSED] - Browser is opened with url: 'https://preprod-ula-content-library.joacademy.tech/login'
+
+30-11-2024T14:20:40 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+30-11-2024T14:20:40 - [MESSAGE][PASSED] - Current window maximized
+
+30-11-2024T14:20:40 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Login/Email"), "main.burghol@joacademy.com"): Keys 'main.burghol@joacademy.com' sent to object: 'Object Repository/Login/Email'
+
+30-11-2024T14:20:41 - [MESSAGE][PASSED] - Keys 'main.burghol@joacademy.com' sent to object: 'Object Repository/Login/Email'
+
+30-11-2024T14:20:41 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Login/Password"), "main1234"): Keys 'main1234' sent to object: 'Object Repository/Login/Password'
+
+30-11-2024T14:20:41 - [MESSAGE][PASSED] - Keys 'main1234' sent to object: 'Object Repository/Login/Password'
+
+30-11-2024T14:20:41 - [TEST_STEP][PASSED] - click(findTestObject("Login/button_Sign in")): Object: 'Object Repository/Login/button_Sign in' is clicked on
+
+30-11-2024T14:20:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/button_Sign in' is clicked on
+
+30-11-2024T14:20:42 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+30-11-2024T14:20:47 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+30-11-2024T14:20:47 - [TEST_STEP][PASSED] - click(findTestObject("ContentLibraries/Content Libraries")): Object: 'Object Repository/ContentLibraries/Content Libraries' is clicked on
+
+30-11-2024T14:20:48 - [MESSAGE][PASSED] - Object: 'Object Repository/ContentLibraries/Content Libraries' is clicked on
+
+30-11-2024T14:20:48 - [TEST_STEP][PASSED] - MyCode = getText(findTestObject("ContentLibraries/FirstElementCode")): Text of object 'Object Repository/ContentLibraries/FirstElementCode' is: '81'
+
+30-11-2024T14:20:49 - [MESSAGE][PASSED] - Text of object 'Object Repository/ContentLibraries/FirstElementCode' is: '81'
+
+30-11-2024T14:20:49 - [TEST_STEP][PASSED] - click(findTestObject("ContentLibraries/New content library")): Object: 'Object Repository/ContentLibraries/New content library' is clicked on
+
+30-11-2024T14:20:50 - [MESSAGE][PASSED] - Object: 'Object Repository/ContentLibraries/New content library' is clicked on
+
+30-11-2024T14:20:50 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+30-11-2024T14:20:53 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+30-11-2024T14:20:53 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ContentLibraries/ContentLibraryCreation/EnglishTitle"), "AutomationTest"): Keys 'AutomationTest' sent to object: 'Object Repository/ContentLibraries/ContentLibraryCreation/EnglishTitle'
+
+30-11-2024T14:20:53 - [MESSAGE][PASSED] - Keys 'AutomationTest' sent to object: 'Object Repository/ContentLibraries/ContentLibraryCreation/EnglishTitle'
+
+30-11-2024T14:20:53 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ContentLibraries/ContentLibraryCreation/code"), MyCode): Keys '81' sent to object: 'Object Repository/ContentLibraries/ContentLibraryCreation/code'
+
+30-11-2024T14:20:54 - [MESSAGE][PASSED] - Keys '81' sent to object: 'Object Repository/ContentLibraries/ContentLibraryCreation/code'
+
+30-11-2024T14:20:54 - [TEST_STEP][PASSED] - click(findTestObject("ContentLibraries/ContentLibraryCreation/ChangeTheLanguageInsideCreateContent")): Object: 'Object Repository/ContentLibraries/ContentLibraryCreation/ChangeTheLanguageInsideCreateContent' is clicked on
+
+30-11-2024T14:20:54 - [MESSAGE][PASSED] - Object: 'Object Repository/ContentLibraries/ContentLibraryCreation/ChangeTheLanguageInsideCreateContent' is clicked on
+
+30-11-2024T14:20:54 - [TEST_STEP][PASSED] - click(findTestObject("ContentLibraries/ContentLibraryCreation/ChangeLangaugeToArabicContent")): Object: 'Object Repository/ContentLibraries/ContentLibraryCreation/ChangeLangaugeToArabicContent' is clicked on
+
+30-11-2024T14:20:54 - [MESSAGE][PASSED] - Object: 'Object Repository/ContentLibraries/ContentLibraryCreation/ChangeLangaugeToArabicContent' is clicked on
+
+30-11-2024T14:20:54 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+30-11-2024T14:20:59 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+30-11-2024T14:20:59 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ContentLibraries/ContentLibraryCreation/ArabicTitle"), "فحص الاوتوميشن"): Keys 'فحص الاوتوميشن' sent to object: 'Object Repository/ContentLibraries/ContentLibraryCreation/ArabicTitle'
+
+30-11-2024T14:20:59 - [MESSAGE][PASSED] - Keys 'فحص الاوتوميشن' sent to object: 'Object Repository/ContentLibraries/ContentLibraryCreation/ArabicTitle'
+
+30-11-2024T14:20:59 - [TEST_STEP][PASSED] - click(findTestObject("ContentLibraries/ContentLibraryCreation/CreateButton")): Object: 'Object Repository/ContentLibraries/ContentLibraryCreation/CreateButton' is clicked on
+
+30-11-2024T14:21:00 - [MESSAGE][PASSED] - Object: 'Object Repository/ContentLibraries/ContentLibraryCreation/CreateButton' is clicked on
+
+30-11-2024T14:21:00 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+30-11-2024T14:21:03 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+30-11-2024T14:21:03 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("ContentLibraries/ContentLibraryCreation/CodeDuplication"), "The code has already been taken."): Actual text and expected text of test object 'Object Repository/ContentLibraries/ContentLibraryCreation/CodeDuplication' are matched.
+
+30-11-2024T14:21:03 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/ContentLibraries/ContentLibraryCreation/CodeDuplication' are matched.
+
+30-11-2024T14:21:03 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+30-11-2024T14:21:03 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ContentLibraries/FilterByCreatedAt" time="38.898" classname="Test Cases/ContentLibraries/FilterByCreatedAt" status="PASSED">
+         <system-out><![CDATA[30-11-2024T14:21:03 - [TEST_CASE][PASSED] - Test Cases/ContentLibraries/FilterByCreatedAt: Test Cases/ContentLibraries/FilterByCreatedAt
+
+30-11-2024T14:21:03 - [TEST_STEP][PASSED] - openBrowser("https://preprod-ula-content-library.joacademy.tech/login"): Browser is opened with url: 'https://preprod-ula-content-library.joacademy.tech/login'
+
+30-11-2024T14:21:03 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+30-11-2024T14:21:03 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+30-11-2024T14:21:06 - [MESSAGE][PASSED] - Browser is opened with url: 'https://preprod-ula-content-library.joacademy.tech/login'
+
+30-11-2024T14:21:06 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+30-11-2024T14:21:07 - [MESSAGE][PASSED] - Current window maximized
+
+30-11-2024T14:21:07 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Login/Email"), "main.burghol@joacademy.com"): Keys 'main.burghol@joacademy.com' sent to object: 'Object Repository/Login/Email'
+
+30-11-2024T14:21:07 - [MESSAGE][PASSED] - Keys 'main.burghol@joacademy.com' sent to object: 'Object Repository/Login/Email'
+
+30-11-2024T14:21:07 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Login/Password"), "main1234"): Keys 'main1234' sent to object: 'Object Repository/Login/Password'
+
+30-11-2024T14:21:07 - [MESSAGE][PASSED] - Keys 'main1234' sent to object: 'Object Repository/Login/Password'
+
+30-11-2024T14:21:07 - [TEST_STEP][PASSED] - click(findTestObject("Login/button_Sign in")): Object: 'Object Repository/Login/button_Sign in' is clicked on
+
+30-11-2024T14:21:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/button_Sign in' is clicked on
+
+30-11-2024T14:21:08 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+30-11-2024T14:21:13 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+30-11-2024T14:21:13 - [TEST_STEP][PASSED] - click(findTestObject("ContentLibraries/Content Libraries")): Object: 'Object Repository/ContentLibraries/Content Libraries' is clicked on
+
+30-11-2024T14:21:14 - [MESSAGE][PASSED] - Object: 'Object Repository/ContentLibraries/Content Libraries' is clicked on
+
+30-11-2024T14:21:14 - [TEST_STEP][PASSED] - click(findTestObject("ContentLibraries/AddToggleColumn")): Object: 'Object Repository/ContentLibraries/AddToggleColumn' is clicked on
+
+30-11-2024T14:21:15 - [MESSAGE][PASSED] - Object: 'Object Repository/ContentLibraries/AddToggleColumn' is clicked on
+
+30-11-2024T14:21:15 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+30-11-2024T14:21:20 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+30-11-2024T14:21:20 - [TEST_STEP][PASSED] - click(findTestObject("ContentLibraries/created_at_Column")): Object: 'Object Repository/ContentLibraries/created_at_Column' is clicked on
+
+30-11-2024T14:21:20 - [MESSAGE][PASSED] - Object: 'Object Repository/ContentLibraries/created_at_Column' is clicked on
+
+30-11-2024T14:21:20 - [TEST_STEP][PASSED] - click(findTestObject("ContentLibraries/updated_at_Column")): Object: 'Object Repository/ContentLibraries/updated_at_Column' is clicked on
+
+30-11-2024T14:21:21 - [MESSAGE][PASSED] - Object: 'Object Repository/ContentLibraries/updated_at_Column' is clicked on
+
+30-11-2024T14:21:21 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+30-11-2024T14:21:31 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+30-11-2024T14:21:31 - [TEST_STEP][PASSED] - click(findTestObject("ContentLibraries/button_Filter")): Object: 'Object Repository/ContentLibraries/button_Filter' is clicked on
+
+30-11-2024T14:21:32 - [MESSAGE][PASSED] - Object: 'Object Repository/ContentLibraries/button_Filter' is clicked on
+
+30-11-2024T14:21:32 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ContentLibraries/createdFrom"), "07/01/2024"): Keys '07/01/2024' sent to object: 'Object Repository/ContentLibraries/createdFrom'
+
+30-11-2024T14:21:32 - [MESSAGE][PASSED] - Keys '07/01/2024' sent to object: 'Object Repository/ContentLibraries/createdFrom'
+
+30-11-2024T14:21:32 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+30-11-2024T14:21:37 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+30-11-2024T14:21:37 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+30-11-2024T14:21:42 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+30-11-2024T14:21:42 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+30-11-2024T14:21:42 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ContentLibraries/FilterByStatus" time="19.928" classname="Test Cases/ContentLibraries/FilterByStatus" status="PASSED">
+         <system-out><![CDATA[30-11-2024T14:21:42 - [TEST_CASE][PASSED] - Test Cases/ContentLibraries/FilterByStatus: Test Cases/ContentLibraries/FilterByStatus
+
+30-11-2024T14:21:42 - [TEST_STEP][PASSED] - openBrowser("https://preprod-ula-content-library.joacademy.tech/login"): Browser is opened with url: 'https://preprod-ula-content-library.joacademy.tech/login'
+
+30-11-2024T14:21:42 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+30-11-2024T14:21:42 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+30-11-2024T14:21:46 - [MESSAGE][PASSED] - Browser is opened with url: 'https://preprod-ula-content-library.joacademy.tech/login'
+
+30-11-2024T14:21:46 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+30-11-2024T14:21:46 - [MESSAGE][PASSED] - Current window maximized
+
+30-11-2024T14:21:46 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Login/Email"), "main.burghol@joacademy.com"): Keys 'main.burghol@joacademy.com' sent to object: 'Object Repository/Login/Email'
+
+30-11-2024T14:21:47 - [MESSAGE][PASSED] - Keys 'main.burghol@joacademy.com' sent to object: 'Object Repository/Login/Email'
+
+30-11-2024T14:21:47 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Login/Password"), "main1234"): Keys 'main1234' sent to object: 'Object Repository/Login/Password'
+
+30-11-2024T14:21:47 - [MESSAGE][PASSED] - Keys 'main1234' sent to object: 'Object Repository/Login/Password'
+
+30-11-2024T14:21:47 - [TEST_STEP][PASSED] - click(findTestObject("Login/button_Sign in")): Object: 'Object Repository/Login/button_Sign in' is clicked on
+
+30-11-2024T14:21:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/button_Sign in' is clicked on
+
+30-11-2024T14:21:47 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+30-11-2024T14:21:52 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+30-11-2024T14:21:52 - [TEST_STEP][PASSED] - click(findTestObject("ContentLibraries/Content Libraries")): Object: 'Object Repository/ContentLibraries/Content Libraries' is clicked on
+
+30-11-2024T14:21:55 - [MESSAGE][PASSED] - Object: 'Object Repository/ContentLibraries/Content Libraries' is clicked on
+
+30-11-2024T14:21:55 - [TEST_STEP][PASSED] - click(findTestObject("ContentLibraries/button_Filter")): Object: 'Object Repository/ContentLibraries/button_Filter' is clicked on
+
+30-11-2024T14:21:55 - [MESSAGE][PASSED] - Object: 'Object Repository/ContentLibraries/button_Filter' is clicked on
+
+30-11-2024T14:21:55 - [TEST_STEP][PASSED] - click(findTestObject("ContentLibraries/FilterByStatus")): Object: 'Object Repository/ContentLibraries/FilterByStatus' is clicked on
+
+30-11-2024T14:21:55 - [MESSAGE][PASSED] - Object: 'Object Repository/ContentLibraries/FilterByStatus' is clicked on
+
+30-11-2024T14:21:55 - [TEST_STEP][PASSED] - click(findTestObject("ContentLibraries/Select_Active")): Object: 'Object Repository/ContentLibraries/Select_Active' is clicked on
+
+30-11-2024T14:21:56 - [MESSAGE][PASSED] - Object: 'Object Repository/ContentLibraries/Select_Active' is clicked on
+
+30-11-2024T14:21:56 - [TEST_STEP][PASSED] - click(findTestObject("ContentLibraries/SearchBar")): Object: 'Object Repository/ContentLibraries/SearchBar' is clicked on
+
+30-11-2024T14:21:57 - [MESSAGE][PASSED] - Object: 'Object Repository/ContentLibraries/SearchBar' is clicked on
+
+30-11-2024T14:21:57 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+30-11-2024T14:22:02 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+30-11-2024T14:22:02 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("ContentLibraries/NumberOfFilters"), "1"): Actual text and expected text of test object 'Object Repository/ContentLibraries/NumberOfFilters' are matched.
+
+30-11-2024T14:22:02 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/ContentLibraries/NumberOfFilters' are matched.
+
+30-11-2024T14:22:02 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+30-11-2024T14:22:02 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ContentLibraries/FilterByStatus_InActive" time="23.792" classname="Test Cases/ContentLibraries/FilterByStatus_InActive" status="PASSED">
+         <system-out><![CDATA[30-11-2024T14:22:02 - [TEST_CASE][PASSED] - Test Cases/ContentLibraries/FilterByStatus_InActive: Test Cases/ContentLibraries/FilterByStatus_InActive
+
+30-11-2024T14:22:02 - [TEST_STEP][PASSED] - openBrowser("https://preprod-ula-content-library.joacademy.tech/login"): Browser is opened with url: 'https://preprod-ula-content-library.joacademy.tech/login'
+
+30-11-2024T14:22:02 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+30-11-2024T14:22:02 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+30-11-2024T14:22:05 - [MESSAGE][PASSED] - Browser is opened with url: 'https://preprod-ula-content-library.joacademy.tech/login'
+
+30-11-2024T14:22:05 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+30-11-2024T14:22:05 - [MESSAGE][PASSED] - Current window maximized
+
+30-11-2024T14:22:05 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Login/Email"), "main.burghol@joacademy.com"): Keys 'main.burghol@joacademy.com' sent to object: 'Object Repository/Login/Email'
+
+30-11-2024T14:22:06 - [MESSAGE][PASSED] - Keys 'main.burghol@joacademy.com' sent to object: 'Object Repository/Login/Email'
+
+30-11-2024T14:22:06 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Login/Password"), "main1234"): Keys 'main1234' sent to object: 'Object Repository/Login/Password'
+
+30-11-2024T14:22:06 - [MESSAGE][PASSED] - Keys 'main1234' sent to object: 'Object Repository/Login/Password'
+
+30-11-2024T14:22:06 - [TEST_STEP][PASSED] - click(findTestObject("Login/button_Sign in")): Object: 'Object Repository/Login/button_Sign in' is clicked on
+
+30-11-2024T14:22:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/button_Sign in' is clicked on
+
+30-11-2024T14:22:07 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+30-11-2024T14:22:12 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+30-11-2024T14:22:12 - [TEST_STEP][PASSED] - click(findTestObject("ContentLibraries/Content Libraries")): Object: 'Object Repository/ContentLibraries/Content Libraries' is clicked on
+
+30-11-2024T14:22:14 - [MESSAGE][PASSED] - Object: 'Object Repository/ContentLibraries/Content Libraries' is clicked on
+
+30-11-2024T14:22:14 - [TEST_STEP][PASSED] - click(findTestObject("ContentLibraries/button_Filter")): Object: 'Object Repository/ContentLibraries/button_Filter' is clicked on
+
+30-11-2024T14:22:14 - [MESSAGE][PASSED] - Object: 'Object Repository/ContentLibraries/button_Filter' is clicked on
+
+30-11-2024T14:22:14 - [TEST_STEP][PASSED] - click(findTestObject("ContentLibraries/FilterByStatus")): Object: 'Object Repository/ContentLibraries/FilterByStatus' is clicked on
+
+30-11-2024T14:22:14 - [MESSAGE][PASSED] - Object: 'Object Repository/ContentLibraries/FilterByStatus' is clicked on
+
+30-11-2024T14:22:14 - [TEST_STEP][PASSED] - click(findTestObject("ContentLibraries/Select_InActive")): Object: 'Object Repository/ContentLibraries/Select_InActive' is clicked on
+
+30-11-2024T14:22:15 - [MESSAGE][PASSED] - Object: 'Object Repository/ContentLibraries/Select_InActive' is clicked on
+
+30-11-2024T14:22:15 - [TEST_STEP][PASSED] - click(findTestObject("ContentLibraries/SearchBar")): Object: 'Object Repository/ContentLibraries/SearchBar' is clicked on
+
+30-11-2024T14:22:20 - [MESSAGE][PASSED] - Object: 'Object Repository/ContentLibraries/SearchBar' is clicked on
+
+30-11-2024T14:22:20 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+30-11-2024T14:22:25 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+30-11-2024T14:22:25 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("ContentLibraries/NumberOfFilters"), "1"): Actual text and expected text of test object 'Object Repository/ContentLibraries/NumberOfFilters' are matched.
+
+30-11-2024T14:22:25 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/ContentLibraries/NumberOfFilters' are matched.
+
+30-11-2024T14:22:25 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("ContentLibraries/CheckTheInActiveLiberary")): Object 'Object Repository/ContentLibraries/CheckTheInActiveLiberary' is visible
+
+30-11-2024T14:22:26 - [MESSAGE][PASSED] - Object 'Object Repository/ContentLibraries/CheckTheInActiveLiberary' is visible
+
+30-11-2024T14:22:26 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+30-11-2024T14:22:26 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ContentLibraries/FilterByUpdateFrom" time="36.647" classname="Test Cases/ContentLibraries/FilterByUpdateFrom" status="PASSED">
+         <system-out><![CDATA[30-11-2024T14:22:26 - [TEST_CASE][PASSED] - Test Cases/ContentLibraries/FilterByUpdateFrom: Test Cases/ContentLibraries/FilterByUpdateFrom
+
+30-11-2024T14:22:26 - [TEST_STEP][PASSED] - openBrowser("https://preprod-ula-content-library.joacademy.tech/login"): Browser is opened with url: 'https://preprod-ula-content-library.joacademy.tech/login'
+
+30-11-2024T14:22:26 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+30-11-2024T14:22:26 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+30-11-2024T14:22:30 - [MESSAGE][PASSED] - Browser is opened with url: 'https://preprod-ula-content-library.joacademy.tech/login'
+
+30-11-2024T14:22:30 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+30-11-2024T14:22:30 - [MESSAGE][PASSED] - Current window maximized
+
+30-11-2024T14:22:30 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Login/Email"), "main.burghol@joacademy.com"): Keys 'main.burghol@joacademy.com' sent to object: 'Object Repository/Login/Email'
+
+30-11-2024T14:22:31 - [MESSAGE][PASSED] - Keys 'main.burghol@joacademy.com' sent to object: 'Object Repository/Login/Email'
+
+30-11-2024T14:22:31 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Login/Password"), "main1234"): Keys 'main1234' sent to object: 'Object Repository/Login/Password'
+
+30-11-2024T14:22:31 - [MESSAGE][PASSED] - Keys 'main1234' sent to object: 'Object Repository/Login/Password'
+
+30-11-2024T14:22:31 - [TEST_STEP][PASSED] - click(findTestObject("Login/button_Sign in")): Object: 'Object Repository/Login/button_Sign in' is clicked on
+
+30-11-2024T14:22:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/button_Sign in' is clicked on
+
+30-11-2024T14:22:31 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+30-11-2024T14:22:36 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+30-11-2024T14:22:36 - [TEST_STEP][PASSED] - click(findTestObject("ContentLibraries/Content Libraries")): Object: 'Object Repository/ContentLibraries/Content Libraries' is clicked on
+
+30-11-2024T14:22:39 - [MESSAGE][PASSED] - Object: 'Object Repository/ContentLibraries/Content Libraries' is clicked on
+
+30-11-2024T14:22:39 - [TEST_STEP][PASSED] - click(findTestObject("ContentLibraries/AddToggleColumn")): Object: 'Object Repository/ContentLibraries/AddToggleColumn' is clicked on
+
+30-11-2024T14:22:39 - [MESSAGE][PASSED] - Object: 'Object Repository/ContentLibraries/AddToggleColumn' is clicked on
+
+30-11-2024T14:22:39 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+30-11-2024T14:22:44 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+30-11-2024T14:22:44 - [TEST_STEP][PASSED] - click(findTestObject("ContentLibraries/created_at_Column")): Object: 'Object Repository/ContentLibraries/created_at_Column' is clicked on
+
+30-11-2024T14:22:45 - [MESSAGE][PASSED] - Object: 'Object Repository/ContentLibraries/created_at_Column' is clicked on
+
+30-11-2024T14:22:45 - [TEST_STEP][PASSED] - click(findTestObject("ContentLibraries/updated_at_Column")): Object: 'Object Repository/ContentLibraries/updated_at_Column' is clicked on
+
+30-11-2024T14:22:47 - [MESSAGE][PASSED] - Object: 'Object Repository/ContentLibraries/updated_at_Column' is clicked on
+
+30-11-2024T14:22:47 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+30-11-2024T14:22:57 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+30-11-2024T14:22:57 - [TEST_STEP][PASSED] - click(findTestObject("ContentLibraries/button_Filter")): Object: 'Object Repository/ContentLibraries/button_Filter' is clicked on
+
+30-11-2024T14:22:57 - [MESSAGE][PASSED] - Object: 'Object Repository/ContentLibraries/button_Filter' is clicked on
+
+30-11-2024T14:22:57 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ContentLibraries/updatedFrom"), "07/01/2024"): Keys '07/01/2024' sent to object: 'Object Repository/ContentLibraries/updatedFrom'
+
+30-11-2024T14:22:57 - [MESSAGE][PASSED] - Keys '07/01/2024' sent to object: 'Object Repository/ContentLibraries/updatedFrom'
+
+30-11-2024T14:22:57 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+30-11-2024T14:23:02 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+30-11-2024T14:23:02 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+30-11-2024T14:23:03 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ContentLibraries/SerachWithExistingData" time="18.199" classname="Test Cases/ContentLibraries/SerachWithExistingData" status="PASSED">
+         <system-out><![CDATA[30-11-2024T14:23:03 - [TEST_CASE][PASSED] - Test Cases/ContentLibraries/SerachWithExistingData: Test Cases/ContentLibraries/SerachWithExistingData
+
+30-11-2024T14:23:03 - [TEST_STEP][PASSED] - openBrowser("https://preprod-ula-content-library.joacademy.tech/login"): Browser is opened with url: 'https://preprod-ula-content-library.joacademy.tech/login'
+
+30-11-2024T14:23:03 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+30-11-2024T14:23:03 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+30-11-2024T14:23:07 - [MESSAGE][PASSED] - Browser is opened with url: 'https://preprod-ula-content-library.joacademy.tech/login'
+
+30-11-2024T14:23:07 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+30-11-2024T14:23:07 - [MESSAGE][PASSED] - Current window maximized
+
+30-11-2024T14:23:07 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Login/Email"), "main.burghol@joacademy.com"): Keys 'main.burghol@joacademy.com' sent to object: 'Object Repository/Login/Email'
+
+30-11-2024T14:23:07 - [MESSAGE][PASSED] - Keys 'main.burghol@joacademy.com' sent to object: 'Object Repository/Login/Email'
+
+30-11-2024T14:23:07 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Login/Password"), "main1234"): Keys 'main1234' sent to object: 'Object Repository/Login/Password'
+
+30-11-2024T14:23:07 - [MESSAGE][PASSED] - Keys 'main1234' sent to object: 'Object Repository/Login/Password'
+
+30-11-2024T14:23:07 - [TEST_STEP][PASSED] - click(findTestObject("Login/button_Sign in")): Object: 'Object Repository/Login/button_Sign in' is clicked on
+
+30-11-2024T14:23:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/button_Sign in' is clicked on
+
+30-11-2024T14:23:08 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+30-11-2024T14:23:13 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+30-11-2024T14:23:13 - [TEST_STEP][PASSED] - click(findTestObject("ContentLibraries/Content Libraries")): Object: 'Object Repository/ContentLibraries/Content Libraries' is clicked on
+
+30-11-2024T14:23:15 - [MESSAGE][PASSED] - Object: 'Object Repository/ContentLibraries/Content Libraries' is clicked on
+
+30-11-2024T14:23:15 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ContentLibraries/SearchBar"), "first grade mai'n"): Keys 'first grade mai'n' sent to object: 'Object Repository/ContentLibraries/SearchBar'
+
+30-11-2024T14:23:15 - [MESSAGE][PASSED] - Keys 'first grade mai'n' sent to object: 'Object Repository/ContentLibraries/SearchBar'
+
+30-11-2024T14:23:15 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+30-11-2024T14:23:20 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+30-11-2024T14:23:20 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("ContentLibraries/NumberOfFilters"), "0"): Actual text and expected text of test object 'Object Repository/ContentLibraries/NumberOfFilters' are matched.
+
+30-11-2024T14:23:20 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/ContentLibraries/NumberOfFilters' are matched.
+
+30-11-2024T14:23:20 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+30-11-2024T14:23:21 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ContentLibraries/NoContentAppearTestCaseBySearch" time="17.895" classname="Test Cases/ContentLibraries/NoContentAppearTestCaseBySearch" status="PASSED">
+         <system-out><![CDATA[30-11-2024T14:23:21 - [TEST_CASE][PASSED] - Test Cases/ContentLibraries/NoContentAppearTestCaseBySearch: Test Cases/ContentLibraries/NoContentAppearTestCaseBySearch
+
+30-11-2024T14:23:21 - [TEST_STEP][PASSED] - openBrowser("https://preprod-ula-content-library.joacademy.tech/login"): Browser is opened with url: 'https://preprod-ula-content-library.joacademy.tech/login'
+
+30-11-2024T14:23:21 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+30-11-2024T14:23:21 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+30-11-2024T14:23:24 - [MESSAGE][PASSED] - Browser is opened with url: 'https://preprod-ula-content-library.joacademy.tech/login'
+
+30-11-2024T14:23:24 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+30-11-2024T14:23:24 - [MESSAGE][PASSED] - Current window maximized
+
+30-11-2024T14:23:24 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Login/Email"), "main.burghol@joacademy.com"): Keys 'main.burghol@joacademy.com' sent to object: 'Object Repository/Login/Email'
+
+30-11-2024T14:23:25 - [MESSAGE][PASSED] - Keys 'main.burghol@joacademy.com' sent to object: 'Object Repository/Login/Email'
+
+30-11-2024T14:23:25 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Login/Password"), "main1234"): Keys 'main1234' sent to object: 'Object Repository/Login/Password'
+
+30-11-2024T14:23:25 - [MESSAGE][PASSED] - Keys 'main1234' sent to object: 'Object Repository/Login/Password'
+
+30-11-2024T14:23:25 - [TEST_STEP][PASSED] - click(findTestObject("Login/button_Sign in")): Object: 'Object Repository/Login/button_Sign in' is clicked on
+
+30-11-2024T14:23:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/button_Sign in' is clicked on
+
+30-11-2024T14:23:25 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+30-11-2024T14:23:30 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+30-11-2024T14:23:30 - [TEST_STEP][PASSED] - click(findTestObject("ContentLibraries/Content Libraries")): Object: 'Object Repository/ContentLibraries/Content Libraries' is clicked on
+
+30-11-2024T14:23:33 - [MESSAGE][PASSED] - Object: 'Object Repository/ContentLibraries/Content Libraries' is clicked on
+
+30-11-2024T14:23:33 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ContentLibraries/SearchBar"), "FFF"): Keys 'FFF' sent to object: 'Object Repository/ContentLibraries/SearchBar'
+
+30-11-2024T14:23:33 - [MESSAGE][PASSED] - Keys 'FFF' sent to object: 'Object Repository/ContentLibraries/SearchBar'
+
+30-11-2024T14:23:33 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+30-11-2024T14:23:38 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+30-11-2024T14:23:38 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("ContentLibraries/No Content libraries"), "No Content libraries"): Actual text and expected text of test object 'Object Repository/ContentLibraries/No Content libraries' are matched.
+
+30-11-2024T14:23:38 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/ContentLibraries/No Content libraries' are matched.
+
+30-11-2024T14:23:38 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+30-11-2024T14:23:39 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ContentLibraries/SwitchBetweenLanguage" time="20.079" classname="Test Cases/ContentLibraries/SwitchBetweenLanguage" status="PASSED">
+         <system-out><![CDATA[30-11-2024T14:23:39 - [TEST_CASE][PASSED] - Test Cases/ContentLibraries/SwitchBetweenLanguage: Test Cases/ContentLibraries/SwitchBetweenLanguage
+
+30-11-2024T14:23:39 - [TEST_STEP][PASSED] - openBrowser("https://preprod-ula-content-library.joacademy.tech/login"): Browser is opened with url: 'https://preprod-ula-content-library.joacademy.tech/login'
+
+30-11-2024T14:23:39 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+30-11-2024T14:23:39 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+30-11-2024T14:23:43 - [MESSAGE][PASSED] - Browser is opened with url: 'https://preprod-ula-content-library.joacademy.tech/login'
+
+30-11-2024T14:23:43 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+30-11-2024T14:23:43 - [MESSAGE][PASSED] - Current window maximized
+
+30-11-2024T14:23:43 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Login/Email"), "main.burghol@joacademy.com"): Keys 'main.burghol@joacademy.com' sent to object: 'Object Repository/Login/Email'
+
+30-11-2024T14:23:43 - [MESSAGE][PASSED] - Keys 'main.burghol@joacademy.com' sent to object: 'Object Repository/Login/Email'
+
+30-11-2024T14:23:43 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Login/Password"), "main1234"): Keys 'main1234' sent to object: 'Object Repository/Login/Password'
+
+30-11-2024T14:23:44 - [MESSAGE][PASSED] - Keys 'main1234' sent to object: 'Object Repository/Login/Password'
+
+30-11-2024T14:23:44 - [TEST_STEP][PASSED] - click(findTestObject("Login/button_Sign in")): Object: 'Object Repository/Login/button_Sign in' is clicked on
+
+30-11-2024T14:23:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/button_Sign in' is clicked on
+
+30-11-2024T14:23:44 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+30-11-2024T14:23:49 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+30-11-2024T14:23:49 - [TEST_STEP][PASSED] - click(findTestObject("ContentLibraries/Content Libraries")): Object: 'Object Repository/ContentLibraries/Content Libraries' is clicked on
+
+30-11-2024T14:23:52 - [MESSAGE][PASSED] - Object: 'Object Repository/ContentLibraries/Content Libraries' is clicked on
+
+30-11-2024T14:23:52 - [TEST_STEP][PASSED] - click(findTestObject("ContentLibraries/ChangeLanugage")): Object: 'Object Repository/ContentLibraries/ChangeLanugage' is clicked on
+
+30-11-2024T14:23:53 - [MESSAGE][PASSED] - Object: 'Object Repository/ContentLibraries/ChangeLanugage' is clicked on
+
+30-11-2024T14:23:53 - [TEST_STEP][PASSED] - click(findTestObject("ContentLibraries/ChangeToArabic")): Object: 'Object Repository/ContentLibraries/ChangeToArabic' is clicked on
+
+30-11-2024T14:23:53 - [MESSAGE][PASSED] - Object: 'Object Repository/ContentLibraries/ChangeToArabic' is clicked on
+
+30-11-2024T14:23:53 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+30-11-2024T14:23:56 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+30-11-2024T14:23:56 - [TEST_STEP][PASSED] - click(findTestObject("ContentLibraries/ChangeLanugage")): Object: 'Object Repository/ContentLibraries/ChangeLanugage' is clicked on
+
+30-11-2024T14:23:56 - [MESSAGE][PASSED] - Object: 'Object Repository/ContentLibraries/ChangeLanugage' is clicked on
+
+30-11-2024T14:23:56 - [TEST_STEP][PASSED] - click(findTestObject("ContentLibraries/ChangeToEnglish")): Object: 'Object Repository/ContentLibraries/ChangeToEnglish' is clicked on
+
+30-11-2024T14:23:56 - [MESSAGE][PASSED] - Object: 'Object Repository/ContentLibraries/ChangeToEnglish' is clicked on
+
+30-11-2024T14:23:56 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+30-11-2024T14:23:58 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+30-11-2024T14:23:58 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+30-11-2024T14:23:59 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Subject/CreateNewSubject" time="34.954" classname="Test Cases/Subject/CreateNewSubject" status="PASSED">
+         <system-out><![CDATA[30-11-2024T14:23:59 - [TEST_CASE][PASSED] - Test Cases/Subject/CreateNewSubject: Test Cases/Subject/CreateNewSubject
+
+30-11-2024T14:23:59 - [TEST_STEP][PASSED] - min = 1000: null
+
+30-11-2024T14:23:59 - [TEST_STEP][PASSED] - max = 9999: null
+
+30-11-2024T14:23:59 - [TEST_STEP][PASSED] - randomNumber = Random().nextInt(max - min + 1) + min: null
+
+30-11-2024T14:23:59 - [TEST_STEP][PASSED] - openBrowser("https://preprod-ula-content-library.joacademy.tech/login"): Browser is opened with url: 'https://preprod-ula-content-library.joacademy.tech/login'
+
+30-11-2024T14:23:59 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+30-11-2024T14:23:59 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+30-11-2024T14:24:02 - [MESSAGE][PASSED] - Browser is opened with url: 'https://preprod-ula-content-library.joacademy.tech/login'
+
+30-11-2024T14:24:02 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+30-11-2024T14:24:02 - [MESSAGE][PASSED] - Current window maximized
+
+30-11-2024T14:24:02 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Login/Email"), "main.burghol@joacademy.com"): Keys 'main.burghol@joacademy.com' sent to object: 'Object Repository/Login/Email'
+
+30-11-2024T14:24:03 - [MESSAGE][PASSED] - Keys 'main.burghol@joacademy.com' sent to object: 'Object Repository/Login/Email'
+
+30-11-2024T14:24:03 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Login/Password"), "main1234"): Keys 'main1234' sent to object: 'Object Repository/Login/Password'
+
+30-11-2024T14:24:03 - [MESSAGE][PASSED] - Keys 'main1234' sent to object: 'Object Repository/Login/Password'
+
+30-11-2024T14:24:03 - [TEST_STEP][PASSED] - click(findTestObject("Login/button_Sign in")): Object: 'Object Repository/Login/button_Sign in' is clicked on
+
+30-11-2024T14:24:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/button_Sign in' is clicked on
+
+30-11-2024T14:24:03 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+30-11-2024T14:24:09 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+30-11-2024T14:24:09 - [TEST_STEP][PASSED] - click(findTestObject("ContentLibraries/Content Libraries")): Object: 'Object Repository/ContentLibraries/Content Libraries' is clicked on
+
+30-11-2024T14:24:12 - [MESSAGE][PASSED] - Object: 'Object Repository/ContentLibraries/Content Libraries' is clicked on
+
+30-11-2024T14:24:12 - [TEST_STEP][PASSED] - click(findTestObject("ContentLibraries/New content library")): Object: 'Object Repository/ContentLibraries/New content library' is clicked on
+
+30-11-2024T14:24:14 - [MESSAGE][PASSED] - Object: 'Object Repository/ContentLibraries/New content library' is clicked on
+
+30-11-2024T14:24:14 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+30-11-2024T14:24:17 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+30-11-2024T14:24:17 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ContentLibraries/ContentLibraryCreation/EnglishTitle"), "AutomationTest"): Keys 'AutomationTest' sent to object: 'Object Repository/ContentLibraries/ContentLibraryCreation/EnglishTitle'
+
+30-11-2024T14:24:17 - [MESSAGE][PASSED] - Keys 'AutomationTest' sent to object: 'Object Repository/ContentLibraries/ContentLibraryCreation/EnglishTitle'
+
+30-11-2024T14:24:17 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ContentLibraries/ContentLibraryCreation/code"), randomNumber.toString()): Keys '5497' sent to object: 'Object Repository/ContentLibraries/ContentLibraryCreation/code'
+
+30-11-2024T14:24:17 - [MESSAGE][PASSED] - Keys '5497' sent to object: 'Object Repository/ContentLibraries/ContentLibraryCreation/code'
+
+30-11-2024T14:24:17 - [TEST_STEP][PASSED] - click(findTestObject("ContentLibraries/ContentLibraryCreation/ChangeTheLanguageInsideCreateContent")): Object: 'Object Repository/ContentLibraries/ContentLibraryCreation/ChangeTheLanguageInsideCreateContent' is clicked on
+
+30-11-2024T14:24:18 - [MESSAGE][PASSED] - Object: 'Object Repository/ContentLibraries/ContentLibraryCreation/ChangeTheLanguageInsideCreateContent' is clicked on
+
+30-11-2024T14:24:18 - [TEST_STEP][PASSED] - click(findTestObject("ContentLibraries/ContentLibraryCreation/ChangeLangaugeToArabicContent")): Object: 'Object Repository/ContentLibraries/ContentLibraryCreation/ChangeLangaugeToArabicContent' is clicked on
+
+30-11-2024T14:24:18 - [MESSAGE][PASSED] - Object: 'Object Repository/ContentLibraries/ContentLibraryCreation/ChangeLangaugeToArabicContent' is clicked on
+
+30-11-2024T14:24:18 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ContentLibraries/ContentLibraryCreation/ArabicTitle"), "فحص الاوتوميشن"): Keys 'فحص الاوتوميشن' sent to object: 'Object Repository/ContentLibraries/ContentLibraryCreation/ArabicTitle'
+
+30-11-2024T14:24:19 - [MESSAGE][PASSED] - Keys 'فحص الاوتوميشن' sent to object: 'Object Repository/ContentLibraries/ContentLibraryCreation/ArabicTitle'
+
+30-11-2024T14:24:19 - [TEST_STEP][PASSED] - click(findTestObject("ContentLibraries/ContentLibraryCreation/CreateButton")): Object: 'Object Repository/ContentLibraries/ContentLibraryCreation/CreateButton' is clicked on
+
+30-11-2024T14:24:19 - [MESSAGE][PASSED] - Object: 'Object Repository/ContentLibraries/ContentLibraryCreation/CreateButton' is clicked on
+
+30-11-2024T14:24:19 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("ContentLibraries/ContentLibraryCreation/Created_PopUp")): Object 'Object Repository/ContentLibraries/ContentLibraryCreation/Created_PopUp' is visible
+
+30-11-2024T14:24:22 - [MESSAGE][PASSED] - Object 'Object Repository/ContentLibraries/ContentLibraryCreation/Created_PopUp' is visible
+
+30-11-2024T14:24:22 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+30-11-2024T14:24:25 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+30-11-2024T14:24:25 - [TEST_STEP][PASSED] - click(findTestObject("Subject/New subject")): Object: 'Object Repository/Subject/New subject' is clicked on
+
+30-11-2024T14:24:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Subject/New subject' is clicked on
+
+30-11-2024T14:24:25 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Subject/SubjectEn"), "Subject1"): Keys 'Subject1' sent to object: 'Object Repository/Subject/SubjectEn'
+
+30-11-2024T14:24:27 - [MESSAGE][PASSED] - Keys 'Subject1' sent to object: 'Object Repository/Subject/SubjectEn'
+
+30-11-2024T14:24:27 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Subject/SubjectAr"), "مادة 1"): Keys 'مادة 1' sent to object: 'Object Repository/Subject/SubjectAr'
+
+30-11-2024T14:24:27 - [MESSAGE][PASSED] - Keys 'مادة 1' sent to object: 'Object Repository/Subject/SubjectAr'
+
+30-11-2024T14:24:27 - [TEST_STEP][PASSED] - click(findTestObject("Subject/Academic Subject")): Object: 'Object Repository/Subject/Academic Subject' is clicked on
+
+30-11-2024T14:24:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Subject/Academic Subject' is clicked on
+
+30-11-2024T14:24:27 - [TEST_STEP][PASSED] - click(findTestObject("Subject/SelectOneOfTheSubjects")): Object: 'Object Repository/Subject/SelectOneOfTheSubjects' is clicked on
+
+30-11-2024T14:24:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Subject/SelectOneOfTheSubjects' is clicked on
+
+30-11-2024T14:24:28 - [TEST_STEP][PASSED] - click(findTestObject("Subject/CreateSubject")): Object: 'Object Repository/Subject/CreateSubject' is clicked on
+
+30-11-2024T14:24:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Subject/CreateSubject' is clicked on
+
+30-11-2024T14:24:28 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+30-11-2024T14:24:33 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+30-11-2024T14:24:33 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+30-11-2024T14:24:34 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Subject/CreateGeneralTopic" time="69.786" classname="Test Cases/Subject/CreateGeneralTopic" status="PASSED">
+         <system-out><![CDATA[30-11-2024T14:24:34 - [TEST_CASE][PASSED] - Test Cases/Subject/CreateGeneralTopic: Test Cases/Subject/CreateGeneralTopic
+
+30-11-2024T14:24:34 - [TEST_STEP][PASSED] - min = 1000: null
+
+30-11-2024T14:24:34 - [TEST_STEP][PASSED] - max = 9999: null
+
+30-11-2024T14:24:34 - [TEST_STEP][PASSED] - randomNumber = Random().nextInt(max - min + 1) + min: null
+
+30-11-2024T14:24:34 - [TEST_STEP][PASSED] - openBrowser("https://preprod-ula-content-library.joacademy.tech/login"): Browser is opened with url: 'https://preprod-ula-content-library.joacademy.tech/login'
+
+30-11-2024T14:24:34 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+30-11-2024T14:24:34 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+30-11-2024T14:24:37 - [MESSAGE][PASSED] - Browser is opened with url: 'https://preprod-ula-content-library.joacademy.tech/login'
+
+30-11-2024T14:24:37 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+30-11-2024T14:24:37 - [MESSAGE][PASSED] - Current window maximized
+
+30-11-2024T14:24:37 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Login/Email"), "main.burghol@joacademy.com"): Keys 'main.burghol@joacademy.com' sent to object: 'Object Repository/Login/Email'
+
+30-11-2024T14:24:38 - [MESSAGE][PASSED] - Keys 'main.burghol@joacademy.com' sent to object: 'Object Repository/Login/Email'
+
+30-11-2024T14:24:38 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Login/Password"), "main1234"): Keys 'main1234' sent to object: 'Object Repository/Login/Password'
+
+30-11-2024T14:24:38 - [MESSAGE][PASSED] - Keys 'main1234' sent to object: 'Object Repository/Login/Password'
+
+30-11-2024T14:24:38 - [TEST_STEP][PASSED] - click(findTestObject("Login/button_Sign in")): Object: 'Object Repository/Login/button_Sign in' is clicked on
+
+30-11-2024T14:24:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/button_Sign in' is clicked on
+
+30-11-2024T14:24:39 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+30-11-2024T14:24:44 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+30-11-2024T14:24:44 - [TEST_STEP][PASSED] - click(findTestObject("ContentLibraries/Content Libraries")): Object: 'Object Repository/ContentLibraries/Content Libraries' is clicked on
+
+30-11-2024T14:24:45 - [MESSAGE][PASSED] - Object: 'Object Repository/ContentLibraries/Content Libraries' is clicked on
+
+30-11-2024T14:24:45 - [TEST_STEP][PASSED] - click(findTestObject("ContentLibraries/New content library")): Object: 'Object Repository/ContentLibraries/New content library' is clicked on
+
+30-11-2024T14:24:47 - [MESSAGE][PASSED] - Object: 'Object Repository/ContentLibraries/New content library' is clicked on
+
+30-11-2024T14:24:47 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+30-11-2024T14:24:50 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+30-11-2024T14:24:50 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ContentLibraries/ContentLibraryCreation/EnglishTitle"), "AutomationTest"): Keys 'AutomationTest' sent to object: 'Object Repository/ContentLibraries/ContentLibraryCreation/EnglishTitle'
+
+30-11-2024T14:24:50 - [MESSAGE][PASSED] - Keys 'AutomationTest' sent to object: 'Object Repository/ContentLibraries/ContentLibraryCreation/EnglishTitle'
+
+30-11-2024T14:24:50 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ContentLibraries/ContentLibraryCreation/code"), randomNumber.toString()): Keys '9210' sent to object: 'Object Repository/ContentLibraries/ContentLibraryCreation/code'
+
+30-11-2024T14:24:50 - [MESSAGE][PASSED] - Keys '9210' sent to object: 'Object Repository/ContentLibraries/ContentLibraryCreation/code'
+
+30-11-2024T14:24:50 - [TEST_STEP][PASSED] - click(findTestObject("ContentLibraries/ContentLibraryCreation/ChangeTheLanguageInsideCreateContent")): Object: 'Object Repository/ContentLibraries/ContentLibraryCreation/ChangeTheLanguageInsideCreateContent' is clicked on
+
+30-11-2024T14:24:51 - [MESSAGE][PASSED] - Object: 'Object Repository/ContentLibraries/ContentLibraryCreation/ChangeTheLanguageInsideCreateContent' is clicked on
+
+30-11-2024T14:24:51 - [TEST_STEP][PASSED] - click(findTestObject("ContentLibraries/ContentLibraryCreation/ChangeLangaugeToArabicContent")): Object: 'Object Repository/ContentLibraries/ContentLibraryCreation/ChangeLangaugeToArabicContent' is clicked on
+
+30-11-2024T14:24:51 - [MESSAGE][PASSED] - Object: 'Object Repository/ContentLibraries/ContentLibraryCreation/ChangeLangaugeToArabicContent' is clicked on
+
+30-11-2024T14:24:51 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ContentLibraries/ContentLibraryCreation/ArabicTitle"), "فحص الاوتوميشن"): Keys 'فحص الاوتوميشن' sent to object: 'Object Repository/ContentLibraries/ContentLibraryCreation/ArabicTitle'
+
+30-11-2024T14:24:52 - [MESSAGE][PASSED] - Keys 'فحص الاوتوميشن' sent to object: 'Object Repository/ContentLibraries/ContentLibraryCreation/ArabicTitle'
+
+30-11-2024T14:24:52 - [TEST_STEP][PASSED] - click(findTestObject("ContentLibraries/ContentLibraryCreation/CreateButton")): Object: 'Object Repository/ContentLibraries/ContentLibraryCreation/CreateButton' is clicked on
+
+30-11-2024T14:24:52 - [MESSAGE][PASSED] - Object: 'Object Repository/ContentLibraries/ContentLibraryCreation/CreateButton' is clicked on
+
+30-11-2024T14:24:52 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("ContentLibraries/ContentLibraryCreation/Created_PopUp")): Object 'Object Repository/ContentLibraries/ContentLibraryCreation/Created_PopUp' is visible
+
+30-11-2024T14:25:08 - [MESSAGE][PASSED] - Object 'Object Repository/ContentLibraries/ContentLibraryCreation/Created_PopUp' is visible
+
+30-11-2024T14:25:08 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+30-11-2024T14:25:11 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+30-11-2024T14:25:11 - [TEST_STEP][PASSED] - click(findTestObject("Subject/New subject")): Object: 'Object Repository/Subject/New subject' is clicked on
+
+30-11-2024T14:25:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Subject/New subject' is clicked on
+
+30-11-2024T14:25:11 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Subject/SubjectEn"), "Subject1"): Keys 'Subject1' sent to object: 'Object Repository/Subject/SubjectEn'
+
+30-11-2024T14:25:13 - [MESSAGE][PASSED] - Keys 'Subject1' sent to object: 'Object Repository/Subject/SubjectEn'
+
+30-11-2024T14:25:13 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Subject/SubjectAr"), "مادة 1"): Keys 'مادة 1' sent to object: 'Object Repository/Subject/SubjectAr'
+
+30-11-2024T14:25:13 - [MESSAGE][PASSED] - Keys 'مادة 1' sent to object: 'Object Repository/Subject/SubjectAr'
+
+30-11-2024T14:25:13 - [TEST_STEP][PASSED] - click(findTestObject("Subject/Academic Subject")): Object: 'Object Repository/Subject/Academic Subject' is clicked on
+
+30-11-2024T14:25:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Subject/Academic Subject' is clicked on
+
+30-11-2024T14:25:14 - [TEST_STEP][PASSED] - click(findTestObject("Subject/SelectOneOfTheSubjects")): Object: 'Object Repository/Subject/SelectOneOfTheSubjects' is clicked on
+
+30-11-2024T14:25:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Subject/SelectOneOfTheSubjects' is clicked on
+
+30-11-2024T14:25:14 - [TEST_STEP][PASSED] - click(findTestObject("Subject/CreateSubject")): Object: 'Object Repository/Subject/CreateSubject' is clicked on
+
+30-11-2024T14:25:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Subject/CreateSubject' is clicked on
+
+30-11-2024T14:25:15 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+30-11-2024T14:25:20 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+30-11-2024T14:25:20 - [TEST_STEP][PASSED] - targetElement = findTestObject("Subject/FirstSubject"): null
+
+30-11-2024T14:25:20 - [TEST_STEP][PASSED] - scrollToElement(targetElement, 5): Scroll to object 'Object Repository/Subject/FirstSubject' successfully
+
+30-11-2024T14:25:20 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Subject/FirstSubject' successfully
+
+30-11-2024T14:25:20 - [TEST_STEP][PASSED] - click(findTestObject("Subject/FirstSubject")): Object: 'Object Repository/Subject/FirstSubject' is clicked on
+
+30-11-2024T14:25:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Subject/FirstSubject' is clicked on
+
+30-11-2024T14:25:22 - [TEST_STEP][PASSED] - click(findTestObject("Subject/New general topic")): Object: 'Object Repository/Subject/New general topic' is clicked on
+
+30-11-2024T14:25:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Subject/New general topic' is clicked on
+
+30-11-2024T14:25:23 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Subject/GeneralTopicName"), "dfsdfsaf"): Keys 'dfsdfsaf' sent to object: 'Object Repository/Subject/GeneralTopicName'
+
+30-11-2024T14:25:25 - [MESSAGE][PASSED] - Keys 'dfsdfsaf' sent to object: 'Object Repository/Subject/GeneralTopicName'
+
+30-11-2024T14:25:25 - [TEST_STEP][PASSED] - click(findTestObject("Subject/CreateGeneralTopic")): Object: 'Object Repository/Subject/CreateGeneralTopic' is clicked on
+
+30-11-2024T14:25:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Subject/CreateGeneralTopic' is clicked on
+
+30-11-2024T14:25:25 - [TEST_STEP][PASSED] - click(findTestObject("Subject/SelectGeneralTopic")): Object: 'Object Repository/Subject/SelectGeneralTopic' is clicked on
+
+30-11-2024T14:25:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Subject/SelectGeneralTopic' is clicked on
+
+30-11-2024T14:25:31 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+30-11-2024T14:25:36 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+30-11-2024T14:25:36 - [TEST_STEP][PASSED] - click(findTestObject("Subject/Add to special topics")): Object: 'Object Repository/Subject/Add to special topics' is clicked on
+
+30-11-2024T14:25:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Subject/Add to special topics' is clicked on
+
+30-11-2024T14:25:36 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Subject/SpecialTopicName"), "gfdgsghh"): Keys 'gfdgsghh' sent to object: 'Object Repository/Subject/SpecialTopicName'
+
+30-11-2024T14:25:38 - [MESSAGE][PASSED] - Keys 'gfdgsghh' sent to object: 'Object Repository/Subject/SpecialTopicName'
+
+30-11-2024T14:25:38 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Subject/Learning Object"), "fadsffa"): Keys 'fadsffa' sent to object: 'Object Repository/Subject/Learning Object'
+
+30-11-2024T14:25:38 - [MESSAGE][PASSED] - Keys 'fadsffa' sent to object: 'Object Repository/Subject/Learning Object'
+
+30-11-2024T14:25:38 - [TEST_STEP][PASSED] - click(findTestObject("Subject/Save changes")): Object: 'Object Repository/Subject/Save changes' is clicked on
+
+30-11-2024T14:25:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Subject/Save changes' is clicked on
+
+30-11-2024T14:25:38 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+30-11-2024T14:25:43 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+30-11-2024T14:25:43 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+30-11-2024T14:25:43 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[30-11-2024T14:18:59 - [TEST_SUITE][PASSED] - ContentLibraries: Test Cases/Subject/CreateGeneralTopic]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,287 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+ContentLibraries,Chrome 131.0.0.0,,,30-11-2024 14:18:59,30-11-2024 14:25:43,6m - 44.660s,PASSED
+,,,,,,,
+Test Cases/ContentLibraries/CheckThatAllFieldsAreAppear,Chrome 131.0.0.0,,,30-11-2024 14:18:59,30-11-2024 14:19:14,14.889s,PASSED
+"openBrowser(""https://preprod-ula-content-library.joacademy.tech/login"")",Chrome 131.0.0.0,,,30-11-2024 14:18:59,30-11-2024 14:19:04,4.492s,PASSED
+maximizeWindow(),Chrome 131.0.0.0,,,30-11-2024 14:19:04,30-11-2024 14:19:04,0.064s,PASSED
+"sendKeys(findTestObject(""Login/Email""), ""main.burghol@joacademy.com"")",Chrome 131.0.0.0,,,30-11-2024 14:19:04,30-11-2024 14:19:04,0.518s,PASSED
+"sendKeys(findTestObject(""Login/Password""), ""main1234"")",Chrome 131.0.0.0,,,30-11-2024 14:19:04,30-11-2024 14:19:05,0.320s,PASSED
+"click(findTestObject(""Login/button_Sign in""))",Chrome 131.0.0.0,,,30-11-2024 14:19:05,30-11-2024 14:19:05,0.341s,PASSED
+delay(5),Chrome 131.0.0.0,,,30-11-2024 14:19:05,30-11-2024 14:19:10,5.043s,PASSED
+"click(findTestObject(""ContentLibraries/Content Libraries""))",Chrome 131.0.0.0,,,30-11-2024 14:19:10,30-11-2024 14:19:12,1.904s,PASSED
+"verifyElementClickable(findTestObject(""ContentLibraries/ChangeLanugage""))",Chrome 131.0.0.0,,,30-11-2024 14:19:12,30-11-2024 14:19:12,0.484s,PASSED
+"verifyElementClickable(findTestObject(""ContentLibraries/button_Filter""))",Chrome 131.0.0.0,,,30-11-2024 14:19:12,30-11-2024 14:19:13,0.249s,PASSED
+"verifyElementClickable(findTestObject(""ContentLibraries/button_Delete""))",Chrome 131.0.0.0,,,30-11-2024 14:19:13,30-11-2024 14:19:13,0.248s,PASSED
+"verifyElementClickable(findTestObject(""ContentLibraries/span_Edit""))",Chrome 131.0.0.0,,,30-11-2024 14:19:13,30-11-2024 14:19:13,0.250s,PASSED
+"verifyElementClickable(findTestObject(""ContentLibraries/SearchBar""))",Chrome 131.0.0.0,,,30-11-2024 14:19:13,30-11-2024 14:19:13,0.280s,PASSED
+"verifyElementClickable(findTestObject(""ContentLibraries/New content library""))",Chrome 131.0.0.0,,,30-11-2024 14:19:13,30-11-2024 14:19:14,0.275s,PASSED
+closeBrowser(),Chrome 131.0.0.0,,,30-11-2024 14:19:14,30-11-2024 14:19:14,0.197s,PASSED
+,,,,,,,
+Test Cases/ContentLibraries/CreateContentLibaray,Chrome 131.0.0.0,,,30-11-2024 14:19:14,30-11-2024 14:19:39,25.539s,PASSED
+min = 1000,Chrome 131.0.0.0,,,30-11-2024 14:19:14,30-11-2024 14:19:14,0.002s,PASSED
+max = 9999,Chrome 131.0.0.0,,,30-11-2024 14:19:14,30-11-2024 14:19:14,0.001s,PASSED
+randomNumber = Random().nextInt(max - min + 1) + min,Chrome 131.0.0.0,,,30-11-2024 14:19:14,30-11-2024 14:19:14,0.025s,PASSED
+"openBrowser(""https://preprod-ula-content-library.joacademy.tech/login"")",Chrome 131.0.0.0,,,30-11-2024 14:19:14,30-11-2024 14:19:18,4.189s,PASSED
+maximizeWindow(),Chrome 131.0.0.0,,,30-11-2024 14:19:18,30-11-2024 14:19:18,0.045s,PASSED
+"sendKeys(findTestObject(""Login/Email""), ""main.burghol@joacademy.com"")",Chrome 131.0.0.0,,,30-11-2024 14:19:18,30-11-2024 14:19:19,0.505s,PASSED
+"sendKeys(findTestObject(""Login/Password""), ""main1234"")",Chrome 131.0.0.0,,,30-11-2024 14:19:19,30-11-2024 14:19:19,0.326s,PASSED
+"click(findTestObject(""Login/button_Sign in""))",Chrome 131.0.0.0,,,30-11-2024 14:19:19,30-11-2024 14:19:19,0.351s,PASSED
+delay(5),Chrome 131.0.0.0,,,30-11-2024 14:19:19,30-11-2024 14:19:24,5.017s,PASSED
+"click(findTestObject(""ContentLibraries/Content Libraries""))",Chrome 131.0.0.0,,,30-11-2024 14:19:24,30-11-2024 14:19:27,2.585s,PASSED
+"click(findTestObject(""ContentLibraries/New content library""))",Chrome 131.0.0.0,,,30-11-2024 14:19:27,30-11-2024 14:19:29,1.670s,PASSED
+delay(3),Chrome 131.0.0.0,,,30-11-2024 14:19:29,30-11-2024 14:19:32,3.017s,PASSED
+"sendKeys(findTestObject(""ContentLibraries/ContentLibraryCreation/EnglishTitle""), ""AutomationTest"")",Chrome 131.0.0.0,,,30-11-2024 14:19:32,30-11-2024 14:19:32,0.328s,PASSED
+"sendKeys(findTestObject(""ContentLibraries/ContentLibraryCreation/code""), randomNumber.toString())",Chrome 131.0.0.0,,,30-11-2024 14:19:32,30-11-2024 14:19:32,0.297s,PASSED
+"click(findTestObject(""ContentLibraries/ContentLibraryCreation/ChangeTheLanguageInsideCreateContent""))",Chrome 131.0.0.0,,,30-11-2024 14:19:32,30-11-2024 14:19:33,0.301s,PASSED
+"click(findTestObject(""ContentLibraries/ContentLibraryCreation/ChangeLangaugeToArabicContent""))",Chrome 131.0.0.0,,,30-11-2024 14:19:33,30-11-2024 14:19:33,0.290s,PASSED
+"sendKeys(findTestObject(""ContentLibraries/ContentLibraryCreation/ArabicTitle""), ""فحص الاوتوميشن"")",Chrome 131.0.0.0,,,30-11-2024 14:19:33,30-11-2024 14:19:34,0.856s,PASSED
+"click(findTestObject(""ContentLibraries/ContentLibraryCreation/CreateButton""))",Chrome 131.0.0.0,,,30-11-2024 14:19:34,30-11-2024 14:19:34,0.280s,PASSED
+"verifyElementVisible(findTestObject(""ContentLibraries/ContentLibraryCreation/Created_PopUp""))",Chrome 131.0.0.0,,,30-11-2024 14:19:34,30-11-2024 14:19:36,2.025s,PASSED
+delay(3),Chrome 131.0.0.0,,,30-11-2024 14:19:36,30-11-2024 14:19:39,3.005s,PASSED
+closeBrowser(),Chrome 131.0.0.0,,,30-11-2024 14:19:39,30-11-2024 14:19:39,0.310s,PASSED
+,,,,,,,
+Test Cases/ContentLibraries/CreateWithDuplicateCode,Chrome 131.0.0.0,,,30-11-2024 14:19:39,30-11-2024 14:20:06,26.954s,PASSED
+"openBrowser(""https://preprod-ula-content-library.joacademy.tech/login"")",Chrome 131.0.0.0,,,30-11-2024 14:19:39,30-11-2024 14:19:43,3.460s,PASSED
+maximizeWindow(),Chrome 131.0.0.0,,,30-11-2024 14:19:43,30-11-2024 14:19:43,0.037s,PASSED
+"sendKeys(findTestObject(""Login/Email""), ""main.burghol@joacademy.com"")",Chrome 131.0.0.0,,,30-11-2024 14:19:43,30-11-2024 14:19:44,0.572s,PASSED
+"sendKeys(findTestObject(""Login/Password""), ""main1234"")",Chrome 131.0.0.0,,,30-11-2024 14:19:44,30-11-2024 14:19:44,0.324s,PASSED
+"click(findTestObject(""Login/button_Sign in""))",Chrome 131.0.0.0,,,30-11-2024 14:19:44,30-11-2024 14:19:44,0.312s,PASSED
+delay(5),Chrome 131.0.0.0,,,30-11-2024 14:19:44,30-11-2024 14:19:49,5.012s,PASSED
+"click(findTestObject(""ContentLibraries/Content Libraries""))",Chrome 131.0.0.0,,,30-11-2024 14:19:49,30-11-2024 14:19:51,2.254s,PASSED
+"MyCode = getText(findTestObject(""ContentLibraries/FirstElementCode""))",Chrome 131.0.0.0,,,30-11-2024 14:19:51,30-11-2024 14:19:52,0.472s,PASSED
+"click(findTestObject(""ContentLibraries/New content library""))",Chrome 131.0.0.0,,,30-11-2024 14:19:52,30-11-2024 14:19:53,1.028s,PASSED
+delay(3),Chrome 131.0.0.0,,,30-11-2024 14:19:53,30-11-2024 14:19:56,3.012s,PASSED
+"sendKeys(findTestObject(""ContentLibraries/ContentLibraryCreation/EnglishTitle""), ""AutomationTest"")",Chrome 131.0.0.0,,,30-11-2024 14:19:56,30-11-2024 14:19:56,0.322s,PASSED
+"sendKeys(findTestObject(""ContentLibraries/ContentLibraryCreation/code""), MyCode)",Chrome 131.0.0.0,,,30-11-2024 14:19:56,30-11-2024 14:19:57,0.287s,PASSED
+"click(findTestObject(""ContentLibraries/ContentLibraryCreation/ChangeTheLanguageInsideCreateContent""))",Chrome 131.0.0.0,,,30-11-2024 14:19:57,30-11-2024 14:19:57,0.293s,PASSED
+"click(findTestObject(""ContentLibraries/ContentLibraryCreation/ChangeLangaugeToArabicContent""))",Chrome 131.0.0.0,,,30-11-2024 14:19:57,30-11-2024 14:19:57,0.269s,PASSED
+delay(5),Chrome 131.0.0.0,,,30-11-2024 14:19:57,30-11-2024 14:20:02,5.016s,PASSED
+"sendKeys(findTestObject(""ContentLibraries/ContentLibraryCreation/ArabicTitle""), ""فحص الاوتوميشن"")",Chrome 131.0.0.0,,,30-11-2024 14:20:02,30-11-2024 14:20:02,0.345s,PASSED
+"click(findTestObject(""ContentLibraries/ContentLibraryCreation/CreateButton""))",Chrome 131.0.0.0,,,30-11-2024 14:20:02,30-11-2024 14:20:03,0.289s,PASSED
+delay(3),Chrome 131.0.0.0,,,30-11-2024 14:20:03,30-11-2024 14:20:06,3.021s,PASSED
+"verifyElementText(findTestObject(""ContentLibraries/ContentLibraryCreation/CodeDuplication""), ""The code has already been taken."")",Chrome 131.0.0.0,,,30-11-2024 14:20:06,30-11-2024 14:20:06,0.285s,PASSED
+closeBrowser(),Chrome 131.0.0.0,,,30-11-2024 14:20:06,30-11-2024 14:20:06,0.267s,PASSED
+,,,,,,,
+Test Cases/ContentLibraries/AddNewCloumnToTheTable,Chrome 131.0.0.0,,,30-11-2024 14:20:06,30-11-2024 14:20:37,30.803s,PASSED
+"openBrowser(""https://preprod-ula-content-library.joacademy.tech/login"")",Chrome 131.0.0.0,,,30-11-2024 14:20:06,30-11-2024 14:20:10,3.890s,PASSED
+maximizeWindow(),Chrome 131.0.0.0,,,30-11-2024 14:20:10,30-11-2024 14:20:10,0.041s,PASSED
+"sendKeys(findTestObject(""Login/Email""), ""main.burghol@joacademy.com"")",Chrome 131.0.0.0,,,30-11-2024 14:20:10,30-11-2024 14:20:11,0.535s,PASSED
+"sendKeys(findTestObject(""Login/Password""), ""main1234"")",Chrome 131.0.0.0,,,30-11-2024 14:20:11,30-11-2024 14:20:11,0.313s,PASSED
+"click(findTestObject(""Login/button_Sign in""))",Chrome 131.0.0.0,,,30-11-2024 14:20:11,30-11-2024 14:20:11,0.303s,PASSED
+delay(5),Chrome 131.0.0.0,,,30-11-2024 14:20:11,30-11-2024 14:20:16,5.005s,PASSED
+"click(findTestObject(""ContentLibraries/Content Libraries""))",Chrome 131.0.0.0,,,30-11-2024 14:20:16,30-11-2024 14:20:19,2.142s,PASSED
+"click(findTestObject(""ContentLibraries/AddToggleColumn""))",Chrome 131.0.0.0,,,30-11-2024 14:20:19,30-11-2024 14:20:19,0.538s,PASSED
+delay(5),Chrome 131.0.0.0,,,30-11-2024 14:20:19,30-11-2024 14:20:24,5.011s,PASSED
+"click(findTestObject(""ContentLibraries/created_at_Column""))",Chrome 131.0.0.0,,,30-11-2024 14:20:24,30-11-2024 14:20:24,0.304s,PASSED
+"click(findTestObject(""ContentLibraries/updated_at_Column""))",Chrome 131.0.0.0,,,30-11-2024 14:20:24,30-11-2024 14:20:26,1.849s,PASSED
+delay(10),Chrome 131.0.0.0,,,30-11-2024 14:20:26,30-11-2024 14:20:36,10.015s,PASSED
+"verifyElementVisible(findTestObject(""ContentLibraries/Created at Inside Table""))",Chrome 131.0.0.0,,,30-11-2024 14:20:36,30-11-2024 14:20:37,0.272s,PASSED
+"verifyElementVisible(findTestObject(""ContentLibraries/Updated at Inside Table""))",Chrome 131.0.0.0,,,30-11-2024 14:20:37,30-11-2024 14:20:37,0.249s,PASSED
+closeBrowser(),Chrome 131.0.0.0,,,30-11-2024 14:20:37,30-11-2024 14:20:37,0.298s,PASSED
+,,,,,,,
+Test Cases/ContentLibraries/FilterByCode,Chrome 131.0.0.0,,,30-11-2024 14:20:37,30-11-2024 14:21:03,26.101s,PASSED
+"openBrowser(""https://preprod-ula-content-library.joacademy.tech/login"")",Chrome 131.0.0.0,,,30-11-2024 14:20:37,30-11-2024 14:20:40,3.236s,PASSED
+maximizeWindow(),Chrome 131.0.0.0,,,30-11-2024 14:20:40,30-11-2024 14:20:40,0.055s,PASSED
+"sendKeys(findTestObject(""Login/Email""), ""main.burghol@joacademy.com"")",Chrome 131.0.0.0,,,30-11-2024 14:20:40,30-11-2024 14:20:41,0.484s,PASSED
+"sendKeys(findTestObject(""Login/Password""), ""main1234"")",Chrome 131.0.0.0,,,30-11-2024 14:20:41,30-11-2024 14:20:41,0.325s,PASSED
+"click(findTestObject(""Login/button_Sign in""))",Chrome 131.0.0.0,,,30-11-2024 14:20:41,30-11-2024 14:20:42,0.307s,PASSED
+delay(5),Chrome 131.0.0.0,,,30-11-2024 14:20:42,30-11-2024 14:20:47,5.018s,PASSED
+"click(findTestObject(""ContentLibraries/Content Libraries""))",Chrome 131.0.0.0,,,30-11-2024 14:20:47,30-11-2024 14:20:48,1.809s,PASSED
+"MyCode = getText(findTestObject(""ContentLibraries/FirstElementCode""))",Chrome 131.0.0.0,,,30-11-2024 14:20:48,30-11-2024 14:20:49,0.468s,PASSED
+"click(findTestObject(""ContentLibraries/New content library""))",Chrome 131.0.0.0,,,30-11-2024 14:20:49,30-11-2024 14:20:50,1.051s,PASSED
+delay(3),Chrome 131.0.0.0,,,30-11-2024 14:20:50,30-11-2024 14:20:53,3.012s,PASSED
+"sendKeys(findTestObject(""ContentLibraries/ContentLibraryCreation/EnglishTitle""), ""AutomationTest"")",Chrome 131.0.0.0,,,30-11-2024 14:20:53,30-11-2024 14:20:53,0.325s,PASSED
+"sendKeys(findTestObject(""ContentLibraries/ContentLibraryCreation/code""), MyCode)",Chrome 131.0.0.0,,,30-11-2024 14:20:53,30-11-2024 14:20:54,0.259s,PASSED
+"click(findTestObject(""ContentLibraries/ContentLibraryCreation/ChangeTheLanguageInsideCreateContent""))",Chrome 131.0.0.0,,,30-11-2024 14:20:54,30-11-2024 14:20:54,0.301s,PASSED
+"click(findTestObject(""ContentLibraries/ContentLibraryCreation/ChangeLangaugeToArabicContent""))",Chrome 131.0.0.0,,,30-11-2024 14:20:54,30-11-2024 14:20:54,0.259s,PASSED
+delay(5),Chrome 131.0.0.0,,,30-11-2024 14:20:54,30-11-2024 14:20:59,5.010s,PASSED
+"sendKeys(findTestObject(""ContentLibraries/ContentLibraryCreation/ArabicTitle""), ""فحص الاوتوميشن"")",Chrome 131.0.0.0,,,30-11-2024 14:20:59,30-11-2024 14:20:59,0.319s,PASSED
+"click(findTestObject(""ContentLibraries/ContentLibraryCreation/CreateButton""))",Chrome 131.0.0.0,,,30-11-2024 14:20:59,30-11-2024 14:21:00,0.290s,PASSED
+delay(3),Chrome 131.0.0.0,,,30-11-2024 14:21:00,30-11-2024 14:21:03,3.010s,PASSED
+"verifyElementText(findTestObject(""ContentLibraries/ContentLibraryCreation/CodeDuplication""), ""The code has already been taken."")",Chrome 131.0.0.0,,,30-11-2024 14:21:03,30-11-2024 14:21:03,0.294s,PASSED
+closeBrowser(),Chrome 131.0.0.0,,,30-11-2024 14:21:03,30-11-2024 14:21:03,0.259s,PASSED
+,,,,,,,
+Test Cases/ContentLibraries/FilterByCreatedAt,Chrome 131.0.0.0,,,30-11-2024 14:21:03,30-11-2024 14:21:42,38.898s,PASSED
+"openBrowser(""https://preprod-ula-content-library.joacademy.tech/login"")",Chrome 131.0.0.0,,,30-11-2024 14:21:03,30-11-2024 14:21:06,3.185s,PASSED
+maximizeWindow(),Chrome 131.0.0.0,,,30-11-2024 14:21:06,30-11-2024 14:21:07,0.030s,PASSED
+"sendKeys(findTestObject(""Login/Email""), ""main.burghol@joacademy.com"")",Chrome 131.0.0.0,,,30-11-2024 14:21:07,30-11-2024 14:21:07,0.550s,PASSED
+"sendKeys(findTestObject(""Login/Password""), ""main1234"")",Chrome 131.0.0.0,,,30-11-2024 14:21:07,30-11-2024 14:21:07,0.301s,PASSED
+"click(findTestObject(""Login/button_Sign in""))",Chrome 131.0.0.0,,,30-11-2024 14:21:07,30-11-2024 14:21:08,0.269s,PASSED
+delay(5),Chrome 131.0.0.0,,,30-11-2024 14:21:08,30-11-2024 14:21:13,5.003s,PASSED
+"click(findTestObject(""ContentLibraries/Content Libraries""))",Chrome 131.0.0.0,,,30-11-2024 14:21:13,30-11-2024 14:21:14,1.860s,PASSED
+"click(findTestObject(""ContentLibraries/AddToggleColumn""))",Chrome 131.0.0.0,,,30-11-2024 14:21:14,30-11-2024 14:21:15,0.529s,PASSED
+delay(5),Chrome 131.0.0.0,,,30-11-2024 14:21:15,30-11-2024 14:21:20,5.013s,PASSED
+"click(findTestObject(""ContentLibraries/created_at_Column""))",Chrome 131.0.0.0,,,30-11-2024 14:21:20,30-11-2024 14:21:20,0.290s,PASSED
+"click(findTestObject(""ContentLibraries/updated_at_Column""))",Chrome 131.0.0.0,,,30-11-2024 14:21:20,30-11-2024 14:21:21,0.981s,PASSED
+delay(10),Chrome 131.0.0.0,,,30-11-2024 14:21:21,30-11-2024 14:21:31,10.012s,PASSED
+"click(findTestObject(""ContentLibraries/button_Filter""))",Chrome 131.0.0.0,,,30-11-2024 14:21:31,30-11-2024 14:21:32,0.291s,PASSED
+"sendKeys(findTestObject(""ContentLibraries/createdFrom""), ""07/01/2024"")",Chrome 131.0.0.0,,,30-11-2024 14:21:32,30-11-2024 14:21:32,0.286s,PASSED
+delay(5),Chrome 131.0.0.0,,,30-11-2024 14:21:32,30-11-2024 14:21:37,5.009s,PASSED
+delay(5),Chrome 131.0.0.0,,,30-11-2024 14:21:37,30-11-2024 14:21:42,5.010s,PASSED
+closeBrowser(),Chrome 131.0.0.0,,,30-11-2024 14:21:42,30-11-2024 14:21:42,0.246s,PASSED
+,,,,,,,
+Test Cases/ContentLibraries/FilterByStatus,Chrome 131.0.0.0,,,30-11-2024 14:21:42,30-11-2024 14:22:02,19.928s,PASSED
+"openBrowser(""https://preprod-ula-content-library.joacademy.tech/login"")",Chrome 131.0.0.0,,,30-11-2024 14:21:42,30-11-2024 14:21:46,3.848s,PASSED
+maximizeWindow(),Chrome 131.0.0.0,,,30-11-2024 14:21:46,30-11-2024 14:21:46,0.048s,PASSED
+"sendKeys(findTestObject(""Login/Email""), ""main.burghol@joacademy.com"")",Chrome 131.0.0.0,,,30-11-2024 14:21:46,30-11-2024 14:21:47,0.466s,PASSED
+"sendKeys(findTestObject(""Login/Password""), ""main1234"")",Chrome 131.0.0.0,,,30-11-2024 14:21:47,30-11-2024 14:21:47,0.293s,PASSED
+"click(findTestObject(""Login/button_Sign in""))",Chrome 131.0.0.0,,,30-11-2024 14:21:47,30-11-2024 14:21:47,0.287s,PASSED
+delay(5),Chrome 131.0.0.0,,,30-11-2024 14:21:47,30-11-2024 14:21:52,5.015s,PASSED
+"click(findTestObject(""ContentLibraries/Content Libraries""))",Chrome 131.0.0.0,,,30-11-2024 14:21:52,30-11-2024 14:21:55,2.361s,PASSED
+"click(findTestObject(""ContentLibraries/button_Filter""))",Chrome 131.0.0.0,,,30-11-2024 14:21:55,30-11-2024 14:21:55,0.538s,PASSED
+"click(findTestObject(""ContentLibraries/FilterByStatus""))",Chrome 131.0.0.0,,,30-11-2024 14:21:55,30-11-2024 14:21:55,0.290s,PASSED
+"click(findTestObject(""ContentLibraries/Select_Active""))",Chrome 131.0.0.0,,,30-11-2024 14:21:55,30-11-2024 14:21:56,0.283s,PASSED
+"click(findTestObject(""ContentLibraries/SearchBar""))",Chrome 131.0.0.0,,,30-11-2024 14:21:56,30-11-2024 14:21:57,0.946s,PASSED
+delay(5),Chrome 131.0.0.0,,,30-11-2024 14:21:57,30-11-2024 14:22:02,5.009s,PASSED
+"verifyElementText(findTestObject(""ContentLibraries/NumberOfFilters""), ""1"")",Chrome 131.0.0.0,,,30-11-2024 14:22:02,30-11-2024 14:22:02,0.262s,PASSED
+closeBrowser(),Chrome 131.0.0.0,,,30-11-2024 14:22:02,30-11-2024 14:22:02,0.247s,PASSED
+,,,,,,,
+Test Cases/ContentLibraries/FilterByStatus_InActive,Chrome 131.0.0.0,,,30-11-2024 14:22:02,30-11-2024 14:22:26,23.792s,PASSED
+"openBrowser(""https://preprod-ula-content-library.joacademy.tech/login"")",Chrome 131.0.0.0,,,30-11-2024 14:22:02,30-11-2024 14:22:05,3.260s,PASSED
+maximizeWindow(),Chrome 131.0.0.0,,,30-11-2024 14:22:05,30-11-2024 14:22:05,0.039s,PASSED
+"sendKeys(findTestObject(""Login/Email""), ""main.burghol@joacademy.com"")",Chrome 131.0.0.0,,,30-11-2024 14:22:05,30-11-2024 14:22:06,0.485s,PASSED
+"sendKeys(findTestObject(""Login/Password""), ""main1234"")",Chrome 131.0.0.0,,,30-11-2024 14:22:06,30-11-2024 14:22:06,0.283s,PASSED
+"click(findTestObject(""Login/button_Sign in""))",Chrome 131.0.0.0,,,30-11-2024 14:22:06,30-11-2024 14:22:07,0.304s,PASSED
+delay(5),Chrome 131.0.0.0,,,30-11-2024 14:22:07,30-11-2024 14:22:12,5.018s,PASSED
+"click(findTestObject(""ContentLibraries/Content Libraries""))",Chrome 131.0.0.0,,,30-11-2024 14:22:12,30-11-2024 14:22:14,2.155s,PASSED
+"click(findTestObject(""ContentLibraries/button_Filter""))",Chrome 131.0.0.0,,,30-11-2024 14:22:14,30-11-2024 14:22:14,0.523s,PASSED
+"click(findTestObject(""ContentLibraries/FilterByStatus""))",Chrome 131.0.0.0,,,30-11-2024 14:22:14,30-11-2024 14:22:14,0.292s,PASSED
+"click(findTestObject(""ContentLibraries/Select_InActive""))",Chrome 131.0.0.0,,,30-11-2024 14:22:14,30-11-2024 14:22:15,0.269s,PASSED
+"click(findTestObject(""ContentLibraries/SearchBar""))",Chrome 131.0.0.0,,,30-11-2024 14:22:15,30-11-2024 14:22:20,5.293s,PASSED
+delay(5),Chrome 131.0.0.0,,,30-11-2024 14:22:20,30-11-2024 14:22:25,5.014s,PASSED
+"verifyElementText(findTestObject(""ContentLibraries/NumberOfFilters""), ""1"")",Chrome 131.0.0.0,,,30-11-2024 14:22:25,30-11-2024 14:22:25,0.257s,PASSED
+"verifyElementVisible(findTestObject(""ContentLibraries/CheckTheInActiveLiberary""))",Chrome 131.0.0.0,,,30-11-2024 14:22:25,30-11-2024 14:22:26,0.283s,PASSED
+closeBrowser(),Chrome 131.0.0.0,,,30-11-2024 14:22:26,30-11-2024 14:22:26,0.270s,PASSED
+,,,,,,,
+Test Cases/ContentLibraries/FilterByUpdateFrom,Chrome 131.0.0.0,,,30-11-2024 14:22:26,30-11-2024 14:23:03,36.647s,PASSED
+"openBrowser(""https://preprod-ula-content-library.joacademy.tech/login"")",Chrome 131.0.0.0,,,30-11-2024 14:22:26,30-11-2024 14:22:30,3.945s,PASSED
+maximizeWindow(),Chrome 131.0.0.0,,,30-11-2024 14:22:30,30-11-2024 14:22:30,0.037s,PASSED
+"sendKeys(findTestObject(""Login/Email""), ""main.burghol@joacademy.com"")",Chrome 131.0.0.0,,,30-11-2024 14:22:30,30-11-2024 14:22:31,0.645s,PASSED
+"sendKeys(findTestObject(""Login/Password""), ""main1234"")",Chrome 131.0.0.0,,,30-11-2024 14:22:31,30-11-2024 14:22:31,0.341s,PASSED
+"click(findTestObject(""Login/button_Sign in""))",Chrome 131.0.0.0,,,30-11-2024 14:22:31,30-11-2024 14:22:31,0.282s,PASSED
+delay(5),Chrome 131.0.0.0,,,30-11-2024 14:22:31,30-11-2024 14:22:36,5.003s,PASSED
+"click(findTestObject(""ContentLibraries/Content Libraries""))",Chrome 131.0.0.0,,,30-11-2024 14:22:36,30-11-2024 14:22:39,2.745s,PASSED
+"click(findTestObject(""ContentLibraries/AddToggleColumn""))",Chrome 131.0.0.0,,,30-11-2024 14:22:39,30-11-2024 14:22:39,0.533s,PASSED
+delay(5),Chrome 131.0.0.0,,,30-11-2024 14:22:39,30-11-2024 14:22:44,5.006s,PASSED
+"click(findTestObject(""ContentLibraries/created_at_Column""))",Chrome 131.0.0.0,,,30-11-2024 14:22:44,30-11-2024 14:22:45,0.307s,PASSED
+"click(findTestObject(""ContentLibraries/updated_at_Column""))",Chrome 131.0.0.0,,,30-11-2024 14:22:45,30-11-2024 14:22:47,1.848s,PASSED
+delay(10),Chrome 131.0.0.0,,,30-11-2024 14:22:47,30-11-2024 14:22:57,10.004s,PASSED
+"click(findTestObject(""ContentLibraries/button_Filter""))",Chrome 131.0.0.0,,,30-11-2024 14:22:57,30-11-2024 14:22:57,0.320s,PASSED
+"sendKeys(findTestObject(""ContentLibraries/updatedFrom""), ""07/01/2024"")",Chrome 131.0.0.0,,,30-11-2024 14:22:57,30-11-2024 14:22:57,0.281s,PASSED
+delay(5),Chrome 131.0.0.0,,,30-11-2024 14:22:57,30-11-2024 14:23:02,5.012s,PASSED
+closeBrowser(),Chrome 131.0.0.0,,,30-11-2024 14:23:02,30-11-2024 14:23:03,0.307s,PASSED
+,,,,,,,
+Test Cases/ContentLibraries/SerachWithExistingData,Chrome 131.0.0.0,,,30-11-2024 14:23:03,30-11-2024 14:23:21,18.199s,PASSED
+"openBrowser(""https://preprod-ula-content-library.joacademy.tech/login"")",Chrome 131.0.0.0,,,30-11-2024 14:23:03,30-11-2024 14:23:07,4.032s,PASSED
+maximizeWindow(),Chrome 131.0.0.0,,,30-11-2024 14:23:07,30-11-2024 14:23:07,0.040s,PASSED
+"sendKeys(findTestObject(""Login/Email""), ""main.burghol@joacademy.com"")",Chrome 131.0.0.0,,,30-11-2024 14:23:07,30-11-2024 14:23:07,0.471s,PASSED
+"sendKeys(findTestObject(""Login/Password""), ""main1234"")",Chrome 131.0.0.0,,,30-11-2024 14:23:07,30-11-2024 14:23:07,0.305s,PASSED
+"click(findTestObject(""Login/button_Sign in""))",Chrome 131.0.0.0,,,30-11-2024 14:23:07,30-11-2024 14:23:08,0.293s,PASSED
+delay(5),Chrome 131.0.0.0,,,30-11-2024 14:23:08,30-11-2024 14:23:13,5.013s,PASSED
+"click(findTestObject(""ContentLibraries/Content Libraries""))",Chrome 131.0.0.0,,,30-11-2024 14:23:13,30-11-2024 14:23:15,1.915s,PASSED
+"sendKeys(findTestObject(""ContentLibraries/SearchBar""), ""first grade mai'n"")",Chrome 131.0.0.0,,,30-11-2024 14:23:15,30-11-2024 14:23:15,0.537s,PASSED
+delay(5),Chrome 131.0.0.0,,,30-11-2024 14:23:15,30-11-2024 14:23:20,5.013s,PASSED
+"verifyElementText(findTestObject(""ContentLibraries/NumberOfFilters""), ""0"")",Chrome 131.0.0.0,,,30-11-2024 14:23:20,30-11-2024 14:23:20,0.274s,PASSED
+closeBrowser(),Chrome 131.0.0.0,,,30-11-2024 14:23:20,30-11-2024 14:23:21,0.273s,PASSED
+,,,,,,,
+Test Cases/ContentLibraries/NoContentAppearTestCaseBySearch,Chrome 131.0.0.0,,,30-11-2024 14:23:21,30-11-2024 14:23:39,17.895s,PASSED
+"openBrowser(""https://preprod-ula-content-library.joacademy.tech/login"")",Chrome 131.0.0.0,,,30-11-2024 14:23:21,30-11-2024 14:23:24,3.490s,PASSED
+maximizeWindow(),Chrome 131.0.0.0,,,30-11-2024 14:23:24,30-11-2024 14:23:24,0.037s,PASSED
+"sendKeys(findTestObject(""Login/Email""), ""main.burghol@joacademy.com"")",Chrome 131.0.0.0,,,30-11-2024 14:23:24,30-11-2024 14:23:25,0.481s,PASSED
+"sendKeys(findTestObject(""Login/Password""), ""main1234"")",Chrome 131.0.0.0,,,30-11-2024 14:23:25,30-11-2024 14:23:25,0.338s,PASSED
+"click(findTestObject(""Login/button_Sign in""))",Chrome 131.0.0.0,,,30-11-2024 14:23:25,30-11-2024 14:23:25,0.297s,PASSED
+delay(5),Chrome 131.0.0.0,,,30-11-2024 14:23:25,30-11-2024 14:23:30,5.019s,PASSED
+"click(findTestObject(""ContentLibraries/Content Libraries""))",Chrome 131.0.0.0,,,30-11-2024 14:23:30,30-11-2024 14:23:33,2.119s,PASSED
+"sendKeys(findTestObject(""ContentLibraries/SearchBar""), ""FFF"")",Chrome 131.0.0.0,,,30-11-2024 14:23:33,30-11-2024 14:23:33,0.506s,PASSED
+delay(5),Chrome 131.0.0.0,,,30-11-2024 14:23:33,30-11-2024 14:23:38,5.012s,PASSED
+"verifyElementText(findTestObject(""ContentLibraries/No Content libraries""), ""No Content libraries"")",Chrome 131.0.0.0,,,30-11-2024 14:23:38,30-11-2024 14:23:38,0.261s,PASSED
+closeBrowser(),Chrome 131.0.0.0,,,30-11-2024 14:23:38,30-11-2024 14:23:39,0.288s,PASSED
+,,,,,,,
+Test Cases/ContentLibraries/SwitchBetweenLanguage,Chrome 131.0.0.0,,,30-11-2024 14:23:39,30-11-2024 14:23:59,20.079s,PASSED
+"openBrowser(""https://preprod-ula-content-library.joacademy.tech/login"")",Chrome 131.0.0.0,,,30-11-2024 14:23:39,30-11-2024 14:23:43,3.951s,PASSED
+maximizeWindow(),Chrome 131.0.0.0,,,30-11-2024 14:23:43,30-11-2024 14:23:43,0.031s,PASSED
+"sendKeys(findTestObject(""Login/Email""), ""main.burghol@joacademy.com"")",Chrome 131.0.0.0,,,30-11-2024 14:23:43,30-11-2024 14:23:43,0.624s,PASSED
+"sendKeys(findTestObject(""Login/Password""), ""main1234"")",Chrome 131.0.0.0,,,30-11-2024 14:23:43,30-11-2024 14:23:44,0.319s,PASSED
+"click(findTestObject(""Login/button_Sign in""))",Chrome 131.0.0.0,,,30-11-2024 14:23:44,30-11-2024 14:23:44,0.286s,PASSED
+delay(5),Chrome 131.0.0.0,,,30-11-2024 14:23:44,30-11-2024 14:23:49,5.019s,PASSED
+"click(findTestObject(""ContentLibraries/Content Libraries""))",Chrome 131.0.0.0,,,30-11-2024 14:23:49,30-11-2024 14:23:52,3.165s,PASSED
+"click(findTestObject(""ContentLibraries/ChangeLanugage""))",Chrome 131.0.0.0,,,30-11-2024 14:23:52,30-11-2024 14:23:53,0.498s,PASSED
+"click(findTestObject(""ContentLibraries/ChangeToArabic""))",Chrome 131.0.0.0,,,30-11-2024 14:23:53,30-11-2024 14:23:53,0.277s,PASSED
+delay(3),Chrome 131.0.0.0,,,30-11-2024 14:23:53,30-11-2024 14:23:56,3.010s,PASSED
+"click(findTestObject(""ContentLibraries/ChangeLanugage""))",Chrome 131.0.0.0,,,30-11-2024 14:23:56,30-11-2024 14:23:56,0.299s,PASSED
+"click(findTestObject(""ContentLibraries/ChangeToEnglish""))",Chrome 131.0.0.0,,,30-11-2024 14:23:56,30-11-2024 14:23:56,0.268s,PASSED
+delay(2),Chrome 131.0.0.0,,,30-11-2024 14:23:56,30-11-2024 14:23:58,2.016s,PASSED
+closeBrowser(),Chrome 131.0.0.0,,,30-11-2024 14:23:58,30-11-2024 14:23:59,0.280s,PASSED
+,,,,,,,
+Test Cases/Subject/CreateNewSubject,Chrome 131.0.0.0,,,30-11-2024 14:23:59,30-11-2024 14:24:34,34.954s,PASSED
+min = 1000,Chrome 131.0.0.0,,,30-11-2024 14:23:59,30-11-2024 14:23:59,0.000s,PASSED
+max = 9999,Chrome 131.0.0.0,,,30-11-2024 14:23:59,30-11-2024 14:23:59,0.001s,PASSED
+randomNumber = Random().nextInt(max - min + 1) + min,Chrome 131.0.0.0,,,30-11-2024 14:23:59,30-11-2024 14:23:59,0.000s,PASSED
+"openBrowser(""https://preprod-ula-content-library.joacademy.tech/login"")",Chrome 131.0.0.0,,,30-11-2024 14:23:59,30-11-2024 14:24:02,3.651s,PASSED
+maximizeWindow(),Chrome 131.0.0.0,,,30-11-2024 14:24:02,30-11-2024 14:24:02,0.029s,PASSED
+"sendKeys(findTestObject(""Login/Email""), ""main.burghol@joacademy.com"")",Chrome 131.0.0.0,,,30-11-2024 14:24:02,30-11-2024 14:24:03,0.482s,PASSED
+"sendKeys(findTestObject(""Login/Password""), ""main1234"")",Chrome 131.0.0.0,,,30-11-2024 14:24:03,30-11-2024 14:24:03,0.294s,PASSED
+"click(findTestObject(""Login/button_Sign in""))",Chrome 131.0.0.0,,,30-11-2024 14:24:03,30-11-2024 14:24:03,0.293s,PASSED
+delay(5),Chrome 131.0.0.0,,,30-11-2024 14:24:03,30-11-2024 14:24:09,5.012s,PASSED
+"click(findTestObject(""ContentLibraries/Content Libraries""))",Chrome 131.0.0.0,,,30-11-2024 14:24:09,30-11-2024 14:24:12,3.414s,PASSED
+"click(findTestObject(""ContentLibraries/New content library""))",Chrome 131.0.0.0,,,30-11-2024 14:24:12,30-11-2024 14:24:14,1.694s,PASSED
+delay(3),Chrome 131.0.0.0,,,30-11-2024 14:24:14,30-11-2024 14:24:17,3.009s,PASSED
+"sendKeys(findTestObject(""ContentLibraries/ContentLibraryCreation/EnglishTitle""), ""AutomationTest"")",Chrome 131.0.0.0,,,30-11-2024 14:24:17,30-11-2024 14:24:17,0.359s,PASSED
+"sendKeys(findTestObject(""ContentLibraries/ContentLibraryCreation/code""), randomNumber.toString())",Chrome 131.0.0.0,,,30-11-2024 14:24:17,30-11-2024 14:24:17,0.297s,PASSED
+"click(findTestObject(""ContentLibraries/ContentLibraryCreation/ChangeTheLanguageInsideCreateContent""))",Chrome 131.0.0.0,,,30-11-2024 14:24:17,30-11-2024 14:24:18,0.303s,PASSED
+"click(findTestObject(""ContentLibraries/ContentLibraryCreation/ChangeLangaugeToArabicContent""))",Chrome 131.0.0.0,,,30-11-2024 14:24:18,30-11-2024 14:24:18,0.248s,PASSED
+"sendKeys(findTestObject(""ContentLibraries/ContentLibraryCreation/ArabicTitle""), ""فحص الاوتوميشن"")",Chrome 131.0.0.0,,,30-11-2024 14:24:18,30-11-2024 14:24:19,0.744s,PASSED
+"click(findTestObject(""ContentLibraries/ContentLibraryCreation/CreateButton""))",Chrome 131.0.0.0,,,30-11-2024 14:24:19,30-11-2024 14:24:19,0.273s,PASSED
+"verifyElementVisible(findTestObject(""ContentLibraries/ContentLibraryCreation/Created_PopUp""))",Chrome 131.0.0.0,,,30-11-2024 14:24:19,30-11-2024 14:24:22,3.133s,PASSED
+delay(3),Chrome 131.0.0.0,,,30-11-2024 14:24:22,30-11-2024 14:24:25,3.022s,PASSED
+"click(findTestObject(""Subject/New subject""))",Chrome 131.0.0.0,,,30-11-2024 14:24:25,30-11-2024 14:24:25,0.306s,PASSED
+"sendKeys(findTestObject(""Subject/SubjectEn""), ""Subject1"")",Chrome 131.0.0.0,,,30-11-2024 14:24:25,30-11-2024 14:24:27,1.535s,PASSED
+"sendKeys(findTestObject(""Subject/SubjectAr""), ""مادة 1"")",Chrome 131.0.0.0,,,30-11-2024 14:24:27,30-11-2024 14:24:27,0.290s,PASSED
+"click(findTestObject(""Subject/Academic Subject""))",Chrome 131.0.0.0,,,30-11-2024 14:24:27,30-11-2024 14:24:27,0.294s,PASSED
+"click(findTestObject(""Subject/SelectOneOfTheSubjects""))",Chrome 131.0.0.0,,,30-11-2024 14:24:27,30-11-2024 14:24:28,0.299s,PASSED
+"click(findTestObject(""Subject/CreateSubject""))",Chrome 131.0.0.0,,,30-11-2024 14:24:28,30-11-2024 14:24:28,0.737s,PASSED
+delay(5),Chrome 131.0.0.0,,,30-11-2024 14:24:28,30-11-2024 14:24:33,5.004s,PASSED
+closeBrowser(),Chrome 131.0.0.0,,,30-11-2024 14:24:33,30-11-2024 14:24:34,0.186s,PASSED
+,,,,,,,
+Test Cases/Subject/CreateGeneralTopic,Chrome 131.0.0.0,,,30-11-2024 14:24:34,30-11-2024 14:25:43,1m - 9.786s,PASSED
+min = 1000,Chrome 131.0.0.0,,,30-11-2024 14:24:34,30-11-2024 14:24:34,0.001s,PASSED
+max = 9999,Chrome 131.0.0.0,,,30-11-2024 14:24:34,30-11-2024 14:24:34,0.000s,PASSED
+randomNumber = Random().nextInt(max - min + 1) + min,Chrome 131.0.0.0,,,30-11-2024 14:24:34,30-11-2024 14:24:34,0.001s,PASSED
+"openBrowser(""https://preprod-ula-content-library.joacademy.tech/login"")",Chrome 131.0.0.0,,,30-11-2024 14:24:34,30-11-2024 14:24:37,3.624s,PASSED
+maximizeWindow(),Chrome 131.0.0.0,,,30-11-2024 14:24:37,30-11-2024 14:24:37,0.037s,PASSED
+"sendKeys(findTestObject(""Login/Email""), ""main.burghol@joacademy.com"")",Chrome 131.0.0.0,,,30-11-2024 14:24:37,30-11-2024 14:24:38,0.630s,PASSED
+"sendKeys(findTestObject(""Login/Password""), ""main1234"")",Chrome 131.0.0.0,,,30-11-2024 14:24:38,30-11-2024 14:24:38,0.288s,PASSED
+"click(findTestObject(""Login/button_Sign in""))",Chrome 131.0.0.0,,,30-11-2024 14:24:38,30-11-2024 14:24:39,0.307s,PASSED
+delay(5),Chrome 131.0.0.0,,,30-11-2024 14:24:39,30-11-2024 14:24:44,5.003s,PASSED
+"click(findTestObject(""ContentLibraries/Content Libraries""))",Chrome 131.0.0.0,,,30-11-2024 14:24:44,30-11-2024 14:24:45,1.815s,PASSED
+"click(findTestObject(""ContentLibraries/New content library""))",Chrome 131.0.0.0,,,30-11-2024 14:24:45,30-11-2024 14:24:47,1.333s,PASSED
+delay(3),Chrome 131.0.0.0,,,30-11-2024 14:24:47,30-11-2024 14:24:50,3.015s,PASSED
+"sendKeys(findTestObject(""ContentLibraries/ContentLibraryCreation/EnglishTitle""), ""AutomationTest"")",Chrome 131.0.0.0,,,30-11-2024 14:24:50,30-11-2024 14:24:50,0.325s,PASSED
+"sendKeys(findTestObject(""ContentLibraries/ContentLibraryCreation/code""), randomNumber.toString())",Chrome 131.0.0.0,,,30-11-2024 14:24:50,30-11-2024 14:24:50,0.292s,PASSED
+"click(findTestObject(""ContentLibraries/ContentLibraryCreation/ChangeTheLanguageInsideCreateContent""))",Chrome 131.0.0.0,,,30-11-2024 14:24:50,30-11-2024 14:24:51,0.323s,PASSED
+"click(findTestObject(""ContentLibraries/ContentLibraryCreation/ChangeLangaugeToArabicContent""))",Chrome 131.0.0.0,,,30-11-2024 14:24:51,30-11-2024 14:24:51,0.292s,PASSED
+"sendKeys(findTestObject(""ContentLibraries/ContentLibraryCreation/ArabicTitle""), ""فحص الاوتوميشن"")",Chrome 131.0.0.0,,,30-11-2024 14:24:51,30-11-2024 14:24:52,0.744s,PASSED
+"click(findTestObject(""ContentLibraries/ContentLibraryCreation/CreateButton""))",Chrome 131.0.0.0,,,30-11-2024 14:24:52,30-11-2024 14:24:52,0.329s,PASSED
+"verifyElementVisible(findTestObject(""ContentLibraries/ContentLibraryCreation/Created_PopUp""))",Chrome 131.0.0.0,,,30-11-2024 14:24:52,30-11-2024 14:25:08,15.942s,PASSED
+delay(3),Chrome 131.0.0.0,,,30-11-2024 14:25:08,30-11-2024 14:25:11,3.009s,PASSED
+"click(findTestObject(""Subject/New subject""))",Chrome 131.0.0.0,,,30-11-2024 14:25:11,30-11-2024 14:25:11,0.290s,PASSED
+"sendKeys(findTestObject(""Subject/SubjectEn""), ""Subject1"")",Chrome 131.0.0.0,,,30-11-2024 14:25:11,30-11-2024 14:25:13,1.684s,PASSED
+"sendKeys(findTestObject(""Subject/SubjectAr""), ""مادة 1"")",Chrome 131.0.0.0,,,30-11-2024 14:25:13,30-11-2024 14:25:13,0.299s,PASSED
+"click(findTestObject(""Subject/Academic Subject""))",Chrome 131.0.0.0,,,30-11-2024 14:25:13,30-11-2024 14:25:14,0.291s,PASSED
+"click(findTestObject(""Subject/SelectOneOfTheSubjects""))",Chrome 131.0.0.0,,,30-11-2024 14:25:14,30-11-2024 14:25:14,0.253s,PASSED
+"click(findTestObject(""Subject/CreateSubject""))",Chrome 131.0.0.0,,,30-11-2024 14:25:14,30-11-2024 14:25:15,0.850s,PASSED
+delay(5),Chrome 131.0.0.0,,,30-11-2024 14:25:15,30-11-2024 14:25:20,5.009s,PASSED
+"targetElement = findTestObject(""Subject/FirstSubject"")",Chrome 131.0.0.0,,,30-11-2024 14:25:20,30-11-2024 14:25:20,0.004s,PASSED
+"scrollToElement(targetElement, 5)",Chrome 131.0.0.0,,,30-11-2024 14:25:20,30-11-2024 14:25:20,0.252s,PASSED
+"click(findTestObject(""Subject/FirstSubject""))",Chrome 131.0.0.0,,,30-11-2024 14:25:20,30-11-2024 14:25:22,1.901s,PASSED
+"click(findTestObject(""Subject/New general topic""))",Chrome 131.0.0.0,,,30-11-2024 14:25:22,30-11-2024 14:25:23,1.170s,PASSED
+"sendKeys(findTestObject(""Subject/GeneralTopicName""), ""dfsdfsaf"")",Chrome 131.0.0.0,,,30-11-2024 14:25:23,30-11-2024 14:25:25,1.875s,PASSED
+"click(findTestObject(""Subject/CreateGeneralTopic""))",Chrome 131.0.0.0,,,30-11-2024 14:25:25,30-11-2024 14:25:25,0.295s,PASSED
+"click(findTestObject(""Subject/SelectGeneralTopic""))",Chrome 131.0.0.0,,,30-11-2024 14:25:25,30-11-2024 14:25:31,5.526s,PASSED
+delay(5),Chrome 131.0.0.0,,,30-11-2024 14:25:31,30-11-2024 14:25:36,5.005s,PASSED
+"click(findTestObject(""Subject/Add to special topics""))",Chrome 131.0.0.0,,,30-11-2024 14:25:36,30-11-2024 14:25:36,0.321s,PASSED
+"sendKeys(findTestObject(""Subject/SpecialTopicName""), ""gfdgsghh"")",Chrome 131.0.0.0,,,30-11-2024 14:25:36,30-11-2024 14:25:38,1.507s,PASSED
+"sendKeys(findTestObject(""Subject/Learning Object""), ""fadsffa"")",Chrome 131.0.0.0,,,30-11-2024 14:25:38,30-11-2024 14:25:38,0.302s,PASSED
+"click(findTestObject(""Subject/Save changes""))",Chrome 131.0.0.0,,,30-11-2024 14:25:38,30-11-2024 14:25:38,0.287s,PASSED
+delay(5),Chrome 131.0.0.0,,,30-11-2024 14:25:38,30-11-2024 14:25:43,5.008s,PASSED
+closeBrowser(),Chrome 131.0.0.0,,,30-11-2024 14:25:43,30-11-2024 14:25:43,0.278s,PASSED
